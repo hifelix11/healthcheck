@@ -1,0 +1,191 @@
+{
+  "slug": "vitamin-b12-deficiency",
+  "title": "Vitamin B12 Deficiency Risk Assessment",
+  "shortTitle": "Vitamin B12",
+  "description": "Check your vitamin B12 deficiency risk with our free assessment. Evaluate symptoms like tingling, brain fog, fatigue, and dietary risk factors in this clinical screening.",
+  "category": "vitamins-minerals",
+  "scientificBasis": "Based on clinical manifestations of cobalamin deficiency as described in the New England Journal of Medicine and the B12 deficiency screening criteria used in primary care. Deficiency defined as serum B12 below 200 pg/mL.",
+  "seoIntro": "Vitamin B12 (cobalamin) is essential for nerve function, red blood cell formation, DNA synthesis, and brain health. Unlike many vitamins, B12 is found almost exclusively in animal products, making vegetarians and vegans particularly vulnerable to deficiency. However, even meat-eaters can develop B12 deficiency due to absorption issues that become more common with age.\n\nB12 deficiency develops slowly and can cause irreversible neurological damage if left untreated. Early symptoms include fatigue, brain fog, mood changes, and a sore tongue. As deficiency progresses, more serious neurological symptoms emerge — tingling and numbness in hands and feet, balance problems, and memory impairment.\n\nCertain medications (metformin, proton pump inhibitors) and conditions (pernicious anemia, celiac disease) significantly increase your risk. Adults over 60 are at elevated risk because stomach acid production — needed for B12 absorption — naturally declines with age.\n\nThis screening tool evaluates your dietary intake, medication use, age-related risk factors, and symptoms against clinical criteria for B12 insufficiency. It is not a diagnosis — if your results suggest concern, a simple blood test for serum B12 and methylmalonic acid can confirm your status.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Do you follow a vegetarian or vegan diet?",
+      "options": [
+        { "label": "No — I eat meat, fish, eggs, and dairy regularly", "value": 0 },
+        { "label": "Pescatarian or flexitarian", "value": 1 },
+        { "label": "Vegetarian", "value": 2 },
+        { "label": "Vegan", "value": 3 }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Do you experience tingling, numbness, or 'pins and needles' in your hands or feet?",
+      "options": [
+        { "label": "Never", "value": 0 },
+        { "label": "Rarely", "value": 1 },
+        { "label": "Sometimes", "value": 2 },
+        { "label": "Frequently", "value": 3 }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Do you experience difficulty with balance or coordination?",
+      "options": [
+        { "label": "No issues", "value": 0 },
+        { "label": "Occasionally feel unsteady", "value": 1 },
+        { "label": "Noticeable balance problems", "value": 2 },
+        { "label": "Frequent stumbling or coordination issues", "value": 3 }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "How would you describe your memory and concentration recently?",
+      "options": [
+        { "label": "Sharp and clear", "value": 0 },
+        { "label": "Slightly foggy sometimes", "value": 1 },
+        { "label": "Noticeably declining", "value": 2 },
+        { "label": "Significant brain fog or memory issues", "value": 3 }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Do you experience a sore, red, or swollen tongue (glossitis)?",
+      "options": [
+        { "label": "Never", "value": 0 },
+        { "label": "Rarely", "value": 1 },
+        { "label": "Sometimes", "value": 2 },
+        { "label": "Frequently", "value": 3 }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Are you over 60 years of age?",
+      "options": [
+        { "label": "Under 40", "value": 0 },
+        { "label": "40–54", "value": 1 },
+        { "label": "55–65", "value": 2 },
+        { "label": "Over 65", "value": 3 }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Do you take any of the following: metformin, proton pump inhibitors (PPIs), or H2 blockers?",
+      "options": [
+        { "label": "None of these", "value": 0 },
+        { "label": "One of these occasionally", "value": 1 },
+        { "label": "One of these regularly", "value": 2 },
+        { "label": "Multiple or long-term use", "value": 3 }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Do you experience unexplained mood changes, irritability, or depression?",
+      "options": [
+        { "label": "Rarely", "value": 0 },
+        { "label": "Sometimes", "value": 1 },
+        { "label": "Often", "value": 2 },
+        { "label": "Frequently", "value": 3 }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Do you feel short of breath or dizzy during mild exertion?",
+      "options": [
+        { "label": "Never", "value": 0 },
+        { "label": "Occasionally", "value": 1 },
+        { "label": "Often", "value": 2 },
+        { "label": "Frequently", "value": 3 }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Have you noticed pale or yellowish skin?",
+      "options": [
+        { "label": "No — my skin color is normal", "value": 0 },
+        { "label": "Slightly paler than usual", "value": 1 },
+        { "label": "Noticeably pale", "value": 2 },
+        { "label": "Pale with a yellowish tint", "value": 3 }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "minScore": 0,
+      "maxScore": 6,
+      "tier": "Low Risk",
+      "title": "Low Risk — B12 Status Likely Adequate",
+      "description": "No significant indicators of B12 deficiency. Your diet and symptoms suggest adequate cobalamin levels.",
+      "recommendations": [
+        "Continue your current diet rich in B12 sources",
+        "No immediate action needed"
+      ],
+      "color": "green"
+    },
+    {
+      "minScore": 7,
+      "maxScore": 13,
+      "tier": "Mild Risk",
+      "title": "Mild Risk — Some B12 Risk Factors Present",
+      "description": "Some risk factors present. If you're plant-based or over 55, periodic screening is wise. Consider increasing B12-rich foods or starting supplementation.",
+      "recommendations": [
+        "Consider a serum B12 blood test for baseline",
+        "If plant-based, start a B12 supplement (250–500 µg daily)",
+        "Increase B12-rich foods: meat, fish, eggs, dairy, fortified foods",
+        "Discuss B12 screening with your doctor at your next visit"
+      ],
+      "color": "yellow"
+    },
+    {
+      "minScore": 14,
+      "maxScore": 20,
+      "tier": "Moderate Risk",
+      "title": "Moderate Risk — Possible B12 Insufficiency",
+      "description": "Multiple symptoms and risk factors suggest possible B12 insufficiency. A serum B12 and methylmalonic acid test are recommended.",
+      "recommendations": [
+        "Request a serum B12 and methylmalonic acid blood test",
+        "Discuss your symptoms with a healthcare provider",
+        "Consider B12 supplementation (1000 µg daily) pending test results",
+        "If on PPIs or metformin, discuss B12 monitoring with your prescriber"
+      ],
+      "color": "orange"
+    },
+    {
+      "minScore": 21,
+      "maxScore": 30,
+      "tier": "High Risk",
+      "title": "High Risk — Possible B12 Deficiency",
+      "description": "Strong symptom profile for B12 deficiency. Neurological symptoms (tingling, balance issues) warrant prompt medical evaluation to prevent irreversible nerve damage.",
+      "recommendations": [
+        "Seek medical evaluation promptly — neurological symptoms require attention",
+        "Request serum B12, methylmalonic acid, and homocysteine tests",
+        "Discuss B12 injections vs. high-dose oral supplementation",
+        "Do not delay — prolonged B12 deficiency can cause permanent nerve damage"
+      ],
+      "color": "red"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can vitamin B12 deficiency cause permanent damage?",
+      "answer": "Yes. Prolonged B12 deficiency can cause irreversible neurological damage, including peripheral neuropathy, balance disorders, and cognitive impairment. Early detection and treatment are crucial — most symptoms are reversible if caught early."
+    },
+    {
+      "question": "Do all vegans need B12 supplements?",
+      "answer": "Yes. Vitamin B12 is not reliably found in any plant foods. All vegans and most vegetarians should supplement with B12 (at least 250 µg daily or 2500 µg weekly) or consume B12-fortified foods regularly."
+    },
+    {
+      "question": "What is the best form of B12 supplement?",
+      "answer": "Methylcobalamin and cyanocobalamin are both effective. Sublingual tablets, oral supplements, and injections are all viable. People with absorption issues (pernicious anemia, older adults) may benefit from injections or high-dose oral supplements (1000+ µg)."
+    },
+    {
+      "question": "Why does B12 deficiency become more common with age?",
+      "answer": "Stomach acid production decreases with age, and stomach acid is needed to release B12 from food proteins. Up to 30% of adults over 50 have reduced ability to absorb food-bound B12, though they can still absorb supplemental B12."
+    }
+  ],
+  "relatedSlugs": ["iron-deficiency", "folate-deficiency", "vitamin-d-deficiency"],
+  "sources": [
+    "Stabler, S.P. (2013). Vitamin B12 Deficiency. New England Journal of Medicine, 368(2), 149-160.",
+    "National Institutes of Health. Office of Dietary Supplements — Vitamin B12 Fact Sheet.",
+    "Green, R. et al. (2017). Vitamin B12 deficiency. Nature Reviews Disease Primers, 3, 17040."
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "slug": "vitamin-d-deficiency",
+  "title": "Vitamin D Deficiency Risk Assessment",
+  "shortTitle": "Vitamin D",
+  "description": "Assess your vitamin D deficiency risk with our free quiz. Evaluate sun exposure, diet, symptoms like bone pain and fatigue in this evidence-based screening tool.",
+  "category": "vitamins-minerals",
+  "scientificBasis": "Based on the Vitamin D Deficiency Screening Questionnaire (VDDQ) and risk factor analysis published in the Journal of Clinical Endocrinology & Metabolism. Clinical deficiency defined as serum 25(OH)D below 20 ng/mL (50 nmol/L).",
+  "seoIntro": "Vitamin D, often called the 'sunshine vitamin,' plays a critical role in bone health, immune function, mood regulation, and muscle strength. Unlike most vitamins, your body can produce vitamin D when your skin is exposed to sunlight — but modern lifestyles, northern latitudes, and sun protection practices mean that deficiency is remarkably common worldwide.\n\nAn estimated 1 billion people globally have inadequate vitamin D levels. Risk factors include limited sun exposure, darker skin tones, living at high latitudes, aging, obesity, and certain medical conditions. Symptoms can be subtle — chronic fatigue, bone pain, muscle weakness, low mood (especially in winter), and frequent infections.\n\nThis self-assessment evaluates your key risk factors and symptoms against clinical screening criteria used by endocrinologists and primary care providers. The questions cover sun exposure, latitude, dietary intake, supplementation, and common deficiency symptoms.\n\nThis quiz is an educational tool, not a diagnosis. If your results suggest elevated risk, we recommend a simple 25(OH)D blood test, which is the gold standard for assessing vitamin D status. Consult your healthcare provider for testing and personalized supplementation guidance.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "How much direct sunlight exposure do you get on bare skin (arms/face) per day?",
+      "options": [
+        { "label": "30+ minutes outdoors daily", "value": 0 },
+        { "label": "15–30 minutes most days", "value": 1 },
+        { "label": "Less than 15 minutes most days", "value": 2 },
+        { "label": "I rarely go outside or always wear sunscreen/cover up", "value": 3 }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "What latitude do you live at?",
+      "options": [
+        { "label": "Tropical or subtropical — below 35°N/S", "value": 0 },
+        { "label": "Moderate — 35–45°N/S", "value": 1 },
+        { "label": "Northern/Southern — 45–55°N/S", "value": 2 },
+        { "label": "Far north/south — above 55°N/S", "value": 3 }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "What is your natural skin tone?",
+      "options": [
+        { "label": "Light to medium", "value": 0 },
+        { "label": "Very fair/light — burns easily", "value": 1 },
+        { "label": "Medium to olive", "value": 2 },
+        { "label": "Dark brown to black", "value": 3 }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Do you experience bone pain, especially in the lower back, hips, or legs?",
+      "options": [
+        { "label": "Never", "value": 0 },
+        { "label": "Occasionally", "value": 1 },
+        { "label": "Frequently", "value": 2 },
+        { "label": "Chronically", "value": 3 }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Do you experience muscle weakness, cramps, or aches without clear cause?",
+      "options": [
+        { "label": "Rarely", "value": 0 },
+        { "label": "Sometimes", "value": 1 },
+        { "label": "Often", "value": 2 },
+        { "label": "Very frequently", "value": 3 }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "How would you describe your mood during winter months?",
+      "options": [
+        { "label": "No change — I feel fine year-round", "value": 0 },
+        { "label": "Slightly lower mood in winter", "value": 1 },
+        { "label": "Noticeably lower mood, less motivation", "value": 2 },
+        { "label": "Significant mood drop — possible seasonal depression", "value": 3 }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "How often do you consume vitamin D-rich foods (fatty fish, egg yolks, fortified milk/cereals)?",
+      "options": [
+        { "label": "Daily", "value": 0 },
+        { "label": "Several times a week", "value": 1 },
+        { "label": "Rarely", "value": 2 },
+        { "label": "Almost never", "value": 3 }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Do you take a vitamin D supplement?",
+      "options": [
+        { "label": "Yes, regularly", "value": 0 },
+        { "label": "Occasionally", "value": 1 },
+        { "label": "I used to but stopped", "value": 2 },
+        { "label": "Never", "value": 3 }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Have you experienced stress fractures or been told you have low bone density?",
+      "options": [
+        { "label": "No", "value": 0 },
+        { "label": "I've had one stress fracture", "value": 1 },
+        { "label": "Multiple fractures or a bone density concern", "value": 2 },
+        { "label": "Diagnosed osteopenia or osteoporosis", "value": 3 }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Do you experience frequent fatigue even after adequate sleep?",
+      "options": [
+        { "label": "Rarely", "value": 0 },
+        { "label": "Sometimes", "value": 1 },
+        { "label": "Often", "value": 2 },
+        { "label": "Almost always", "value": 3 }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "minScore": 0,
+      "maxScore": 6,
+      "tier": "Low Risk",
+      "title": "Low Risk — Vitamin D Status Likely Adequate",
+      "description": "Your lifestyle and symptoms suggest adequate vitamin D levels. Continue current habits including regular sun exposure and dietary vitamin D sources.",
+      "recommendations": [
+        "Maintain regular sun exposure and vitamin D-rich food intake",
+        "Continue current supplementation if applicable"
+      ],
+      "color": "green"
+    },
+    {
+      "minScore": 7,
+      "maxScore": 13,
+      "tier": "Mild Risk",
+      "title": "Mild Risk — Some Vitamin D Risk Factors Present",
+      "description": "Some risk factors present. Consider a 25(OH)D blood test, especially if you live at a northern latitude or have limited sun exposure.",
+      "recommendations": [
+        "Consider getting a 25(OH)D blood test",
+        "Increase vitamin D-rich foods (fatty fish, fortified dairy, eggs)",
+        "Consider a vitamin D3 supplement of 1000 IU/day",
+        "Try to get 15–30 minutes of midday sun exposure when possible"
+      ],
+      "color": "yellow"
+    },
+    {
+      "minScore": 14,
+      "maxScore": 20,
+      "tier": "Moderate Risk",
+      "title": "Moderate Risk — Vitamin D Insufficiency Likely",
+      "description": "Multiple risk factors and symptoms align with vitamin D insufficiency. Blood testing and supplementation discussion with a provider recommended.",
+      "recommendations": [
+        "Request a 25(OH)D blood test from your healthcare provider",
+        "Discuss vitamin D3 supplementation (1000–2000 IU/day)",
+        "Increase dietary vitamin D sources",
+        "Consider a bone density assessment if you have fracture history"
+      ],
+      "color": "orange"
+    },
+    {
+      "minScore": 21,
+      "maxScore": 30,
+      "tier": "High Risk",
+      "title": "High Risk — Possible Vitamin D Deficiency",
+      "description": "Strong risk profile for vitamin D deficiency. Seek a 25(OH)D blood test. Supplementation of 1000–4000 IU/day is commonly recommended pending lab results.",
+      "recommendations": [
+        "See your healthcare provider for a 25(OH)D blood test",
+        "Discuss high-dose vitamin D3 supplementation",
+        "Request a comprehensive bone health assessment",
+        "Review all risk factors with your provider for a personalized plan"
+      ],
+      "color": "red"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the best way to test for vitamin D deficiency?",
+      "answer": "The 25-hydroxyvitamin D [25(OH)D] blood test is the gold standard. Levels below 20 ng/mL indicate deficiency, 20–29 ng/mL indicate insufficiency, and 30+ ng/mL is considered adequate by most experts."
+    },
+    {
+      "question": "How much vitamin D do I need daily?",
+      "answer": "The RDA is 600 IU for adults under 70 and 800 IU for those over 70. However, many experts recommend 1000–2000 IU daily, especially for those with limited sun exposure or at northern latitudes."
+    },
+    {
+      "question": "Can I get enough vitamin D from sunlight alone?",
+      "answer": "It depends on your latitude, skin tone, time of year, and sun exposure habits. People living above 35°N latitude cannot produce sufficient vitamin D from sunlight during winter months. Dark-skinned individuals need significantly more sun exposure."
+    },
+    {
+      "question": "What foods are highest in vitamin D?",
+      "answer": "Fatty fish (salmon, mackerel, sardines) are the richest natural sources. Egg yolks, fortified milk, fortified orange juice, and fortified cereals also contribute. Cod liver oil is extremely high in vitamin D but should be used carefully."
+    }
+  ],
+  "relatedSlugs": ["calcium-deficiency", "magnesium-deficiency", "vitamin-b12-deficiency"],
+  "sources": [
+    "Holick, M.F. (2007). Vitamin D Deficiency. New England Journal of Medicine, 357(3), 266-281.",
+    "National Institutes of Health. Office of Dietary Supplements — Vitamin D Fact Sheet.",
+    "Amrein, K. et al. (2020). Vitamin D deficiency 2.0: an update on the current status worldwide. European Journal of Clinical Nutrition, 74, 1498-1513."
+  ]
+}

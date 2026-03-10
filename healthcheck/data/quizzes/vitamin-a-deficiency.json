@@ -1,0 +1,192 @@
+{
+  "slug": "vitamin-a-deficiency",
+  "title": "Vitamin A Deficiency Risk Assessment",
+  "shortTitle": "Vitamin A",
+  "description": "Take our free vitamin A deficiency quiz. Assess symptoms like night blindness, dry eyes, skin issues, and frequent infections in this science-based self-assessment.",
+  "category": "vitamins-minerals",
+  "scientificBasis": "Based on WHO clinical assessment criteria for vitamin A deficiency (VAD) and the retinol-specific symptom associations published in the American Journal of Clinical Nutrition. Night blindness is the earliest clinical sign; more severe deficiency leads to xerophthalmia.",
+  "seoIntro": "Vitamin A is a fat-soluble vitamin essential for vision (particularly night vision), immune function, skin health, cell growth, and reproductive health. It exists in two forms: preformed vitamin A (retinol, found in animal foods) and provitamin A carotenoids (beta-carotene, found in colorful fruits and vegetables).\n\nWhile severe vitamin A deficiency is more common in developing countries, mild to moderate insufficiency can occur anywhere — particularly among people who eat very little dietary fat (vitamin A requires fat for absorption), those with malabsorption conditions, and individuals with very limited diets.\n\nThe earliest and most specific sign of vitamin A deficiency is difficulty seeing in dim light (night blindness). Other symptoms include persistently dry eyes, dry or rough skin, increased susceptibility to respiratory and other infections, slow wound healing, and acne. Because vitamin A is fat-soluble, deficiency tends to develop slowly as body stores become depleted.\n\nThis assessment evaluates your dietary intake, risk factors, and symptoms against WHO clinical criteria for vitamin A deficiency. If your results suggest concern, a serum retinol test can confirm your status. Note that vitamin A supplementation should be approached carefully — unlike water-soluble vitamins, excess vitamin A can be toxic.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Do you have difficulty seeing in dim light or at night (night blindness)?",
+      "options": [
+        { "label": "No issues", "value": 0 },
+        { "label": "Slightly reduced night vision", "value": 1 },
+        { "label": "Noticeably poor night vision", "value": 2 },
+        { "label": "Significant difficulty seeing in low light", "value": 3 }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Do you experience persistently dry eyes?",
+      "options": [
+        { "label": "No", "value": 0 },
+        { "label": "Occasionally", "value": 1 },
+        { "label": "Frequently", "value": 2 },
+        { "label": "Chronically dry despite treatment", "value": 3 }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "How often do you eat vitamin A-rich foods (liver, sweet potatoes, carrots, spinach, eggs)?",
+      "options": [
+        { "label": "Daily", "value": 0 },
+        { "label": "Several times per week", "value": 1 },
+        { "label": "Rarely", "value": 2 },
+        { "label": "Almost never", "value": 3 }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Do you experience dry, rough, or scaly skin?",
+      "options": [
+        { "label": "No — skin is normal", "value": 0 },
+        { "label": "Mild dryness", "value": 1 },
+        { "label": "Persistent dry or rough patches", "value": 2 },
+        { "label": "Severe dryness or keratinization", "value": 3 }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "How often do you get respiratory infections, throat infections, or chest infections?",
+      "options": [
+        { "label": "Rarely", "value": 0 },
+        { "label": "2–3 times per year", "value": 1 },
+        { "label": "Frequently — every couple of months", "value": 2 },
+        { "label": "Very often — monthly or more", "value": 3 }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Do you have a condition affecting fat absorption (celiac, Crohn's, pancreatic insufficiency)?",
+      "options": [
+        { "label": "No", "value": 0 },
+        { "label": "Suspected", "value": 1 },
+        { "label": "Diagnosed, mild", "value": 2 },
+        { "label": "Active condition", "value": 3 }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Do you experience delayed wound healing or frequent skin infections?",
+      "options": [
+        { "label": "No", "value": 0 },
+        { "label": "Slightly slow healing", "value": 1 },
+        { "label": "Noticeably slow", "value": 2 },
+        { "label": "Very slow with frequent infections", "value": 3 }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Do you consume very little dietary fat?",
+      "options": [
+        { "label": "No — I eat a balanced amount of fat", "value": 0 },
+        { "label": "I eat a low-fat diet", "value": 1 },
+        { "label": "Very low fat intake", "value": 2 },
+        { "label": "I actively avoid all dietary fat", "value": 3 }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Do you experience acne or other skin breakouts?",
+      "options": [
+        { "label": "Clear skin", "value": 0 },
+        { "label": "Mild occasional breakouts", "value": 1 },
+        { "label": "Persistent acne", "value": 2 },
+        { "label": "Severe cystic acne", "value": 3 }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Are you pregnant or breastfeeding?",
+      "options": [
+        { "label": "No", "value": 0 },
+        { "label": "Planning to be", "value": 1 },
+        { "label": "Currently pregnant", "value": 2 },
+        { "label": "Currently breastfeeding", "value": 2 }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "minScore": 0,
+      "maxScore": 6,
+      "tier": "Low Risk",
+      "title": "Low Risk — Vitamin A Status Likely Adequate",
+      "description": "Vitamin A status likely adequate. Your diet and symptoms suggest sufficient vitamin A intake.",
+      "recommendations": [
+        "Continue eating vitamin A-rich foods regularly",
+        "Include both animal sources (retinol) and colorful vegetables (beta-carotene)",
+        "No immediate action needed"
+      ],
+      "color": "green"
+    },
+    {
+      "minScore": 7,
+      "maxScore": 13,
+      "tier": "Mild Risk",
+      "title": "Mild Risk — Minor Vitamin A Risk Factors",
+      "description": "Minor risk factors. Ensure regular intake of orange/red vegetables and leafy greens.",
+      "recommendations": [
+        "Increase orange and red vegetables: sweet potatoes, carrots, red peppers",
+        "Add more dark leafy greens to your diet",
+        "Ensure adequate dietary fat for vitamin A absorption",
+        "Consider eating eggs and dairy regularly"
+      ],
+      "color": "yellow"
+    },
+    {
+      "minScore": 14,
+      "maxScore": 20,
+      "tier": "Moderate Risk",
+      "title": "Moderate Risk — Possible Vitamin A Insufficiency",
+      "description": "Multiple indicators of possible vitamin A insufficiency. Serum retinol testing recommended.",
+      "recommendations": [
+        "Request a serum retinol blood test",
+        "Discuss symptoms with your healthcare provider",
+        "Significantly increase vitamin A-rich foods",
+        "Ensure adequate fat intake for absorption"
+      ],
+      "color": "orange"
+    },
+    {
+      "minScore": 21,
+      "maxScore": 30,
+      "tier": "High Risk",
+      "title": "High Risk — Possible Vitamin A Deficiency",
+      "description": "High risk of vitamin A deficiency. Seek medical evaluation — night blindness warrants prompt attention.",
+      "recommendations": [
+        "See your healthcare provider for serum retinol testing",
+        "Night blindness requires prompt medical evaluation",
+        "Discuss vitamin A supplementation — but only under medical supervision (toxicity risk)",
+        "Investigate potential malabsorption issues"
+      ],
+      "color": "red"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the difference between vitamin A and beta-carotene?",
+      "answer": "Preformed vitamin A (retinol) is found in animal foods and is directly usable by the body. Beta-carotene is a provitamin found in plant foods that your body converts to vitamin A as needed. The conversion rate varies by individual, so relying solely on plant sources may not meet needs for everyone."
+    },
+    {
+      "question": "Can you take too much vitamin A?",
+      "answer": "Yes. Unlike water-soluble vitamins, excess vitamin A (from supplements or animal sources) accumulates in the body and can cause toxicity (hypervitaminosis A). Symptoms include headaches, nausea, liver damage, and birth defects. Beta-carotene from plant foods does not carry this risk."
+    },
+    {
+      "question": "Why is night blindness the first sign of deficiency?",
+      "answer": "Vitamin A is essential for producing rhodopsin, the light-sensitive pigment in your retinal rod cells that enables vision in low light. When vitamin A is insufficient, rhodopsin production drops, impairing your ability to see in dim conditions. This is typically the earliest detectable sign of deficiency."
+    },
+    {
+      "question": "What foods are richest in vitamin A?",
+      "answer": "The single richest source is beef liver (6,580 µg per serving — over 700% of daily needs). Sweet potatoes, carrots, spinach, kale, and cantaloupe are excellent plant sources. Eggs and dairy provide moderate amounts. Eating these with some fat significantly improves absorption."
+    }
+  ],
+  "relatedSlugs": ["vitamin-c-deficiency", "zinc-deficiency", "omega-3-deficiency"],
+  "sources": [
+    "WHO. (2009). Global Prevalence of Vitamin A Deficiency in Populations at Risk 1995-2005.",
+    "Sommer, A. & Vyas, K.S. (2012). A global clinical view on vitamin A and carotenoids. American Journal of Clinical Nutrition, 96(5), 1204S-1206S.",
+    "National Institutes of Health. Office of Dietary Supplements — Vitamin A Fact Sheet."
+  ]
+}

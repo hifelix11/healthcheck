@@ -1,0 +1,192 @@
+{
+  "slug": "folate-deficiency",
+  "title": "Folate (Vitamin B9) Deficiency Risk Assessment",
+  "shortTitle": "Folate (B9)",
+  "description": "Check your folate deficiency risk with our free assessment. Evaluate symptoms like fatigue, mouth sores, and mood changes — especially important for pregnancy planning.",
+  "category": "vitamins-minerals",
+  "scientificBasis": "Based on the WHO folate deficiency diagnostic criteria and clinical presentations documented in the British Journal of Haematology. Red blood cell folate below 340 nmol/L indicates deficiency. Especially critical for women of childbearing age (neural tube defect prevention).",
+  "seoIntro": "Folate (vitamin B9) is essential for DNA synthesis, cell division, red blood cell formation, and proper nervous system development. It is perhaps best known for its critical role in preventing neural tube defects during early pregnancy — but folate is important for everyone, not just pregnant women.\n\nFolate deficiency can lead to megaloblastic anemia (where red blood cells are abnormally large and inefficient), causing fatigue, weakness, and shortness of breath. Other symptoms include mouth sores, a sore or swollen tongue, irritability, difficulty concentrating, and premature graying of hair.\n\nSeveral factors increase your risk: inadequate intake of leafy greens and legumes, heavy alcohol consumption (which impairs folate absorption and increases excretion), certain medications (methotrexate, anti-seizure drugs), and malabsorption conditions like celiac disease and inflammatory bowel disease. Women who are pregnant, planning pregnancy, or breastfeeding have significantly increased folate needs.\n\nThis screening evaluates your dietary intake, risk factors, and symptoms against WHO diagnostic criteria for folate insufficiency. If your results suggest concern, an RBC (red blood cell) folate test is the most accurate measure of long-term folate status, as serum folate only reflects recent intake.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "How often do you eat folate-rich foods (dark leafy greens, legumes, citrus, fortified grains)?",
+      "options": [
+        { "label": "Daily, multiple servings", "value": 0 },
+        { "label": "Most days", "value": 1 },
+        { "label": "A few times per week", "value": 2 },
+        { "label": "Rarely", "value": 3 }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Do you experience persistent fatigue despite adequate rest?",
+      "options": [
+        { "label": "Rarely", "value": 0 },
+        { "label": "Sometimes", "value": 1 },
+        { "label": "Often", "value": 2 },
+        { "label": "Almost always", "value": 3 }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Do you experience mouth sores or a sore, swollen tongue?",
+      "options": [
+        { "label": "Never", "value": 0 },
+        { "label": "Rarely", "value": 1 },
+        { "label": "Sometimes", "value": 2 },
+        { "label": "Frequently", "value": 3 }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Are you pregnant, planning pregnancy, or breastfeeding?",
+      "options": [
+        { "label": "No", "value": 0 },
+        { "label": "Planning pregnancy in the future", "value": 1 },
+        { "label": "Currently trying to conceive", "value": 2 },
+        { "label": "Currently pregnant or breastfeeding", "value": 3 }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Do you consume more than 2 alcoholic drinks per day regularly?",
+      "options": [
+        { "label": "No — I drink lightly or not at all", "value": 0 },
+        { "label": "Occasionally exceed 2 drinks", "value": 1 },
+        { "label": "Often 2–3 drinks per day", "value": 2 },
+        { "label": "4+ drinks per day regularly", "value": 3 }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Do you take medications that interfere with folate (methotrexate, certain anti-seizure drugs, sulfasalazine)?",
+      "options": [
+        { "label": "None", "value": 0 },
+        { "label": "One, occasionally", "value": 1 },
+        { "label": "One, regularly", "value": 2 },
+        { "label": "Multiple", "value": 3 }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Do you experience irritability, difficulty concentrating, or forgetfulness?",
+      "options": [
+        { "label": "Rarely", "value": 0 },
+        { "label": "Sometimes", "value": 1 },
+        { "label": "Often", "value": 2 },
+        { "label": "Frequently", "value": 3 }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Have you noticed pale skin or shortness of breath?",
+      "options": [
+        { "label": "Neither", "value": 0 },
+        { "label": "One, mildly", "value": 1 },
+        { "label": "One noticeably, or both mildly", "value": 2 },
+        { "label": "Both noticeably", "value": 3 }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Do you have a condition affecting absorption (celiac, IBD, Crohn's)?",
+      "options": [
+        { "label": "No", "value": 0 },
+        { "label": "Suspected", "value": 1 },
+        { "label": "Mild diagnosis", "value": 2 },
+        { "label": "Active condition", "value": 3 }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Do you experience premature graying of hair?",
+      "options": [
+        { "label": "No / age-appropriate gray", "value": 0 },
+        { "label": "Slightly earlier than family average", "value": 1 },
+        { "label": "Noticeably premature", "value": 2 },
+        { "label": "Significant premature graying", "value": 3 }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "minScore": 0,
+      "maxScore": 6,
+      "tier": "Low Risk",
+      "title": "Low Risk — Folate Status Likely Adequate",
+      "description": "Folate status likely adequate. Your diet and risk factors suggest you're meeting your folate needs.",
+      "recommendations": [
+        "Continue eating folate-rich foods regularly",
+        "If planning pregnancy, ensure at least 400 µg folic acid daily",
+        "No immediate action needed"
+      ],
+      "color": "green"
+    },
+    {
+      "minScore": 7,
+      "maxScore": 13,
+      "tier": "Mild Risk",
+      "title": "Mild Risk — Some Folate Risk Factors Present",
+      "description": "Some risk factors. Increase leafy greens and legumes. If planning pregnancy, start 400 µg folic acid daily.",
+      "recommendations": [
+        "Increase dark leafy greens, legumes, and citrus in your diet",
+        "If planning pregnancy, start 400 µg folic acid supplement immediately",
+        "Reduce alcohol intake if applicable",
+        "Consider an RBC folate test at your next checkup"
+      ],
+      "color": "yellow"
+    },
+    {
+      "minScore": 14,
+      "maxScore": 20,
+      "tier": "Moderate Risk",
+      "title": "Moderate Risk — Possible Folate Insufficiency",
+      "description": "Multiple indicators of possible folate insufficiency. RBC folate testing recommended.",
+      "recommendations": [
+        "Request an RBC folate blood test",
+        "Discuss symptoms and risk factors with your healthcare provider",
+        "Start a folate supplement (400–800 µg daily) pending medical advice",
+        "If on folate-depleting medications, discuss folic acid supplementation with your prescriber"
+      ],
+      "color": "orange"
+    },
+    {
+      "minScore": 21,
+      "maxScore": 30,
+      "tier": "High Risk",
+      "title": "High Risk — Possible Folate Deficiency",
+      "description": "Strong risk profile. Immediate testing and supplementation advised, especially if pregnant or planning pregnancy.",
+      "recommendations": [
+        "See your healthcare provider for RBC folate and CBC testing",
+        "Begin folic acid supplementation under medical guidance",
+        "If pregnant or trying to conceive, this is urgent — folate is critical for fetal development",
+        "Address contributing factors (alcohol, medications, malabsorption) with your provider"
+      ],
+      "color": "red"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the difference between folate and folic acid?",
+      "answer": "Folate is the naturally occurring form of vitamin B9 found in foods like leafy greens and legumes. Folic acid is the synthetic form used in supplements and fortified foods. Both are converted to the active form (5-MTHF) in the body, though some people with MTHFR gene variants may process folic acid less efficiently."
+    },
+    {
+      "question": "Why is folate especially important during pregnancy?",
+      "answer": "Folate is critical for proper neural tube development in the first 28 days of pregnancy — often before a woman knows she's pregnant. Deficiency significantly increases the risk of neural tube defects like spina bifida. This is why all women of childbearing age are advised to take 400 µg of folic acid daily."
+    },
+    {
+      "question": "How much folate do I need daily?",
+      "answer": "Adults need 400 µg DFE (Dietary Folate Equivalents) daily. Pregnant women need 600 µg, and breastfeeding women need 500 µg. Good sources include spinach (263 µg per cooked cup), black-eyed peas (210 µg per cup), and fortified cereals."
+    },
+    {
+      "question": "Can alcohol cause folate deficiency?",
+      "answer": "Yes. Alcohol interferes with folate absorption, increases folate excretion, and impairs its metabolism. Regular heavy drinking is one of the most common causes of folate deficiency. Even moderate drinking can reduce folate levels over time."
+    }
+  ],
+  "relatedSlugs": ["vitamin-b12-deficiency", "iron-deficiency", "vitamin-c-deficiency"],
+  "sources": [
+    "WHO. (2015). Serum and red blood cell folate concentrations for assessing folate status in populations.",
+    "Crider, K.S. et al. (2011). Folate and DNA Methylation: A Review of Molecular Mechanisms. Advances in Nutrition, 3(1), 21-38.",
+    "National Institutes of Health. Office of Dietary Supplements — Folate Fact Sheet."
+  ]
+}
