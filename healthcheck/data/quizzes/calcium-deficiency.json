@@ -1,0 +1,192 @@
+{
+  "slug": "calcium-deficiency",
+  "title": "Calcium Deficiency Risk Assessment",
+  "shortTitle": "Calcium",
+  "description": "Take our free calcium deficiency quiz to assess your risk. Check for symptoms like muscle cramps, brittle nails, and bone health concerns in this clinical screening.",
+  "category": "vitamins-minerals",
+  "scientificBasis": "Based on the NIH Office of Dietary Supplements calcium adequacy criteria and clinical hypocalcemia symptom presentation. RDA is 1000–1200 mg/day for adults.",
+  "seoIntro": "Calcium is the most abundant mineral in your body, with 99% stored in your bones and teeth. Beyond structural support, calcium is critical for muscle contraction, nerve signaling, blood clotting, and heart rhythm regulation. When dietary calcium is insufficient, your body pulls calcium from your bones to maintain blood calcium levels — silently weakening your skeleton over time.\n\nCalcium deficiency is particularly concerning because it often produces no obvious symptoms until significant bone loss has occurred. When symptoms do appear, they may include muscle cramps and spasms (especially at night), numbness or tingling in fingers, brittle nails, and in severe cases, heart rhythm irregularities.\n\nRisk factors include dairy avoidance, postmenopausal status, vitamin D deficiency (needed for calcium absorption), excessive caffeine intake, and certain medications (corticosteroids, antacids). Women over 50 and men over 70 are at highest risk for calcium-related bone density loss.\n\nThis assessment evaluates your dietary calcium intake, risk factors, and symptoms against NIH adequacy criteria and clinical signs of hypocalcemia. If your results suggest concern, a bone density scan (DEXA) and blood calcium testing can provide objective assessment of your calcium status.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "How much dairy (milk, yogurt, cheese) do you consume daily?",
+      "options": [
+        { "label": "3+ servings", "value": 0 },
+        { "label": "1–2 servings", "value": 1 },
+        { "label": "Less than 1 serving", "value": 2 },
+        { "label": "None — I avoid dairy", "value": 3 }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "If you avoid dairy, do you consume calcium-fortified alternatives or calcium-rich plant foods?",
+      "options": [
+        { "label": "Yes, regularly", "value": 0 },
+        { "label": "Sometimes", "value": 1 },
+        { "label": "Rarely", "value": 2 },
+        { "label": "No / not applicable", "value": 3 }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Do you experience muscle cramps or spasms, especially at night?",
+      "options": [
+        { "label": "Rarely", "value": 0 },
+        { "label": "Occasionally", "value": 1 },
+        { "label": "Frequently", "value": 2 },
+        { "label": "Very frequently", "value": 3 }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Do you experience numbness or tingling in your fingers or around your mouth?",
+      "options": [
+        { "label": "Never", "value": 0 },
+        { "label": "Rarely", "value": 1 },
+        { "label": "Sometimes", "value": 2 },
+        { "label": "Often", "value": 3 }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Have you experienced any bone fractures from minor falls or impacts?",
+      "options": [
+        { "label": "No", "value": 0 },
+        { "label": "One, years ago", "value": 1 },
+        { "label": "One recently or multiple historically", "value": 2 },
+        { "label": "Multiple fractures or diagnosed low bone density", "value": 3 }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Are you postmenopausal or over 65?",
+      "options": [
+        { "label": "No, neither applies", "value": 0 },
+        { "label": "Approaching menopause or over 55", "value": 1 },
+        { "label": "Postmenopausal or over 65", "value": 2 },
+        { "label": "Postmenopausal and over 65", "value": 3 }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Do you take a calcium supplement?",
+      "options": [
+        { "label": "Yes, regularly", "value": 0 },
+        { "label": "Occasionally", "value": 1 },
+        { "label": "Rarely", "value": 2 },
+        { "label": "Never", "value": 3 }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Do you consume caffeinated beverages (coffee, tea, soda) heavily?",
+      "options": [
+        { "label": "0–1 cups per day", "value": 0 },
+        { "label": "2–3 cups per day", "value": 1 },
+        { "label": "4–5 cups per day", "value": 2 },
+        { "label": "6+ cups per day", "value": 3 }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Do you experience brittle nails?",
+      "options": [
+        { "label": "No", "value": 0 },
+        { "label": "Slightly", "value": 1 },
+        { "label": "Noticeably", "value": 2 },
+        { "label": "Very brittle", "value": 3 }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Do you have a condition or take medication that affects calcium absorption (thyroid disorder, corticosteroids, antacids)?",
+      "options": [
+        { "label": "No", "value": 0 },
+        { "label": "Possible mild factor", "value": 1 },
+        { "label": "One significant factor", "value": 2 },
+        { "label": "Multiple factors", "value": 3 }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "minScore": 0,
+      "maxScore": 6,
+      "tier": "Low Risk",
+      "title": "Low Risk — Calcium Intake Likely Adequate",
+      "description": "Calcium intake and symptoms appear adequate. Continue your current dietary habits.",
+      "recommendations": [
+        "Continue your calcium-rich diet",
+        "Ensure adequate vitamin D for calcium absorption",
+        "No immediate action needed"
+      ],
+      "color": "green"
+    },
+    {
+      "minScore": 7,
+      "maxScore": 13,
+      "tier": "Mild Risk",
+      "title": "Mild Risk — Some Calcium Risk Factors Present",
+      "description": "Some risk factors. Review dietary intake and consider a DEXA scan if over 50.",
+      "recommendations": [
+        "Review and increase calcium-rich food intake",
+        "Ensure adequate vitamin D (needed for calcium absorption)",
+        "Consider a DEXA bone density scan if over 50",
+        "Discuss calcium needs with your healthcare provider"
+      ],
+      "color": "yellow"
+    },
+    {
+      "minScore": 14,
+      "maxScore": 20,
+      "tier": "Moderate Risk",
+      "title": "Moderate Risk — Possible Calcium Insufficiency",
+      "description": "Multiple risk factors for calcium insufficiency. Blood calcium and vitamin D testing recommended.",
+      "recommendations": [
+        "Request blood calcium and vitamin D testing",
+        "Schedule a DEXA bone density scan",
+        "Discuss calcium supplementation with your provider",
+        "Increase dietary calcium from food sources first"
+      ],
+      "color": "orange"
+    },
+    {
+      "minScore": 21,
+      "maxScore": 30,
+      "tier": "High Risk",
+      "title": "High Risk — Possible Calcium Deficiency",
+      "description": "High risk for calcium deficiency. Consult a provider for bone density assessment and supplementation plan.",
+      "recommendations": [
+        "See your healthcare provider for comprehensive bone health assessment",
+        "Request DEXA scan, blood calcium, and vitamin D testing",
+        "Discuss calcium and vitamin D supplementation",
+        "Review all medications and conditions affecting calcium with your provider"
+      ],
+      "color": "red"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How much calcium do I need daily?",
+      "answer": "Adults aged 19–50 need 1,000 mg/day. Women over 50 and men over 70 need 1,200 mg/day. It's best to get calcium from food sources — one cup of milk or yogurt provides about 300 mg. Supplements should be taken in doses of 500 mg or less at a time for best absorption."
+    },
+    {
+      "question": "Can I get enough calcium without dairy?",
+      "answer": "Yes, but it requires planning. Good non-dairy sources include fortified plant milks, tofu made with calcium sulfate, sardines with bones, kale, broccoli, bok choy, and fortified orange juice. However, some plant foods contain oxalates that reduce calcium absorption."
+    },
+    {
+      "question": "Is calcium supplementation safe?",
+      "answer": "Calcium supplements are generally safe when taken as directed. However, some research suggests that very high supplemental calcium (over 1,000 mg/day from supplements alone) may increase cardiovascular risk. It's best to get calcium from food first and supplement only to fill gaps."
+    },
+    {
+      "question": "Why is vitamin D important for calcium?",
+      "answer": "Vitamin D is essential for calcium absorption in the gut. Without adequate vitamin D, your body can only absorb about 10–15% of dietary calcium. With sufficient vitamin D, absorption increases to 30–40%. This is why calcium and vitamin D deficiency often occur together."
+    }
+  ],
+  "relatedSlugs": ["vitamin-d-deficiency", "magnesium-deficiency", "potassium-deficiency"],
+  "sources": [
+    "National Institutes of Health. Office of Dietary Supplements — Calcium Fact Sheet.",
+    "Weaver, C.M. et al. (2016). Calcium plus vitamin D supplementation and risk of fractures. Osteoporosis International, 27, 367-376.",
+    "Ross, A.C. et al. (2011). Dietary Reference Intakes for Calcium and Vitamin D. National Academies Press."
+  ]
+}

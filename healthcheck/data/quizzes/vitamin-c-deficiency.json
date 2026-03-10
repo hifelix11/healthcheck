@@ -1,0 +1,190 @@
+{
+  "slug": "vitamin-c-deficiency",
+  "title": "Vitamin C Deficiency Risk Assessment",
+  "shortTitle": "Vitamin C",
+  "description": "Take our free Vitamin C deficiency quiz to assess your risk. Check for symptoms like bleeding gums, slow wound healing, and fatigue in this science-based screening.",
+  "category": "vitamins-minerals",
+  "scientificBasis": "Based on clinical symptoms of hypovitaminosis C as documented in the American Journal of Clinical Nutrition and scurvy staging criteria. Early deficiency symptoms (fatigue, poor wound healing, bleeding gums) appear at serum levels below 23 µmol/L.",
+  "seoIntro": "Vitamin C (ascorbic acid) is one of the most essential nutrients your body needs for immune function, collagen synthesis, wound healing, and antioxidant protection. Despite being widely available in fruits and vegetables, vitamin C deficiency remains more common than many people realize — particularly among smokers, older adults, and those with limited dietary variety.\n\nEarly signs of vitamin C deficiency can be subtle and easy to dismiss: persistent fatigue, slow-healing cuts, frequent bruising, and bleeding gums. Left unchecked, more serious symptoms can develop, including joint pain, dry skin, weakened immunity, and in severe cases, scurvy.\n\nThis self-assessment is designed to help you evaluate whether your symptoms and lifestyle factors align with known indicators of vitamin C insufficiency. The questions are based on clinical screening criteria used in nutritional medicine and published research on hypovitaminosis C.\n\nPlease note: this quiz is an educational screening tool, not a medical diagnosis. If your results suggest elevated risk, we recommend consulting a healthcare provider and requesting a serum ascorbic acid blood test for confirmation.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "How often do you experience bleeding or swollen gums when brushing your teeth?",
+      "options": [
+        { "label": "Never", "value": 0 },
+        { "label": "Rarely", "value": 1 },
+        { "label": "Sometimes", "value": 2 },
+        { "label": "Frequently", "value": 3 }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "How would you describe your wound healing speed?",
+      "options": [
+        { "label": "Wounds heal quickly with no issues", "value": 0 },
+        { "label": "Slightly slower than I'd expect", "value": 1 },
+        { "label": "Noticeably slow — cuts take a long time to close", "value": 2 },
+        { "label": "Very slow — wounds often reopen or get infected", "value": 3 }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "How often do you bruise easily or notice unexplained bruises?",
+      "options": [
+        { "label": "Rarely or never", "value": 0 },
+        { "label": "Occasionally", "value": 1 },
+        { "label": "Frequently — more than seems normal", "value": 2 },
+        { "label": "Very frequently — I bruise from minor contact", "value": 3 }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "How would you rate your daily fruit and vegetable intake?",
+      "options": [
+        { "label": "5+ servings per day including citrus, peppers, or berries", "value": 0 },
+        { "label": "3–4 servings per day", "value": 1 },
+        { "label": "1–2 servings per day", "value": 2 },
+        { "label": "Less than 1 serving per day", "value": 3 }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Do you smoke or are you regularly exposed to secondhand smoke?",
+      "options": [
+        { "label": "No exposure", "value": 0 },
+        { "label": "Occasional secondhand exposure", "value": 1 },
+        { "label": "Regular secondhand exposure", "value": 2 },
+        { "label": "I smoke actively", "value": 3 }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "How often do you experience unexplained fatigue or low energy?",
+      "options": [
+        { "label": "Rarely", "value": 0 },
+        { "label": "Sometimes", "value": 1 },
+        { "label": "Often", "value": 2 },
+        { "label": "Almost daily", "value": 3 }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Do you notice dry, rough, or bumpy skin (especially on upper arms or thighs)?",
+      "options": [
+        { "label": "No, my skin is smooth", "value": 0 },
+        { "label": "Mild roughness occasionally", "value": 1 },
+        { "label": "Noticeable rough or bumpy patches", "value": 2 },
+        { "label": "Persistent rough, dry, or splitting skin", "value": 3 }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "How often do you experience joint pain or swelling without a known injury?",
+      "options": [
+        { "label": "Never", "value": 0 },
+        { "label": "Occasionally", "value": 1 },
+        { "label": "Frequently", "value": 2 },
+        { "label": "Chronically", "value": 3 }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Do you frequently get colds or infections?",
+      "options": [
+        { "label": "Rarely — once a year or less", "value": 0 },
+        { "label": "Occasionally — 2–3 times a year", "value": 1 },
+        { "label": "Often — every few months", "value": 2 },
+        { "label": "Very often — I feel like I'm always fighting something", "value": 3 }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Do you experience nosebleeds without obvious cause?",
+      "options": [
+        { "label": "Never", "value": 0 },
+        { "label": "Rarely", "value": 1 },
+        { "label": "Sometimes", "value": 2 },
+        { "label": "Frequently", "value": 3 }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "minScore": 0,
+      "maxScore": 6,
+      "tier": "Low Risk",
+      "title": "Low Risk — Vitamin C Status Likely Adequate",
+      "description": "Your symptoms do not suggest vitamin C deficiency. Maintain your current diet rich in fruits and vegetables to continue supporting healthy vitamin C levels.",
+      "recommendations": [
+        "Continue eating vitamin C-rich foods like citrus fruits, bell peppers, and berries",
+        "No immediate action needed — maintain your current healthy habits"
+      ],
+      "color": "green"
+    },
+    {
+      "minScore": 7,
+      "maxScore": 13,
+      "tier": "Mild Risk",
+      "title": "Mild Risk — Suboptimal Vitamin C Possible",
+      "description": "Some symptoms are consistent with suboptimal vitamin C levels. Consider increasing citrus fruits, bell peppers, and leafy greens in your daily diet.",
+      "recommendations": [
+        "Add more citrus fruits, berries, and bell peppers to your diet",
+        "Consider keeping a food diary for a week to track vitamin C intake",
+        "Ensure you're eating at least 5 servings of fruits and vegetables daily"
+      ],
+      "color": "yellow"
+    },
+    {
+      "minScore": 14,
+      "maxScore": 20,
+      "tier": "Moderate Risk",
+      "title": "Moderate Risk — Vitamin C Insufficiency Indicators Present",
+      "description": "Multiple symptoms align with clinical signs of vitamin C insufficiency. A dietary review and possible serum ascorbic acid test are recommended.",
+      "recommendations": [
+        "Consult a dietitian to review your vitamin C intake",
+        "Request a serum ascorbic acid blood test from your healthcare provider",
+        "Significantly increase vitamin C-rich foods in your diet",
+        "Consider a vitamin C supplement after consulting with a healthcare professional"
+      ],
+      "color": "orange"
+    },
+    {
+      "minScore": 21,
+      "maxScore": 30,
+      "tier": "High Risk",
+      "title": "High Risk — Possible Vitamin C Deficiency",
+      "description": "Your symptom profile strongly suggests possible vitamin C deficiency. Consult a healthcare provider for blood testing and guided supplementation.",
+      "recommendations": [
+        "See a healthcare provider as soon as possible",
+        "Request a serum ascorbic acid blood test",
+        "Discuss vitamin C supplementation with your doctor",
+        "Review your overall diet with a registered dietitian"
+      ],
+      "color": "red"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What are the most common symptoms of vitamin C deficiency?",
+      "answer": "The most common early symptoms include bleeding or swollen gums, easy bruising, slow wound healing, persistent fatigue, and dry or rough skin. Severe deficiency (scurvy) can cause joint pain, anemia, and tooth loss."
+    },
+    {
+      "question": "How much vitamin C do I need daily?",
+      "answer": "The recommended daily allowance is 75 mg for women and 90 mg for men. Smokers need an additional 35 mg per day. Most people can meet this through diet alone by eating citrus fruits, bell peppers, strawberries, and broccoli."
+    },
+    {
+      "question": "Can I take too much vitamin C?",
+      "answer": "The upper limit is 2,000 mg per day for adults. Excess vitamin C is excreted in urine, but very high doses can cause gastrointestinal issues like diarrhea, nausea, and stomach cramps. Megadoses may also increase kidney stone risk."
+    },
+    {
+      "question": "Who is most at risk for vitamin C deficiency?",
+      "answer": "High-risk groups include smokers, people with limited fruit and vegetable intake, individuals with malabsorption conditions, and those with chronic illnesses. Older adults and people with alcohol use disorder are also at elevated risk."
+    }
+  ],
+  "relatedSlugs": ["iron-deficiency", "zinc-deficiency", "vitamin-a-deficiency"],
+  "sources": [
+    "Carr, A.C. & Maggini, S. (2017). Vitamin C and Immune Function. Nutrients, 9(11), 1211.",
+    "Maxfield, L. & Crane, J.S. (2023). Vitamin C Deficiency. StatPearls Publishing.",
+    "National Institutes of Health. Office of Dietary Supplements — Vitamin C Fact Sheet."
+  ]
+}

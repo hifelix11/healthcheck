@@ -1,0 +1,187 @@
+{
+  "slug": "zinc-deficiency",
+  "title": "Zinc Deficiency Risk Assessment",
+  "shortTitle": "Zinc",
+  "description": "Assess your zinc deficiency risk with our free quiz. Check for signs like weakened immunity, hair loss, slow healing, and taste changes in this clinical screening.",
+  "category": "vitamins-minerals",
+  "scientificBasis": "Based on the International Zinc Nutrition Consultative Group (IZiNCG) risk assessment criteria and clinical symptoms documented in the Journal of Nutrition. Deficiency is common in plant-based diets due to phytate inhibition of absorption.",
+  "seoIntro": "Zinc is a trace mineral that punches well above its weight in terms of biological importance. It's essential for immune function, wound healing, DNA synthesis, cell division, taste and smell perception, and protein synthesis. Your body doesn't store zinc, so you need a consistent daily intake from food or supplements.\n\nZinc deficiency is more common than many realize, particularly among vegetarians and vegans (plant-based foods contain phytates that inhibit zinc absorption), older adults, pregnant women, and people with gastrointestinal conditions. Even mild deficiency can impair immune function and slow wound healing.\n\nClassic signs of zinc deficiency include frequent infections and slow recovery from illness, reduced sense of taste or smell, slow wound healing, skin problems (acne, dermatitis, dry patches), white spots on fingernails, hair loss, and poor appetite. These symptoms overlap with other conditions, making zinc deficiency easy to overlook.\n\nThis self-assessment evaluates your dietary intake, risk factors, and symptoms against established clinical criteria for zinc insufficiency. If your results suggest concern, a plasma zinc test can help confirm your status, though interpretation requires clinical context since zinc levels fluctuate throughout the day.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Do you experience a reduced sense of taste or smell?",
+      "options": [
+        { "label": "No — both are normal", "value": 0 },
+        { "label": "Slightly diminished", "value": 1 },
+        { "label": "Noticeably reduced", "value": 2 },
+        { "label": "Significantly impaired", "value": 3 }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "How often do you get colds, infections, or feel your immune system is weak?",
+      "options": [
+        { "label": "Rarely — once a year or less", "value": 0 },
+        { "label": "Occasionally", "value": 1 },
+        { "label": "Frequently — every few months", "value": 2 },
+        { "label": "Very often", "value": 3 }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Do you experience slow wound healing?",
+      "options": [
+        { "label": "Wounds heal quickly", "value": 0 },
+        { "label": "Slightly slow", "value": 1 },
+        { "label": "Noticeably slow", "value": 2 },
+        { "label": "Very slow", "value": 3 }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Do you experience skin issues (acne, dermatitis, rashes, dry patches)?",
+      "options": [
+        { "label": "Clear, healthy skin", "value": 0 },
+        { "label": "Occasional minor issues", "value": 1 },
+        { "label": "Persistent skin problems", "value": 2 },
+        { "label": "Chronic or severe skin conditions", "value": 3 }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Do you have white spots on your fingernails?",
+      "options": [
+        { "label": "None", "value": 0 },
+        { "label": "A few", "value": 1 },
+        { "label": "Several", "value": 2 },
+        { "label": "Many across multiple nails", "value": 3 }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "How often do you consume zinc-rich foods (oysters, red meat, poultry, beans, nuts)?",
+      "options": [
+        { "label": "Daily", "value": 0 },
+        { "label": "Several times per week", "value": 1 },
+        { "label": "Rarely", "value": 2 },
+        { "label": "Almost never", "value": 3 }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Do you follow a vegetarian or vegan diet?",
+      "options": [
+        { "label": "No", "value": 0 },
+        { "label": "Mostly plant-based with some animal foods", "value": 1 },
+        { "label": "Vegetarian", "value": 2 },
+        { "label": "Vegan", "value": 3 }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Do you experience hair loss or thinning?",
+      "options": [
+        { "label": "No", "value": 0 },
+        { "label": "Mild thinning", "value": 1 },
+        { "label": "Noticeable loss", "value": 2 },
+        { "label": "Significant loss", "value": 3 }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Do you experience poor appetite or unexplained weight loss?",
+      "options": [
+        { "label": "Healthy appetite", "value": 0 },
+        { "label": "Slightly reduced appetite", "value": 1 },
+        { "label": "Often not hungry", "value": 2 },
+        { "label": "Significant appetite loss", "value": 3 }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Do you consume significant amounts of alcohol, or do you have a gastrointestinal condition?",
+      "options": [
+        { "label": "Neither", "value": 0 },
+        { "label": "One mild factor", "value": 1 },
+        { "label": "One significant factor", "value": 2 },
+        { "label": "Both or severe", "value": 3 }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "minScore": 0,
+      "maxScore": 6,
+      "tier": "Low Risk",
+      "title": "Low Risk — Zinc Status Likely Adequate",
+      "description": "No significant indicators of zinc deficiency. Your dietary intake and symptoms suggest adequate zinc levels.",
+      "recommendations": [
+        "Continue your current zinc-rich diet",
+        "No immediate action needed"
+      ],
+      "color": "green"
+    },
+    {
+      "minScore": 7,
+      "maxScore": 13,
+      "tier": "Mild Risk",
+      "title": "Mild Risk — Suboptimal Zinc Possible",
+      "description": "Some risk factors present. Ensure adequate dietary zinc, especially if plant-based.",
+      "recommendations": [
+        "Increase zinc-rich foods in your diet",
+        "If plant-based, soak and sprout legumes/grains to reduce phytates",
+        "Consider a zinc supplement (15–30 mg/day) if dietary intake is limited",
+        "Pair zinc-rich plant foods with allium vegetables (garlic, onion) to enhance absorption"
+      ],
+      "color": "yellow"
+    },
+    {
+      "minScore": 14,
+      "maxScore": 20,
+      "tier": "Moderate Risk",
+      "title": "Moderate Risk — Possible Zinc Insufficiency",
+      "description": "Multiple indicators suggest possible zinc insufficiency. Consider plasma zinc testing.",
+      "recommendations": [
+        "Request a plasma zinc test from your healthcare provider",
+        "Discuss symptoms with your doctor",
+        "Review dietary zinc intake with a dietitian",
+        "Consider zinc supplementation under medical guidance"
+      ],
+      "color": "orange"
+    },
+    {
+      "minScore": 21,
+      "maxScore": 30,
+      "tier": "High Risk",
+      "title": "High Risk — Possible Zinc Deficiency",
+      "description": "Strong risk profile. Consult a healthcare provider for testing and possible supplementation.",
+      "recommendations": [
+        "See your healthcare provider for plasma zinc testing",
+        "Discuss zinc supplementation protocol",
+        "Investigate potential absorption issues",
+        "Review diet comprehensively with a registered dietitian"
+      ],
+      "color": "red"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What are the best food sources of zinc?",
+      "answer": "Oysters are by far the richest source (74 mg per serving). Other excellent sources include red meat, crab, lobster, poultry, pork, beans, nuts, whole grains, and dairy. Plant-based sources contain phytates that reduce absorption, so vegetarians may need up to 50% more zinc."
+    },
+    {
+      "question": "Why are vegetarians at higher risk for zinc deficiency?",
+      "answer": "Plant foods contain phytates that bind to zinc and inhibit its absorption. Vegetarians and vegans may absorb up to 50% less zinc from their diet. Soaking, sprouting, and fermenting grains and legumes can reduce phytate content and improve zinc absorption."
+    },
+    {
+      "question": "Can zinc help with colds?",
+      "answer": "Research suggests that zinc lozenges or syrup taken within 24 hours of cold symptom onset may reduce the duration and severity of colds. However, zinc nasal sprays should be avoided as they've been linked to permanent loss of smell."
+    }
+  ],
+  "relatedSlugs": ["vitamin-c-deficiency", "iron-deficiency", "vitamin-a-deficiency"],
+  "sources": [
+    "Prasad, A.S. (2013). Discovery of Human Zinc Deficiency: Its Impact on Human Health and Disease. Advances in Nutrition, 4(2), 176-190.",
+    "International Zinc Nutrition Consultative Group (IZiNCG). Assessment of the Risk of Zinc Deficiency in Populations.",
+    "National Institutes of Health. Office of Dietary Supplements — Zinc Fact Sheet."
+  ]
+}

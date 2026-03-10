@@ -1,0 +1,192 @@
+{
+  "slug": "iron-deficiency",
+  "title": "Iron Deficiency Risk Assessment",
+  "shortTitle": "Iron",
+  "description": "Take our free iron deficiency quiz to check your risk. Assess symptoms like fatigue, pale skin, cold extremities, and brittle nails in this evidence-based screening.",
+  "category": "vitamins-minerals",
+  "scientificBasis": "Based on WHO iron deficiency screening criteria and clinical presentation scoring used in hematology. Iron deficiency is the most common nutritional deficiency worldwide, with anemia defined as hemoglobin below 12 g/dL (women) or 13 g/dL (men).",
+  "seoIntro": "Iron deficiency is the most common nutritional deficiency in the world, affecting an estimated 2 billion people globally. Iron is essential for producing hemoglobin — the protein in red blood cells that carries oxygen throughout your body. When iron levels drop, your cells don't get enough oxygen, leading to fatigue, weakness, and a cascade of other symptoms.\n\nWomen of childbearing age are disproportionately affected due to menstrual blood loss, but iron deficiency can affect anyone — particularly vegetarians/vegans, endurance athletes, frequent blood donors, and people with gastrointestinal conditions that impair absorption.\n\nSymptoms often develop gradually and may be dismissed as 'just being tired.' Classic signs include unusual fatigue, pale skin (especially inner eyelids and nail beds), shortness of breath during normal activities, cold hands and feet, brittle nails, and unusual cravings for ice or non-food items (pica).\n\nThis screening tool evaluates your symptoms, dietary intake, and risk factors against established clinical criteria for iron deficiency and iron deficiency anemia. If your results suggest concern, a complete blood count (CBC) and serum ferritin test can confirm your iron status. Early detection allows for simple dietary or supplemental correction before anemia develops.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Do you experience unusual fatigue that doesn't improve with rest?",
+      "options": [
+        { "label": "Rarely", "value": 0 },
+        { "label": "Sometimes", "value": 1 },
+        { "label": "Often", "value": 2 },
+        { "label": "Almost always", "value": 3 }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Are you pale — particularly in your inner eyelids, nail beds, or gums?",
+      "options": [
+        { "label": "Normal coloring", "value": 0 },
+        { "label": "Slightly pale", "value": 1 },
+        { "label": "Noticeably pale", "value": 2 },
+        { "label": "Very pale", "value": 3 }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Do you experience shortness of breath during activities that used to be easy?",
+      "options": [
+        { "label": "No", "value": 0 },
+        { "label": "Slightly", "value": 1 },
+        { "label": "Moderately", "value": 2 },
+        { "label": "Significantly", "value": 3 }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Do you have heavy menstrual periods? (Select N/A if not applicable)",
+      "options": [
+        { "label": "N/A or light periods", "value": 0 },
+        { "label": "Moderate flow", "value": 1 },
+        { "label": "Heavy flow — changing pads/tampons every 2–3 hours", "value": 2 },
+        { "label": "Very heavy — clots, flooding, periods lasting 7+ days", "value": 3 }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Do you experience cold hands and feet more than others around you?",
+      "options": [
+        { "label": "No", "value": 0 },
+        { "label": "Occasionally", "value": 1 },
+        { "label": "Frequently", "value": 2 },
+        { "label": "Almost always", "value": 3 }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Do you crave non-food items (ice, clay, starch) or have unusual cravings?",
+      "options": [
+        { "label": "No", "value": 0 },
+        { "label": "I chew ice sometimes", "value": 1 },
+        { "label": "I frequently crave ice or crunch hard items", "value": 2 },
+        { "label": "I crave non-food substances (pica)", "value": 3 }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "How much red meat, poultry, or fish do you consume per week?",
+      "options": [
+        { "label": "5+ servings", "value": 0 },
+        { "label": "3–4 servings", "value": 1 },
+        { "label": "1–2 servings", "value": 2 },
+        { "label": "Rarely or never", "value": 3 }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Do you experience brittle nails, spoon-shaped nails, or significant hair loss?",
+      "options": [
+        { "label": "No", "value": 0 },
+        { "label": "Mild brittleness", "value": 1 },
+        { "label": "Noticeable changes", "value": 2 },
+        { "label": "Significant nail deformity or hair loss", "value": 3 }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Do you experience frequent headaches or dizziness?",
+      "options": [
+        { "label": "Rarely", "value": 0 },
+        { "label": "Occasionally", "value": 1 },
+        { "label": "Frequently", "value": 2 },
+        { "label": "Very frequently", "value": 3 }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Do you have a condition that affects iron absorption (celiac disease, IBD, gastric surgery)?",
+      "options": [
+        { "label": "No known condition", "value": 0 },
+        { "label": "Possible/suspected issue", "value": 1 },
+        { "label": "Diagnosed mild condition", "value": 2 },
+        { "label": "Diagnosed condition known to impair absorption", "value": 3 }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "minScore": 0,
+      "maxScore": 6,
+      "tier": "Low Risk",
+      "title": "Low Risk — Iron Status Likely Adequate",
+      "description": "No significant indicators of iron deficiency. Your symptoms and dietary intake suggest adequate iron levels.",
+      "recommendations": [
+        "Continue your current iron-rich diet",
+        "Pair iron-rich foods with vitamin C for optimal absorption",
+        "No immediate action needed"
+      ],
+      "color": "green"
+    },
+    {
+      "minScore": 7,
+      "maxScore": 13,
+      "tier": "Mild Risk",
+      "title": "Mild Risk — Some Iron Deficiency Risk Factors",
+      "description": "Some symptoms or risk factors present. Ensure adequate dietary iron intake with vitamin C for absorption.",
+      "recommendations": [
+        "Increase iron-rich foods: red meat, spinach, lentils, fortified cereals",
+        "Pair plant-based iron sources with vitamin C (citrus, bell peppers)",
+        "Avoid tea/coffee with meals as they inhibit iron absorption",
+        "Consider a CBC and ferritin test at your next checkup"
+      ],
+      "color": "yellow"
+    },
+    {
+      "minScore": 14,
+      "maxScore": 20,
+      "tier": "Moderate Risk",
+      "title": "Moderate Risk — Possible Iron Deficiency",
+      "description": "Multiple indicators of possible iron deficiency. A complete blood count (CBC) and ferritin test are recommended.",
+      "recommendations": [
+        "Request a CBC and serum ferritin blood test",
+        "Discuss your symptoms with a healthcare provider",
+        "Significantly increase dietary iron intake",
+        "Do not start iron supplements without medical guidance — excess iron can be harmful"
+      ],
+      "color": "orange"
+    },
+    {
+      "minScore": 21,
+      "maxScore": 30,
+      "tier": "High Risk",
+      "title": "High Risk — Possible Iron Deficiency Anemia",
+      "description": "Strong risk profile for iron deficiency anemia. Prompt blood testing and medical evaluation recommended.",
+      "recommendations": [
+        "See a healthcare provider promptly for blood testing",
+        "Request CBC, serum ferritin, serum iron, and TIBC tests",
+        "Discuss potential causes with your doctor (blood loss, absorption issues)",
+        "Do not self-treat with high-dose iron without medical supervision"
+      ],
+      "color": "red"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the difference between iron deficiency and iron deficiency anemia?",
+      "answer": "Iron deficiency means your body's iron stores are low (low ferritin). Iron deficiency anemia is a more advanced stage where iron is so low that hemoglobin production is affected, reducing your blood's oxygen-carrying capacity. You can be iron deficient without being anemic."
+    },
+    {
+      "question": "What foods are highest in iron?",
+      "answer": "Heme iron (best absorbed) is found in red meat, organ meats, poultry, and shellfish. Non-heme iron is found in spinach, lentils, chickpeas, tofu, and fortified cereals. Pair non-heme iron with vitamin C to boost absorption by up to 6x."
+    },
+    {
+      "question": "Can I take too much iron?",
+      "answer": "Yes. Excess iron supplementation can cause nausea, constipation, and in severe cases, iron toxicity. Never take iron supplements without blood testing first. People with hemochromatosis (iron overload disorder) must avoid extra iron."
+    },
+    {
+      "question": "Why do women need more iron than men?",
+      "answer": "Women of childbearing age lose iron through menstruation. The RDA for women aged 19–50 is 18 mg/day, compared to 8 mg/day for men. Pregnant women need 27 mg/day. After menopause, women's iron needs drop to match men's."
+    }
+  ],
+  "relatedSlugs": ["vitamin-b12-deficiency", "vitamin-c-deficiency", "folate-deficiency"],
+  "sources": [
+    "WHO. (2023). Iron Deficiency Anaemia: Assessment, Prevention and Control.",
+    "Camaschella, C. (2015). Iron-Deficiency Anemia. New England Journal of Medicine, 372(19), 1832-1843.",
+    "National Institutes of Health. Office of Dietary Supplements — Iron Fact Sheet."
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "slug": "potassium-deficiency",
+  "title": "Potassium Deficiency Risk Assessment",
+  "shortTitle": "Potassium",
+  "description": "Assess your potassium deficiency risk with our free quiz. Check for symptoms like muscle weakness, cramps, heart palpitations, and fatigue in this clinical screening.",
+  "category": "vitamins-minerals",
+  "scientificBasis": "Based on clinical hypokalemia symptoms (serum K+ below 3.5 mmol/L) and the INTERSALT study's dietary potassium intake associations. Adequate intake is 2600–3400 mg/day per the National Academies.",
+  "seoIntro": "Potassium is one of the most important electrolytes in your body, essential for proper muscle contraction, nerve signaling, fluid balance, and heart rhythm regulation. It works in concert with sodium to maintain cellular function — and most adults consume far too much sodium relative to potassium.\n\nThe National Academies recommend 2,600–3,400 mg of potassium daily, yet surveys consistently show that most adults fall short of this target. Low potassium (hypokalemia) can range from mild — causing muscle weakness, cramps, and fatigue — to severe, where it can cause dangerous heart rhythm disturbances.\n\nSeveral factors increase your risk for potassium depletion: heavy sweating from exercise or heat, diuretic or laxative use, excessive sodium intake from processed foods, and gastrointestinal losses from chronic vomiting or diarrhea. Kidney disease can also disrupt potassium balance.\n\nThis self-assessment evaluates your dietary potassium intake, risk factors, and symptoms against clinical criteria for potassium insufficiency. If your results suggest concern, a basic metabolic panel (BMP) blood test can quickly determine your serum potassium level. Because potassium directly affects heart function, significant deficiency should not be ignored.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "How often do you eat potassium-rich foods (bananas, potatoes, spinach, avocados, beans)?",
+      "options": [
+        { "label": "Multiple servings daily", "value": 0 },
+        { "label": "1–2 servings daily", "value": 1 },
+        { "label": "A few times per week", "value": 2 },
+        { "label": "Rarely", "value": 3 }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Do you experience muscle weakness or fatigue?",
+      "options": [
+        { "label": "Rarely", "value": 0 },
+        { "label": "Occasionally", "value": 1 },
+        { "label": "Frequently", "value": 2 },
+        { "label": "Persistently", "value": 3 }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Do you experience muscle cramps or stiffness?",
+      "options": [
+        { "label": "Rarely", "value": 0 },
+        { "label": "Occasionally", "value": 1 },
+        { "label": "Frequently", "value": 2 },
+        { "label": "Very frequently", "value": 3 }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Do you experience heart palpitations or irregular heartbeat?",
+      "options": [
+        { "label": "Never", "value": 0 },
+        { "label": "Rarely", "value": 1 },
+        { "label": "Sometimes", "value": 2 },
+        { "label": "Frequently", "value": 3 }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Do you take diuretics or laxatives?",
+      "options": [
+        { "label": "No", "value": 0 },
+        { "label": "Occasionally", "value": 1 },
+        { "label": "Regularly", "value": 2 },
+        { "label": "Frequently / high dose", "value": 3 }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "How much do you sweat through exercise or heat daily?",
+      "options": [
+        { "label": "Light sweating occasionally", "value": 0 },
+        { "label": "Moderate sweating most days", "value": 1 },
+        { "label": "Heavy sweating daily", "value": 2 },
+        { "label": "Extreme sweating (athletic training, manual labor in heat)", "value": 3 }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Do you experience tingling or numbness in extremities?",
+      "options": [
+        { "label": "Never", "value": 0 },
+        { "label": "Rarely", "value": 1 },
+        { "label": "Sometimes", "value": 2 },
+        { "label": "Often", "value": 3 }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Do you experience bloating or constipation?",
+      "options": [
+        { "label": "Rarely", "value": 0 },
+        { "label": "Occasionally", "value": 1 },
+        { "label": "Frequently", "value": 2 },
+        { "label": "Chronically", "value": 3 }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "How much processed or high-sodium food do you eat?",
+      "options": [
+        { "label": "Very little — I cook fresh food", "value": 0 },
+        { "label": "Some processed foods", "value": 1 },
+        { "label": "Frequently eat processed/fast food", "value": 2 },
+        { "label": "Majority of diet is processed", "value": 3 }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Do you have kidney disease or gastrointestinal issues (vomiting, diarrhea)?",
+      "options": [
+        { "label": "No", "value": 0 },
+        { "label": "Occasional GI issues", "value": 1 },
+        { "label": "Chronic GI condition", "value": 2 },
+        { "label": "Kidney disease or chronic GI problems", "value": 3 }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "minScore": 0,
+      "maxScore": 6,
+      "tier": "Low Risk",
+      "title": "Low Risk — Potassium Intake Likely Adequate",
+      "description": "Potassium intake and symptoms appear adequate. Continue your current dietary habits.",
+      "recommendations": [
+        "Continue eating potassium-rich foods daily",
+        "Maintain proper hydration",
+        "No immediate action needed"
+      ],
+      "color": "green"
+    },
+    {
+      "minScore": 7,
+      "maxScore": 13,
+      "tier": "Mild Risk",
+      "title": "Mild Risk — Minor Potassium Risk Factors",
+      "description": "Minor risk factors. Increase potassium-rich foods and monitor hydration.",
+      "recommendations": [
+        "Increase potassium-rich foods: bananas, sweet potatoes, spinach, beans, avocados",
+        "Stay well-hydrated, especially during exercise",
+        "Reduce sodium intake from processed foods",
+        "Monitor symptoms and discuss with your doctor at next visit"
+      ],
+      "color": "yellow"
+    },
+    {
+      "minScore": 14,
+      "maxScore": 20,
+      "tier": "Moderate Risk",
+      "title": "Moderate Risk — Possible Low Potassium",
+      "description": "Multiple indicators of possible low potassium. A basic metabolic panel is recommended.",
+      "recommendations": [
+        "Request a basic metabolic panel (BMP) blood test",
+        "Discuss your symptoms and medications with your healthcare provider",
+        "Significantly increase potassium-rich food intake",
+        "Review any medications that may deplete potassium"
+      ],
+      "color": "orange"
+    },
+    {
+      "minScore": 21,
+      "maxScore": 30,
+      "tier": "High Risk",
+      "title": "High Risk — Possible Hypokalemia",
+      "description": "Strong risk profile for hypokalemia. Seek medical evaluation — low potassium can affect heart rhythm.",
+      "recommendations": [
+        "See your healthcare provider promptly — heart rhythm effects are serious",
+        "Request a basic metabolic panel and ECG",
+        "Do not start potassium supplements without medical supervision",
+        "Review all medications and risk factors with your provider"
+      ],
+      "color": "red"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Why is potassium important for heart health?",
+      "answer": "Potassium helps regulate heart rhythm by controlling the electrical impulses that make your heart beat. Low potassium can cause irregular heartbeats (arrhythmias), which in severe cases can be life-threatening. This is why potassium levels are closely monitored in hospital settings."
+    },
+    {
+      "question": "What foods are highest in potassium?",
+      "answer": "Top sources include sweet potatoes (540 mg per medium potato), bananas (420 mg each), spinach (840 mg per cooked cup), white beans (1,000 mg per cup), avocados (700 mg each), and salmon (500 mg per fillet). Coconut water is also an excellent source."
+    },
+    {
+      "question": "Can I take potassium supplements safely?",
+      "answer": "Over-the-counter potassium supplements are limited to 99 mg per dose (far below daily needs) because excess potassium can be dangerous, especially for people with kidney disease. High-dose potassium should only be taken under medical supervision. Focus on food sources first."
+    },
+    {
+      "question": "How does sodium affect potassium levels?",
+      "answer": "High sodium intake causes your kidneys to excrete more potassium. The typical Western diet is very high in sodium and low in potassium — the opposite of what your body needs. Reducing processed food intake helps both reduce sodium and increase potassium from whole foods."
+    }
+  ],
+  "relatedSlugs": ["magnesium-deficiency", "calcium-deficiency", "iron-deficiency"],
+  "sources": [
+    "National Academies of Sciences. (2019). Dietary Reference Intakes for Sodium and Potassium.",
+    "Weaver, C.M. (2013). Potassium and Health. Advances in Nutrition, 4(3), 368S-377S.",
+    "National Institutes of Health. Office of Dietary Supplements — Potassium Fact Sheet."
+  ]
+}
