@@ -11,107 +11,249 @@
       "id": 1,
       "text": "Haben Sie einen verminderten Geschmacks- oder Geruchssinn?",
       "options": [
-        { "label": "Nein — beides ist normal", "value": 0 },
-        { "label": "Leicht vermindert", "value": 1 },
-        { "label": "Merklich reduziert", "value": 2 },
-        { "label": "Erheblich beeinträchtigt", "value": 3 }
+        {
+          "label": "Nein — beides ist normal",
+          "value": 0
+        },
+        {
+          "label": "Leicht vermindert",
+          "value": 1
+        },
+        {
+          "label": "Merklich reduziert",
+          "value": 2
+        },
+        {
+          "label": "Erheblich beeinträchtigt",
+          "value": 3
+        }
       ]
     },
     {
       "id": 2,
-      "text": "Wie oft bekommen Sie Erkältungen, Infektionen oder haben das Gefühl, dass Ihr Immunsystem geschwächt ist?",
+      "text": "Wie alt sind Sie?",
       "options": [
-        { "label": "Selten — einmal im Jahr oder weniger", "value": 0 },
-        { "label": "Gelegentlich", "value": 1 },
-        { "label": "Häufig — alle paar Monate", "value": 2 },
-        { "label": "Sehr oft", "value": 3 }
+        {
+          "label": "Unter 30",
+          "value": 0
+        },
+        {
+          "label": "30–45",
+          "value": 1
+        },
+        {
+          "label": "46–60",
+          "value": 2
+        },
+        {
+          "label": "Über 60",
+          "value": 3
+        }
       ]
     },
     {
       "id": 3,
-      "text": "Haben Sie eine langsame Wundheilung?",
+      "text": "Wie oft bekommen Sie Erkältungen, Infektionen oder haben das Gefühl, dass Ihr Immunsystem geschwächt ist?",
       "options": [
-        { "label": "Wunden heilen schnell", "value": 0 },
-        { "label": "Etwas langsam", "value": 1 },
-        { "label": "Merklich langsam", "value": 2 },
-        { "label": "Sehr langsam", "value": 3 }
+        {
+          "label": "Selten — einmal im Jahr oder weniger",
+          "value": 0
+        },
+        {
+          "label": "Gelegentlich",
+          "value": 1
+        },
+        {
+          "label": "Häufig — alle paar Monate",
+          "value": 2
+        },
+        {
+          "label": "Sehr oft",
+          "value": 3
+        }
       ]
     },
     {
       "id": 4,
-      "text": "Haben Sie Hautprobleme (Akne, Dermatitis, Ausschläge, trockene Stellen)?",
+      "text": "Haben Sie eine langsame Wundheilung?",
       "options": [
-        { "label": "Klare, gesunde Haut", "value": 0 },
-        { "label": "Gelegentliche kleinere Probleme", "value": 1 },
-        { "label": "Anhaltende Hautprobleme", "value": 2 },
-        { "label": "Chronische oder schwere Hauterkrankungen", "value": 3 }
+        {
+          "label": "Wunden heilen schnell",
+          "value": 0
+        },
+        {
+          "label": "Etwas langsam",
+          "value": 1
+        },
+        {
+          "label": "Merklich langsam",
+          "value": 2
+        },
+        {
+          "label": "Sehr langsam",
+          "value": 3
+        }
       ]
     },
     {
       "id": 5,
-      "text": "Haben Sie weiße Flecken auf Ihren Fingernägeln?",
+      "text": "Haben Sie Hautprobleme (Akne, Dermatitis, Ausschläge, trockene Stellen)?",
       "options": [
-        { "label": "Keine", "value": 0 },
-        { "label": "Ein paar", "value": 1 },
-        { "label": "Mehrere", "value": 2 },
-        { "label": "Viele auf mehreren Nägeln", "value": 3 }
+        {
+          "label": "Klare, gesunde Haut",
+          "value": 0
+        },
+        {
+          "label": "Gelegentliche kleinere Probleme",
+          "value": 1
+        },
+        {
+          "label": "Anhaltende Hautprobleme",
+          "value": 2
+        },
+        {
+          "label": "Chronische oder schwere Hauterkrankungen",
+          "value": 3
+        }
       ]
     },
     {
       "id": 6,
-      "text": "Wie oft essen Sie zinkreiche Lebensmittel (Austern, rotes Fleisch, Geflügel, Bohnen, Nüsse)?",
+      "text": "Haben Sie weiße Flecken auf Ihren Fingernägeln?",
       "options": [
-        { "label": "Täglich", "value": 0 },
-        { "label": "Mehrmals pro Woche", "value": 1 },
-        { "label": "Selten", "value": 2 },
-        { "label": "Fast nie", "value": 3 }
+        {
+          "label": "Keine",
+          "value": 0
+        },
+        {
+          "label": "Ein paar",
+          "value": 1
+        },
+        {
+          "label": "Mehrere",
+          "value": 2
+        },
+        {
+          "label": "Viele auf mehreren Nägeln",
+          "value": 3
+        }
       ]
     },
     {
       "id": 7,
-      "text": "Ernähren Sie sich vegetarisch oder vegan?",
+      "text": "Wie oft essen Sie zinkreiche Lebensmittel (Austern, rotes Fleisch, Geflügel, Bohnen, Nüsse)?",
       "options": [
-        { "label": "Nein", "value": 0 },
-        { "label": "Überwiegend pflanzlich mit einigen tierischen Lebensmitteln", "value": 1 },
-        { "label": "Vegetarisch", "value": 2 },
-        { "label": "Vegan", "value": 3 }
+        {
+          "label": "Täglich",
+          "value": 0
+        },
+        {
+          "label": "Mehrmals pro Woche",
+          "value": 1
+        },
+        {
+          "label": "Selten",
+          "value": 2
+        },
+        {
+          "label": "Fast nie",
+          "value": 3
+        }
       ]
     },
     {
       "id": 8,
-      "text": "Leiden Sie unter Haarausfall oder dünner werdendem Haar?",
+      "text": "Ernähren Sie sich vegetarisch oder vegan?",
       "options": [
-        { "label": "Nein", "value": 0 },
-        { "label": "Leichtes Ausdünnen", "value": 1 },
-        { "label": "Merklicher Haarausfall", "value": 2 },
-        { "label": "Erheblicher Haarausfall", "value": 3 }
+        {
+          "label": "Nein",
+          "value": 0
+        },
+        {
+          "label": "Überwiegend pflanzlich mit einigen tierischen Lebensmitteln",
+          "value": 1
+        },
+        {
+          "label": "Vegetarisch",
+          "value": 2
+        },
+        {
+          "label": "Vegan",
+          "value": 3
+        }
       ]
     },
     {
       "id": 9,
-      "text": "Haben Sie Appetitlosigkeit oder unerklärlichen Gewichtsverlust?",
+      "text": "Leiden Sie unter Haarausfall oder dünner werdendem Haar?",
       "options": [
-        { "label": "Gesunder Appetit", "value": 0 },
-        { "label": "Leicht verminderter Appetit", "value": 1 },
-        { "label": "Oft keinen Hunger", "value": 2 },
-        { "label": "Erheblicher Appetitverlust", "value": 3 }
+        {
+          "label": "Nein",
+          "value": 0
+        },
+        {
+          "label": "Leichtes Ausdünnen",
+          "value": 1
+        },
+        {
+          "label": "Merklicher Haarausfall",
+          "value": 2
+        },
+        {
+          "label": "Erheblicher Haarausfall",
+          "value": 3
+        }
       ]
     },
     {
       "id": 10,
+      "text": "Haben Sie Appetitlosigkeit oder unerklärlichen Gewichtsverlust?",
+      "options": [
+        {
+          "label": "Gesunder Appetit",
+          "value": 0
+        },
+        {
+          "label": "Leicht verminderter Appetit",
+          "value": 1
+        },
+        {
+          "label": "Oft keinen Hunger",
+          "value": 2
+        },
+        {
+          "label": "Erheblicher Appetitverlust",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": 11,
       "text": "Konsumieren Sie erhebliche Mengen Alkohol oder haben Sie eine Magen-Darm-Erkrankung?",
       "options": [
-        { "label": "Keines von beidem", "value": 0 },
-        { "label": "Ein leichter Faktor", "value": 1 },
-        { "label": "Ein bedeutender Faktor", "value": 2 },
-        { "label": "Beides oder schwerwiegend", "value": 3 }
+        {
+          "label": "Keines von beidem",
+          "value": 0
+        },
+        {
+          "label": "Ein leichter Faktor",
+          "value": 1
+        },
+        {
+          "label": "Ein bedeutender Faktor",
+          "value": 2
+        },
+        {
+          "label": "Beides oder schwerwiegend",
+          "value": 3
+        }
       ]
     }
   ],
   "results": [
     {
       "minScore": 0,
-      "maxScore": 6,
+      "maxScore": 7,
       "tier": "Niedriges Risiko",
       "title": "Niedriges Risiko — Zinkstatus wahrscheinlich ausreichend",
       "description": "Keine wesentlichen Anzeichen für einen Zinkmangel. Ihre Nahrungsaufnahme und Symptome deuten auf einen ausreichenden Zinkspiegel hin.",
@@ -122,8 +264,8 @@
       "color": "green"
     },
     {
-      "minScore": 7,
-      "maxScore": 13,
+      "minScore": 8,
+      "maxScore": 14,
       "tier": "Leichtes Risiko",
       "title": "Leichtes Risiko — Suboptimale Zinkversorgung möglich",
       "description": "Einige Risikofaktoren vorhanden. Stellen Sie eine ausreichende Zinkzufuhr über die Ernährung sicher, insbesondere bei pflanzlicher Ernährung.",
@@ -136,8 +278,8 @@
       "color": "yellow"
     },
     {
-      "minScore": 14,
-      "maxScore": 20,
+      "minScore": 15,
+      "maxScore": 22,
       "tier": "Mittleres Risiko",
       "title": "Mittleres Risiko — Mögliche Zinkunterversorgung",
       "description": "Mehrere Indikatoren deuten auf eine mögliche Zinkunterversorgung hin. Erwägen Sie einen Plasmazinktest.",
@@ -150,8 +292,8 @@
       "color": "orange"
     },
     {
-      "minScore": 21,
-      "maxScore": 30,
+      "minScore": 23,
+      "maxScore": 33,
       "tier": "Hohes Risiko",
       "title": "Hohes Risiko — Möglicher Zinkmangel",
       "description": "Starkes Risikoprofil. Konsultieren Sie einen Arzt für Tests und eine mögliche Supplementierung.",
@@ -178,7 +320,11 @@
       "answer": "Forschungsergebnisse deuten darauf hin, dass Zinkpastillen oder -sirup, die innerhalb von 24 Stunden nach Auftreten der Erkältungssymptome eingenommen werden, die Dauer und Schwere von Erkältungen reduzieren können. Zink-Nasensprays sollten jedoch vermieden werden, da sie mit einem dauerhaften Verlust des Geruchssinns in Verbindung gebracht wurden."
     }
   ],
-  "relatedSlugs": ["vitamin-c-deficiency", "iron-deficiency", "vitamin-a-deficiency"],
+  "relatedSlugs": [
+    "vitamin-c-deficiency",
+    "iron-deficiency",
+    "vitamin-a-deficiency"
+  ],
   "sources": [
     "Prasad, A.S. (2013). Discovery of Human Zinc Deficiency: Its Impact on Human Health and Disease. Advances in Nutrition, 4(2), 176-190.",
     "International Zinc Nutrition Consultative Group (IZiNCG). Assessment of the Risk of Zinc Deficiency in Populations.",

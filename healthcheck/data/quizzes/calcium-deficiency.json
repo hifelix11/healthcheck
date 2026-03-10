@@ -11,107 +11,249 @@
       "id": 1,
       "text": "Wie viele Milchprodukte (Milch, Joghurt, Käse) konsumieren Sie täglich?",
       "options": [
-        { "label": "3+ Portionen", "value": 0 },
-        { "label": "1–2 Portionen", "value": 1 },
-        { "label": "Weniger als 1 Portion", "value": 2 },
-        { "label": "Keine — ich verzichte auf Milchprodukte", "value": 3 }
+        {
+          "label": "3+ Portionen",
+          "value": 0
+        },
+        {
+          "label": "1–2 Portionen",
+          "value": 1
+        },
+        {
+          "label": "Weniger als 1 Portion",
+          "value": 2
+        },
+        {
+          "label": "Keine — ich verzichte auf Milchprodukte",
+          "value": 3
+        }
       ]
     },
     {
       "id": 2,
-      "text": "Wenn Sie auf Milchprodukte verzichten, konsumieren Sie kalziumangereicherte Alternativen oder kalziumreiche pflanzliche Lebensmittel?",
+      "text": "Wie alt sind Sie?",
       "options": [
-        { "label": "Ja, regelmäßig", "value": 0 },
-        { "label": "Manchmal", "value": 1 },
-        { "label": "Selten", "value": 2 },
-        { "label": "Nein / nicht zutreffend", "value": 3 }
+        {
+          "label": "Unter 30",
+          "value": 0
+        },
+        {
+          "label": "30–45",
+          "value": 1
+        },
+        {
+          "label": "46–60",
+          "value": 2
+        },
+        {
+          "label": "Über 60",
+          "value": 3
+        }
       ]
     },
     {
       "id": 3,
-      "text": "Leiden Sie unter Muskelkrämpfen oder -spasmen, besonders nachts?",
+      "text": "Wenn Sie auf Milchprodukte verzichten, konsumieren Sie kalziumangereicherte Alternativen oder kalziumreiche pflanzliche Lebensmittel?",
       "options": [
-        { "label": "Selten", "value": 0 },
-        { "label": "Gelegentlich", "value": 1 },
-        { "label": "Häufig", "value": 2 },
-        { "label": "Sehr häufig", "value": 3 }
+        {
+          "label": "Ja, regelmäßig",
+          "value": 0
+        },
+        {
+          "label": "Manchmal",
+          "value": 1
+        },
+        {
+          "label": "Selten",
+          "value": 2
+        },
+        {
+          "label": "Nein / nicht zutreffend",
+          "value": 3
+        }
       ]
     },
     {
       "id": 4,
-      "text": "Haben Sie Taubheitsgefühle oder Kribbeln in den Fingern oder um den Mund?",
+      "text": "Leiden Sie unter Muskelkrämpfen oder -spasmen, besonders nachts?",
       "options": [
-        { "label": "Nie", "value": 0 },
-        { "label": "Selten", "value": 1 },
-        { "label": "Manchmal", "value": 2 },
-        { "label": "Oft", "value": 3 }
+        {
+          "label": "Selten",
+          "value": 0
+        },
+        {
+          "label": "Gelegentlich",
+          "value": 1
+        },
+        {
+          "label": "Häufig",
+          "value": 2
+        },
+        {
+          "label": "Sehr häufig",
+          "value": 3
+        }
       ]
     },
     {
       "id": 5,
-      "text": "Hatten Sie Knochenbrüche durch leichte Stürze oder Aufpralle?",
+      "text": "Haben Sie Taubheitsgefühle oder Kribbeln in den Fingern oder um den Mund?",
       "options": [
-        { "label": "Nein", "value": 0 },
-        { "label": "Einen, vor Jahren", "value": 1 },
-        { "label": "Einen kürzlich oder mehrere in der Vergangenheit", "value": 2 },
-        { "label": "Mehrere Brüche oder diagnostizierte niedrige Knochendichte", "value": 3 }
+        {
+          "label": "Nie",
+          "value": 0
+        },
+        {
+          "label": "Selten",
+          "value": 1
+        },
+        {
+          "label": "Manchmal",
+          "value": 2
+        },
+        {
+          "label": "Oft",
+          "value": 3
+        }
       ]
     },
     {
       "id": 6,
-      "text": "Sind Sie postmenopausal oder über 65?",
+      "text": "Hatten Sie Knochenbrüche durch leichte Stürze oder Aufpralle?",
       "options": [
-        { "label": "Nein, beides trifft nicht zu", "value": 0 },
-        { "label": "Nähert sich der Menopause oder über 55", "value": 1 },
-        { "label": "Postmenopausal oder über 65", "value": 2 },
-        { "label": "Postmenopausal und über 65", "value": 3 }
+        {
+          "label": "Nein",
+          "value": 0
+        },
+        {
+          "label": "Einen, vor Jahren",
+          "value": 1
+        },
+        {
+          "label": "Einen kürzlich oder mehrere in der Vergangenheit",
+          "value": 2
+        },
+        {
+          "label": "Mehrere Brüche oder diagnostizierte niedrige Knochendichte",
+          "value": 3
+        }
       ]
     },
     {
       "id": 7,
-      "text": "Nehmen Sie ein Kalziumpräparat ein?",
+      "text": "Sind Sie postmenopausal oder über 65?",
       "options": [
-        { "label": "Ja, regelmäßig", "value": 0 },
-        { "label": "Gelegentlich", "value": 1 },
-        { "label": "Selten", "value": 2 },
-        { "label": "Nie", "value": 3 }
+        {
+          "label": "Nein, beides trifft nicht zu",
+          "value": 0
+        },
+        {
+          "label": "Nähert sich der Menopause oder über 55",
+          "value": 1
+        },
+        {
+          "label": "Postmenopausal oder über 65",
+          "value": 2
+        },
+        {
+          "label": "Postmenopausal und über 65",
+          "value": 3
+        }
       ]
     },
     {
       "id": 8,
-      "text": "Trinken Sie viele koffeinhaltige Getränke (Kaffee, Tee, Limonade)?",
+      "text": "Nehmen Sie ein Kalziumpräparat ein?",
       "options": [
-        { "label": "0–1 Tassen pro Tag", "value": 0 },
-        { "label": "2–3 Tassen pro Tag", "value": 1 },
-        { "label": "4–5 Tassen pro Tag", "value": 2 },
-        { "label": "6+ Tassen pro Tag", "value": 3 }
+        {
+          "label": "Ja, regelmäßig",
+          "value": 0
+        },
+        {
+          "label": "Gelegentlich",
+          "value": 1
+        },
+        {
+          "label": "Selten",
+          "value": 2
+        },
+        {
+          "label": "Nie",
+          "value": 3
+        }
       ]
     },
     {
       "id": 9,
-      "text": "Haben Sie brüchige Nägel?",
+      "text": "Trinken Sie viele koffeinhaltige Getränke (Kaffee, Tee, Limonade)?",
       "options": [
-        { "label": "Nein", "value": 0 },
-        { "label": "Leicht", "value": 1 },
-        { "label": "Merklich", "value": 2 },
-        { "label": "Sehr brüchig", "value": 3 }
+        {
+          "label": "0–1 Tassen pro Tag",
+          "value": 0
+        },
+        {
+          "label": "2–3 Tassen pro Tag",
+          "value": 1
+        },
+        {
+          "label": "4–5 Tassen pro Tag",
+          "value": 2
+        },
+        {
+          "label": "6+ Tassen pro Tag",
+          "value": 3
+        }
       ]
     },
     {
       "id": 10,
+      "text": "Haben Sie brüchige Nägel?",
+      "options": [
+        {
+          "label": "Nein",
+          "value": 0
+        },
+        {
+          "label": "Leicht",
+          "value": 1
+        },
+        {
+          "label": "Merklich",
+          "value": 2
+        },
+        {
+          "label": "Sehr brüchig",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": 11,
       "text": "Haben Sie eine Erkrankung oder nehmen Sie Medikamente ein, die die Kalziumaufnahme beeinflussen (Schilddrüsenerkrankung, Kortikosteroide, Antazida)?",
       "options": [
-        { "label": "Nein", "value": 0 },
-        { "label": "Möglicherweise ein leichter Faktor", "value": 1 },
-        { "label": "Ein bedeutender Faktor", "value": 2 },
-        { "label": "Mehrere Faktoren", "value": 3 }
+        {
+          "label": "Nein",
+          "value": 0
+        },
+        {
+          "label": "Möglicherweise ein leichter Faktor",
+          "value": 1
+        },
+        {
+          "label": "Ein bedeutender Faktor",
+          "value": 2
+        },
+        {
+          "label": "Mehrere Faktoren",
+          "value": 3
+        }
       ]
     }
   ],
   "results": [
     {
       "minScore": 0,
-      "maxScore": 6,
+      "maxScore": 7,
       "tier": "Niedriges Risiko",
       "title": "Niedriges Risiko — Kalziumzufuhr wahrscheinlich ausreichend",
       "description": "Kalziumzufuhr und Symptome erscheinen ausreichend. Setzen Sie Ihre aktuellen Ernährungsgewohnheiten fort.",
@@ -123,8 +265,8 @@
       "color": "green"
     },
     {
-      "minScore": 7,
-      "maxScore": 13,
+      "minScore": 8,
+      "maxScore": 14,
       "tier": "Leichtes Risiko",
       "title": "Leichtes Risiko — Einige Kalzium-Risikofaktoren vorhanden",
       "description": "Einige Risikofaktoren vorhanden. Überprüfen Sie Ihre Nahrungsaufnahme und erwägen Sie eine DEXA-Untersuchung, wenn Sie über 50 sind.",
@@ -137,8 +279,8 @@
       "color": "yellow"
     },
     {
-      "minScore": 14,
-      "maxScore": 20,
+      "minScore": 15,
+      "maxScore": 22,
       "tier": "Mittleres Risiko",
       "title": "Mittleres Risiko — Mögliche Kalziumunterversorgung",
       "description": "Mehrere Risikofaktoren für Kalziumunterversorgung. Blutkalzium- und Vitamin-D-Tests werden empfohlen.",
@@ -151,8 +293,8 @@
       "color": "orange"
     },
     {
-      "minScore": 21,
-      "maxScore": 30,
+      "minScore": 23,
+      "maxScore": 33,
       "tier": "Hohes Risiko",
       "title": "Hohes Risiko — Möglicher Kalziummangel",
       "description": "Hohes Risiko für Kalziummangel. Konsultieren Sie einen Arzt für eine Knochendichtebewertung und einen Ergänzungsplan.",
@@ -183,7 +325,11 @@
       "answer": "Vitamin D ist für die Kalziumaufnahme im Darm unerlässlich. Ohne ausreichend Vitamin D kann Ihr Körper nur etwa 10–15 % des Nahrungskalziums aufnehmen. Bei ausreichender Vitamin-D-Versorgung steigt die Aufnahme auf 30–40 %. Deshalb treten Kalzium- und Vitamin-D-Mangel häufig zusammen auf."
     }
   ],
-  "relatedSlugs": ["vitamin-d-deficiency", "magnesium-deficiency", "potassium-deficiency"],
+  "relatedSlugs": [
+    "vitamin-d-deficiency",
+    "magnesium-deficiency",
+    "potassium-deficiency"
+  ],
   "sources": [
     "National Institutes of Health. Office of Dietary Supplements — Calcium Fact Sheet.",
     "Weaver, C.M. et al. (2016). Calcium plus vitamin D supplementation and risk of fractures. Osteoporosis International, 27, 367-376.",
