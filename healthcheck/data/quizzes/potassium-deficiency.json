@@ -11,107 +11,249 @@
       "id": 1,
       "text": "Wie oft essen Sie kaliumreiche Lebensmittel (Bananen, Kartoffeln, Spinat, Avocados, Bohnen)?",
       "options": [
-        { "label": "Mehrere Portionen täglich", "value": 0 },
-        { "label": "1–2 Portionen täglich", "value": 1 },
-        { "label": "Ein paar Mal pro Woche", "value": 2 },
-        { "label": "Selten", "value": 3 }
+        {
+          "label": "Mehrere Portionen täglich",
+          "value": 0
+        },
+        {
+          "label": "1–2 Portionen täglich",
+          "value": 1
+        },
+        {
+          "label": "Ein paar Mal pro Woche",
+          "value": 2
+        },
+        {
+          "label": "Selten",
+          "value": 3
+        }
       ]
     },
     {
       "id": 2,
-      "text": "Leiden Sie unter Muskelschwäche oder Müdigkeit?",
+      "text": "Wie alt sind Sie?",
       "options": [
-        { "label": "Selten", "value": 0 },
-        { "label": "Gelegentlich", "value": 1 },
-        { "label": "Häufig", "value": 2 },
-        { "label": "Dauerhaft", "value": 3 }
+        {
+          "label": "Unter 30",
+          "value": 0
+        },
+        {
+          "label": "30–45",
+          "value": 1
+        },
+        {
+          "label": "46–60",
+          "value": 2
+        },
+        {
+          "label": "Über 60",
+          "value": 3
+        }
       ]
     },
     {
       "id": 3,
-      "text": "Leiden Sie unter Muskelkrämpfen oder Steifheit?",
+      "text": "Leiden Sie unter Muskelschwäche oder Müdigkeit?",
       "options": [
-        { "label": "Selten", "value": 0 },
-        { "label": "Gelegentlich", "value": 1 },
-        { "label": "Häufig", "value": 2 },
-        { "label": "Sehr häufig", "value": 3 }
+        {
+          "label": "Selten",
+          "value": 0
+        },
+        {
+          "label": "Gelegentlich",
+          "value": 1
+        },
+        {
+          "label": "Häufig",
+          "value": 2
+        },
+        {
+          "label": "Dauerhaft",
+          "value": 3
+        }
       ]
     },
     {
       "id": 4,
-      "text": "Erleben Sie Herzrasen oder unregelmäßigen Herzschlag?",
+      "text": "Leiden Sie unter Muskelkrämpfen oder Steifheit?",
       "options": [
-        { "label": "Nie", "value": 0 },
-        { "label": "Selten", "value": 1 },
-        { "label": "Manchmal", "value": 2 },
-        { "label": "Häufig", "value": 3 }
+        {
+          "label": "Selten",
+          "value": 0
+        },
+        {
+          "label": "Gelegentlich",
+          "value": 1
+        },
+        {
+          "label": "Häufig",
+          "value": 2
+        },
+        {
+          "label": "Sehr häufig",
+          "value": 3
+        }
       ]
     },
     {
       "id": 5,
-      "text": "Nehmen Sie Diuretika oder Abführmittel ein?",
+      "text": "Erleben Sie Herzrasen oder unregelmäßigen Herzschlag?",
       "options": [
-        { "label": "Nein", "value": 0 },
-        { "label": "Gelegentlich", "value": 1 },
-        { "label": "Regelmäßig", "value": 2 },
-        { "label": "Häufig / hohe Dosis", "value": 3 }
+        {
+          "label": "Nie",
+          "value": 0
+        },
+        {
+          "label": "Selten",
+          "value": 1
+        },
+        {
+          "label": "Manchmal",
+          "value": 2
+        },
+        {
+          "label": "Häufig",
+          "value": 3
+        }
       ]
     },
     {
       "id": 6,
-      "text": "Wie stark schwitzen Sie täglich durch Sport oder Hitze?",
+      "text": "Nehmen Sie Diuretika oder Abführmittel ein?",
       "options": [
-        { "label": "Leichtes Schwitzen gelegentlich", "value": 0 },
-        { "label": "Mäßiges Schwitzen an den meisten Tagen", "value": 1 },
-        { "label": "Starkes Schwitzen täglich", "value": 2 },
-        { "label": "Extremes Schwitzen (Leistungssport, körperliche Arbeit bei Hitze)", "value": 3 }
+        {
+          "label": "Nein",
+          "value": 0
+        },
+        {
+          "label": "Gelegentlich",
+          "value": 1
+        },
+        {
+          "label": "Regelmäßig",
+          "value": 2
+        },
+        {
+          "label": "Häufig / hohe Dosis",
+          "value": 3
+        }
       ]
     },
     {
       "id": 7,
-      "text": "Erleben Sie Kribbeln oder Taubheitsgefühl in den Extremitäten?",
+      "text": "Wie stark schwitzen Sie täglich durch Sport oder Hitze?",
       "options": [
-        { "label": "Nie", "value": 0 },
-        { "label": "Selten", "value": 1 },
-        { "label": "Manchmal", "value": 2 },
-        { "label": "Oft", "value": 3 }
+        {
+          "label": "Leichtes Schwitzen gelegentlich",
+          "value": 0
+        },
+        {
+          "label": "Mäßiges Schwitzen an den meisten Tagen",
+          "value": 1
+        },
+        {
+          "label": "Starkes Schwitzen täglich",
+          "value": 2
+        },
+        {
+          "label": "Extremes Schwitzen (Leistungssport, körperliche Arbeit bei Hitze)",
+          "value": 3
+        }
       ]
     },
     {
       "id": 8,
-      "text": "Leiden Sie unter Blähungen oder Verstopfung?",
+      "text": "Erleben Sie Kribbeln oder Taubheitsgefühl in den Extremitäten?",
       "options": [
-        { "label": "Selten", "value": 0 },
-        { "label": "Gelegentlich", "value": 1 },
-        { "label": "Häufig", "value": 2 },
-        { "label": "Chronisch", "value": 3 }
+        {
+          "label": "Nie",
+          "value": 0
+        },
+        {
+          "label": "Selten",
+          "value": 1
+        },
+        {
+          "label": "Manchmal",
+          "value": 2
+        },
+        {
+          "label": "Oft",
+          "value": 3
+        }
       ]
     },
     {
       "id": 9,
-      "text": "Wie viel verarbeitete oder natriumreiche Nahrung essen Sie?",
+      "text": "Leiden Sie unter Blähungen oder Verstopfung?",
       "options": [
-        { "label": "Sehr wenig — ich koche frisch", "value": 0 },
-        { "label": "Einige verarbeitete Lebensmittel", "value": 1 },
-        { "label": "Häufig verarbeitete Lebensmittel/Fast Food", "value": 2 },
-        { "label": "Der Großteil meiner Ernährung ist verarbeitet", "value": 3 }
+        {
+          "label": "Selten",
+          "value": 0
+        },
+        {
+          "label": "Gelegentlich",
+          "value": 1
+        },
+        {
+          "label": "Häufig",
+          "value": 2
+        },
+        {
+          "label": "Chronisch",
+          "value": 3
+        }
       ]
     },
     {
       "id": 10,
+      "text": "Wie viel verarbeitete oder natriumreiche Nahrung essen Sie?",
+      "options": [
+        {
+          "label": "Sehr wenig — ich koche frisch",
+          "value": 0
+        },
+        {
+          "label": "Einige verarbeitete Lebensmittel",
+          "value": 1
+        },
+        {
+          "label": "Häufig verarbeitete Lebensmittel/Fast Food",
+          "value": 2
+        },
+        {
+          "label": "Der Großteil meiner Ernährung ist verarbeitet",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": 11,
       "text": "Haben Sie eine Nierenerkrankung oder Magen-Darm-Probleme (Erbrechen, Durchfall)?",
       "options": [
-        { "label": "Nein", "value": 0 },
-        { "label": "Gelegentliche Magen-Darm-Beschwerden", "value": 1 },
-        { "label": "Chronische Magen-Darm-Erkrankung", "value": 2 },
-        { "label": "Nierenerkrankung oder chronische Magen-Darm-Probleme", "value": 3 }
+        {
+          "label": "Nein",
+          "value": 0
+        },
+        {
+          "label": "Gelegentliche Magen-Darm-Beschwerden",
+          "value": 1
+        },
+        {
+          "label": "Chronische Magen-Darm-Erkrankung",
+          "value": 2
+        },
+        {
+          "label": "Nierenerkrankung oder chronische Magen-Darm-Probleme",
+          "value": 3
+        }
       ]
     }
   ],
   "results": [
     {
       "minScore": 0,
-      "maxScore": 6,
+      "maxScore": 7,
       "tier": "Niedriges Risiko",
       "title": "Niedriges Risiko — Kaliumzufuhr wahrscheinlich ausreichend",
       "description": "Kaliumzufuhr und Symptome erscheinen ausreichend. Setzen Sie Ihre bisherigen Ernährungsgewohnheiten fort.",
@@ -123,8 +265,8 @@
       "color": "green"
     },
     {
-      "minScore": 7,
-      "maxScore": 13,
+      "minScore": 8,
+      "maxScore": 14,
       "tier": "Leichtes Risiko",
       "title": "Leichtes Risiko — Geringe Kalium-Risikofaktoren",
       "description": "Geringe Risikofaktoren. Erhöhen Sie die Aufnahme kaliumreicher Lebensmittel und achten Sie auf Ihre Flüssigkeitszufuhr.",
@@ -137,8 +279,8 @@
       "color": "yellow"
     },
     {
-      "minScore": 14,
-      "maxScore": 20,
+      "minScore": 15,
+      "maxScore": 22,
       "tier": "Mittleres Risiko",
       "title": "Mittleres Risiko — Möglicherweise niedriges Kalium",
       "description": "Mehrere Indikatoren für möglicherweise niedriges Kalium. Ein einfaches Stoffwechselpanel wird empfohlen.",
@@ -151,8 +293,8 @@
       "color": "orange"
     },
     {
-      "minScore": 21,
-      "maxScore": 30,
+      "minScore": 23,
+      "maxScore": 33,
       "tier": "Hohes Risiko",
       "title": "Hohes Risiko — Mögliche Hypokaliämie",
       "description": "Starkes Risikoprofil für Hypokaliämie. Suchen Sie ärztliche Hilfe — niedriges Kalium kann den Herzrhythmus beeinträchtigen.",
@@ -183,7 +325,11 @@
       "answer": "Eine hohe Natriumaufnahme veranlasst Ihre Nieren, mehr Kalium auszuscheiden. Die typische westliche Ernährung ist sehr natriumreich und kaliumarm — das Gegenteil dessen, was Ihr Körper braucht. Die Reduzierung verarbeiteter Lebensmittel hilft sowohl Natrium zu senken als auch Kalium aus Vollwertkost zu erhöhen."
     }
   ],
-  "relatedSlugs": ["magnesium-deficiency", "calcium-deficiency", "iron-deficiency"],
+  "relatedSlugs": [
+    "magnesium-deficiency",
+    "calcium-deficiency",
+    "iron-deficiency"
+  ],
   "sources": [
     "National Academies of Sciences. (2019). Dietary Reference Intakes for Sodium and Potassium.",
     "Weaver, C.M. (2013). Potassium and Health. Advances in Nutrition, 4(3), 368S-377S.",

@@ -11,107 +11,249 @@
       "id": 1,
       "text": "Leiden Sie unter Muskelkrämpfen, -zuckungen oder Spasmen?",
       "options": [
-        { "label": "Selten oder nie", "value": 0 },
-        { "label": "Gelegentlich", "value": 1 },
-        { "label": "Häufig, besonders nachts", "value": 2 },
-        { "label": "Sehr häufig — tägliche oder fast tägliche Krämpfe", "value": 3 }
+        {
+          "label": "Selten oder nie",
+          "value": 0
+        },
+        {
+          "label": "Gelegentlich",
+          "value": 1
+        },
+        {
+          "label": "Häufig, besonders nachts",
+          "value": 2
+        },
+        {
+          "label": "Sehr häufig — tägliche oder fast tägliche Krämpfe",
+          "value": 3
+        }
       ]
     },
     {
       "id": 2,
-      "text": "Haben Sie Schwierigkeiten beim Ein- oder Durchschlafen?",
+      "text": "Wie alt sind Sie?",
       "options": [
-        { "label": "Ich schlafe gut", "value": 0 },
-        { "label": "Gelegentliche Schwierigkeiten", "value": 1 },
-        { "label": "Häufige Schlafprobleme", "value": 2 },
-        { "label": "Chronische Schlaflosigkeit", "value": 3 }
+        {
+          "label": "Unter 30",
+          "value": 0
+        },
+        {
+          "label": "30–45",
+          "value": 1
+        },
+        {
+          "label": "46–60",
+          "value": 2
+        },
+        {
+          "label": "Über 60",
+          "value": 3
+        }
       ]
     },
     {
       "id": 3,
-      "text": "Wie oft fühlen Sie sich ängstlich oder erleben Herzrasen?",
+      "text": "Haben Sie Schwierigkeiten beim Ein- oder Durchschlafen?",
       "options": [
-        { "label": "Selten", "value": 0 },
-        { "label": "Manchmal", "value": 1 },
-        { "label": "Häufig", "value": 2 },
-        { "label": "Sehr häufig", "value": 3 }
+        {
+          "label": "Ich schlafe gut",
+          "value": 0
+        },
+        {
+          "label": "Gelegentliche Schwierigkeiten",
+          "value": 1
+        },
+        {
+          "label": "Häufige Schlafprobleme",
+          "value": 2
+        },
+        {
+          "label": "Chronische Schlaflosigkeit",
+          "value": 3
+        }
       ]
     },
     {
       "id": 4,
-      "text": "Wie viel Alkohol trinken Sie pro Woche?",
+      "text": "Wie oft fühlen Sie sich ängstlich oder erleben Herzrasen?",
       "options": [
-        { "label": "Keinen oder sehr wenig", "value": 0 },
-        { "label": "1–3 Getränke", "value": 1 },
-        { "label": "4–7 Getränke", "value": 2 },
-        { "label": "8+ Getränke", "value": 3 }
+        {
+          "label": "Selten",
+          "value": 0
+        },
+        {
+          "label": "Manchmal",
+          "value": 1
+        },
+        {
+          "label": "Häufig",
+          "value": 2
+        },
+        {
+          "label": "Sehr häufig",
+          "value": 3
+        }
       ]
     },
     {
       "id": 5,
-      "text": "Essen Sie regelmäßig magnesiumreiche Lebensmittel (dunkles Blattgemüse, Nüsse, Samen, dunkle Schokolade, Vollkornprodukte)?",
+      "text": "Wie viel Alkohol trinken Sie pro Woche?",
       "options": [
-        { "label": "Täglich", "value": 0 },
-        { "label": "Mehrmals pro Woche", "value": 1 },
-        { "label": "Selten", "value": 2 },
-        { "label": "Fast nie", "value": 3 }
+        {
+          "label": "Keinen oder sehr wenig",
+          "value": 0
+        },
+        {
+          "label": "1–3 Getränke",
+          "value": 1
+        },
+        {
+          "label": "4–7 Getränke",
+          "value": 2
+        },
+        {
+          "label": "8+ Getränke",
+          "value": 3
+        }
       ]
     },
     {
       "id": 6,
-      "text": "Nehmen Sie Medikamente ein, die Magnesium verbrauchen (Diuretika, Protonenpumpenhemmer, bestimmte Antibiotika)?",
+      "text": "Essen Sie regelmäßig magnesiumreiche Lebensmittel (dunkles Blattgemüse, Nüsse, Samen, dunkle Schokolade, Vollkornprodukte)?",
       "options": [
-        { "label": "Nein", "value": 0 },
-        { "label": "Eines, gelegentlich", "value": 1 },
-        { "label": "Eines, regelmäßig", "value": 2 },
-        { "label": "Mehrere oder langfristig", "value": 3 }
+        {
+          "label": "Täglich",
+          "value": 0
+        },
+        {
+          "label": "Mehrmals pro Woche",
+          "value": 1
+        },
+        {
+          "label": "Selten",
+          "value": 2
+        },
+        {
+          "label": "Fast nie",
+          "value": 3
+        }
       ]
     },
     {
       "id": 7,
-      "text": "Leiden Sie unter häufigen Kopfschmerzen oder Migräne?",
+      "text": "Nehmen Sie Medikamente ein, die Magnesium verbrauchen (Diuretika, Protonenpumpenhemmer, bestimmte Antibiotika)?",
       "options": [
-        { "label": "Selten", "value": 0 },
-        { "label": "Gelegentlich", "value": 1 },
-        { "label": "Häufig", "value": 2 },
-        { "label": "Chronische Migräne", "value": 3 }
+        {
+          "label": "Nein",
+          "value": 0
+        },
+        {
+          "label": "Eines, gelegentlich",
+          "value": 1
+        },
+        {
+          "label": "Eines, regelmäßig",
+          "value": 2
+        },
+        {
+          "label": "Mehrere oder langfristig",
+          "value": 3
+        }
       ]
     },
     {
       "id": 8,
-      "text": "Wie würden Sie Ihr allgemeines Stressniveau einschätzen?",
+      "text": "Leiden Sie unter häufigen Kopfschmerzen oder Migräne?",
       "options": [
-        { "label": "Niedrig", "value": 0 },
-        { "label": "Mäßig", "value": 1 },
-        { "label": "Hoch", "value": 2 },
-        { "label": "Sehr hoch / chronischer Stress", "value": 3 }
+        {
+          "label": "Selten",
+          "value": 0
+        },
+        {
+          "label": "Gelegentlich",
+          "value": 1
+        },
+        {
+          "label": "Häufig",
+          "value": 2
+        },
+        {
+          "label": "Chronische Migräne",
+          "value": 3
+        }
       ]
     },
     {
       "id": 9,
-      "text": "Leiden Sie unter Verstopfung?",
+      "text": "Wie würden Sie Ihr allgemeines Stressniveau einschätzen?",
       "options": [
-        { "label": "Nein — der Stuhlgang ist regelmäßig", "value": 0 },
-        { "label": "Gelegentlich", "value": 1 },
-        { "label": "Häufig", "value": 2 },
-        { "label": "Chronisch", "value": 3 }
+        {
+          "label": "Niedrig",
+          "value": 0
+        },
+        {
+          "label": "Mäßig",
+          "value": 1
+        },
+        {
+          "label": "Hoch",
+          "value": 2
+        },
+        {
+          "label": "Sehr hoch / chronischer Stress",
+          "value": 3
+        }
       ]
     },
     {
       "id": 10,
+      "text": "Leiden Sie unter Verstopfung?",
+      "options": [
+        {
+          "label": "Nein — der Stuhlgang ist regelmäßig",
+          "value": 0
+        },
+        {
+          "label": "Gelegentlich",
+          "value": 1
+        },
+        {
+          "label": "Häufig",
+          "value": 2
+        },
+        {
+          "label": "Chronisch",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": 11,
       "text": "Haben Sie Typ-2-Diabetes oder ein erhöhtes Risiko dafür?",
       "options": [
-        { "label": "Keine Risikofaktoren", "value": 0 },
-        { "label": "Einige Risikofaktoren (familiäre Vorbelastung, Übergewicht)", "value": 1 },
-        { "label": "Prädiabetisch oder hohes Risiko", "value": 2 },
-        { "label": "Diagnostizierter Typ-2-Diabetes", "value": 3 }
+        {
+          "label": "Keine Risikofaktoren",
+          "value": 0
+        },
+        {
+          "label": "Einige Risikofaktoren (familiäre Vorbelastung, Übergewicht)",
+          "value": 1
+        },
+        {
+          "label": "Prädiabetisch oder hohes Risiko",
+          "value": 2
+        },
+        {
+          "label": "Diagnostizierter Typ-2-Diabetes",
+          "value": 3
+        }
       ]
     }
   ],
   "results": [
     {
       "minScore": 0,
-      "maxScore": 6,
+      "maxScore": 7,
       "tier": "Niedriges Risiko",
       "title": "Niedriges Risiko — Magnesiumstatus wahrscheinlich ausreichend",
       "description": "Keine wesentlichen Anzeichen für einen Magnesiummangel. Ihre Ernährung und Ihr Lebensstil deuten auf einen ausreichenden Magnesiumspiegel hin.",
@@ -123,8 +265,8 @@
       "color": "green"
     },
     {
-      "minScore": 7,
-      "maxScore": 13,
+      "minScore": 8,
+      "maxScore": 14,
       "tier": "Leichtes Risiko",
       "title": "Leichtes Risiko — Suboptimaler Magnesiumspiegel möglich",
       "description": "Einige Risikofaktoren vorhanden. Erwägen Sie, mehr magnesiumreiche Lebensmittel in Ihre Ernährung aufzunehmen.",
@@ -137,8 +279,8 @@
       "color": "yellow"
     },
     {
-      "minScore": 14,
-      "maxScore": 20,
+      "minScore": 15,
+      "maxScore": 22,
       "tier": "Mittleres Risiko",
       "title": "Mittleres Risiko — Mögliche Magnesiuminsuffizienz",
       "description": "Mehrere Anzeichen für eine mögliche Hypomagnesiämie. Ein Serum-Magnesiumtest (und idealerweise ein RBC-Magnesiumtest) wird empfohlen.",
@@ -151,8 +293,8 @@
       "color": "orange"
     },
     {
-      "minScore": 21,
-      "maxScore": 30,
+      "minScore": 23,
+      "maxScore": 33,
       "tier": "Hohes Risiko",
       "title": "Hohes Risiko — Möglicher Magnesiummangel",
       "description": "Starkes Risikoprofil für Magnesiummangel. Eine ärztliche Untersuchung und begleitete Supplementierung werden empfohlen.",
@@ -183,7 +325,11 @@
       "answer": "Die empfohlene Tagesdosis beträgt 310–320 mg für Frauen und 400–420 mg für Männer. Viele Experten sind der Meinung, dass die optimale Zufuhr höher sein könnte. Gute Quellen sind Kürbiskerne, Mandeln, Spinat, dunkle Schokolade, Avocados und schwarze Bohnen."
     }
   ],
-  "relatedSlugs": ["calcium-deficiency", "potassium-deficiency", "vitamin-d-deficiency"],
+  "relatedSlugs": [
+    "calcium-deficiency",
+    "potassium-deficiency",
+    "vitamin-d-deficiency"
+  ],
   "sources": [
     "DiNicolantonio, J.J. et al. (2018). Subclinical magnesium deficiency: a principal driver of cardiovascular disease. Open Heart, 5(1), e000668.",
     "Guerrera, M.P. et al. (2009). Therapeutic uses of magnesium. American Family Physician, 80(2), 157-162.",
