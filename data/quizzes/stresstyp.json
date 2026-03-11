@@ -1,0 +1,207 @@
+{
+  "slug": "stresstyp",
+  "title": "Welcher Stresstyp bin ich? — Stresstyp-Test",
+  "shortTitle": "Stresstyp",
+  "description": "Finden Sie heraus, wie Sie mit Stress umgehen und welcher Stresstyp Sie sind. Basierend auf der Perceived Stress Scale (PSS) und der Stresstypen-Forschung erhalten Sie eine wissenschaftlich fundierte Einschätzung Ihres Stressverhaltens.",
+  "category": "self-discovery",
+  "scientificBasis": "Basierend auf der Perceived Stress Scale (PSS) von Cohen, Kamarck & Mermelstein (1983), dem weltweit meistverwendeten psychologischen Instrument zur Messung von wahrgenommenem Stress. Ergänzt durch die Stressbewältigungsforschung von Lazarus & Folkman (transaktionales Stressmodell).",
+  "seoIntro": "Stress ist eine natürliche Reaktion des Körpers auf Herausforderungen — aber nicht jeder Mensch erlebt und verarbeitet Stress auf die gleiche Weise. Die Stressforschung hat gezeigt, dass es verschiedene Stresstypen gibt, die sich in ihrer Wahrnehmung von Stress, ihren körperlichen Reaktionen und ihren Bewältigungsstrategien unterscheiden.\n\nDas transaktionale Stressmodell von Lazarus und Folkman erklärt, dass Stress nicht allein durch äußere Ereignisse entsteht, sondern durch die subjektive Bewertung einer Situation. Entscheidend ist, ob wir eine Situation als bedrohlich einschätzen und ob wir glauben, ausreichende Ressourcen zur Bewältigung zu haben.\n\nChronischer Stress ist mit zahlreichen Gesundheitsproblemen verbunden: erhöhtes Cortisol, Bluthochdruck, geschwächtes Immunsystem, Schlafstörungen, Verdauungsprobleme und psychische Erkrankungen. Das Wissen um Ihren Stresstyp ist der erste Schritt zu besseren Bewältigungsstrategien.\n\nDieser Test gibt Ihnen eine erste Einschätzung. Bei anhaltendem, starkem Stress empfehlen wir die Rücksprache mit einem Psychologen oder Therapeuten.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Wie oft haben Sie sich im letzten Monat durch unerwartete Ereignisse aus der Bahn werfen lassen?",
+      "options": [
+        { "label": "Nie — ich bleibe bei Unvorhergesehenem ruhig", "value": 0 },
+        { "label": "Selten — meistens komme ich damit klar", "value": 1 },
+        { "label": "Oft — Überraschungen stressen mich merklich", "value": 2 },
+        { "label": "Sehr oft — jedes unerwartete Ereignis wirft mich aus dem Gleichgewicht", "value": 3 }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Wie häufig hatten Sie das Gefühl, wichtige Dinge in Ihrem Leben nicht kontrollieren zu können?",
+      "options": [
+        { "label": "Nie — ich fühle mich im Griff", "value": 0 },
+        { "label": "Selten — nur in Ausnahmesituationen", "value": 1 },
+        { "label": "Oft — Kontrollverlust ist ein häufiges Thema", "value": 2 },
+        { "label": "Fast immer — ich fühle mich den Dingen ausgeliefert", "value": 3 }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Wie reagiert Ihr Körper typischerweise auf Stress?",
+      "options": [
+        { "label": "Kaum körperliche Reaktionen", "value": 0 },
+        { "label": "Leichte Verspannungen oder Unruhe", "value": 1 },
+        { "label": "Deutliche Symptome: Kopfschmerzen, Magenprobleme, Herzrasen", "value": 2 },
+        { "label": "Starke körperliche Reaktionen: Schlaflosigkeit, Erschöpfung, chronische Schmerzen", "value": 3 }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Wie gehen Sie typischerweise mit stressigen Situationen um?",
+      "options": [
+        { "label": "Aktiv — ich suche Lösungen und handle", "value": 0 },
+        { "label": "Abwartend — ich warte erst mal ab, was passiert", "value": 1 },
+        { "label": "Vermeidend — ich versuche, die Situation zu meiden", "value": 2 },
+        { "label": "Überwältigt — ich fühle mich gelähmt und handlungsunfähig", "value": 3 }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Wie oft fühlen Sie sich nervös und gestresst?",
+      "options": [
+        { "label": "Selten — ich bin meistens entspannt", "value": 0 },
+        { "label": "Manchmal — bei konkretem Anlass", "value": 1 },
+        { "label": "Oft — auch ohne konkreten Grund", "value": 2 },
+        { "label": "Ständig — ein Grundgefühl der Anspannung begleitet mich", "value": 3 }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Wie gut können Sie sich nach einem stressigen Tag erholen?",
+      "options": [
+        { "label": "Sehr gut — ich kann schnell abschalten", "value": 0 },
+        { "label": "Einigermaßen — es dauert eine Weile", "value": 1 },
+        { "label": "Schwierig — ich grüble oft noch stundenlang", "value": 2 },
+        { "label": "Kaum — der Stress verfolgt mich bis in die Nacht", "value": 3 }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Wie oft hatten Sie das Gefühl, dass sich Probleme so anhäufen, dass Sie sie nicht bewältigen können?",
+      "options": [
+        { "label": "Nie", "value": 0 },
+        { "label": "Selten", "value": 1 },
+        { "label": "Regelmäßig", "value": 2 },
+        { "label": "Häufig — ich fühle mich oft überfordert", "value": 3 }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Neigen Sie dazu, sich Sorgen über die Zukunft zu machen?",
+      "options": [
+        { "label": "Selten — ich nehme die Dinge wie sie kommen", "value": 0 },
+        { "label": "Manchmal — bei konkreten Anlässen", "value": 1 },
+        { "label": "Oft — Zukunftssorgen belasten mich regelmäßig", "value": 2 },
+        { "label": "Ständig — Grübeln über die Zukunft bestimmt meinen Alltag", "value": 3 }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Wie wirkt sich Stress auf Ihre Beziehungen aus?",
+      "options": [
+        { "label": "Kaum — ich kann Stress und Privatleben trennen", "value": 0 },
+        { "label": "Leicht — ich bin manchmal gereizt", "value": 1 },
+        { "label": "Merklich — ich werde schnell ungeduldig oder ziehe mich zurück", "value": 2 },
+        { "label": "Stark — Stress belastet meine Beziehungen erheblich", "value": 3 }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Wie häufig haben Sie das Gefühl, dass Ihnen die Zeit davonläuft?",
+      "options": [
+        { "label": "Selten — ich fühle mich zeitlich gut organisiert", "value": 0 },
+        { "label": "Manchmal — in besonders arbeitsreichen Phasen", "value": 1 },
+        { "label": "Oft — Zeitdruck ist ein ständiger Begleiter", "value": 2 },
+        { "label": "Fast immer — ich habe nie genug Zeit", "value": 3 }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Wie gut können Sie Nein sagen, wenn Ihnen zu viel wird?",
+      "options": [
+        { "label": "Gut — ich kenne und kommuniziere meine Grenzen", "value": 0 },
+        { "label": "Meistens — manchmal fällt es mir schwer", "value": 1 },
+        { "label": "Schwer — ich sage oft Ja, obwohl ich nicht sollte", "value": 2 },
+        { "label": "Kaum — ich kann fast nie Nein sagen", "value": 3 }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "minScore": 0,
+      "maxScore": 8,
+      "tier": "Stressresistent",
+      "title": "Der Stressresistente — Belastbar und gelassen",
+      "description": "Sie verfügen über eine hohe Stressresistenz und gute Bewältigungsstrategien. Sie können Herausforderungen mit Gelassenheit begegnen und erholen sich schnell von belastenden Situationen. Ihr Stresslevel ist gesund.",
+      "recommendations": [
+        "Behalten Sie Ihre effektiven Bewältigungsstrategien bei",
+        "Teilen Sie Ihre Strategien mit anderen — Sie können ein Vorbild sein",
+        "Bleiben Sie achtsam, auch resiliente Menschen können überbelastet werden",
+        "Präventive Maßnahmen wie regelmäßiger Sport und Entspannung wirken unterstützend"
+      ],
+      "color": "green"
+    },
+    {
+      "minScore": 9,
+      "maxScore": 16,
+      "tier": "Gelegentlich gestresst",
+      "title": "Der Gelegentlich Gestresste — Ausbaufähige Strategien",
+      "description": "Sie erleben moderate Stresslevel, die in bestimmten Situationen zunehmen. Ihre Bewältigungsstrategien funktionieren meistens, könnten aber in Spitzenzeiten verbessert werden. Achten Sie auf Frühwarnsignale.",
+      "recommendations": [
+        "Identifizieren Sie Ihre persönlichen Stresstrigger und arbeiten Sie gezielt daran",
+        "Erlernen Sie eine Entspannungstechnik wie Progressive Muskelrelaxation oder Meditation",
+        "Etablieren Sie feste Erholungsrituale im Alltag",
+        "Bewegen Sie sich regelmäßig — 150 Minuten moderate Aktivität pro Woche reduziert Stress deutlich"
+      ],
+      "color": "yellow"
+    },
+    {
+      "minScore": 17,
+      "maxScore": 24,
+      "tier": "Chronisch gestresst",
+      "title": "Der Chronisch Gestresste — Handlungsbedarf erkennbar",
+      "description": "Ihr Stresslevel ist deutlich erhöht und zeigt sich sowohl körperlich als auch emotional. Chronischer Stress in diesem Ausmaß kann langfristig gesundheitliche Folgen haben. Professionelle Unterstützung wird empfohlen.",
+      "recommendations": [
+        "Erwägen Sie eine Stressbewältigungs-Therapie oder ein Coaching",
+        "Lernen Sie, Grenzen zu setzen und Aufgaben zu delegieren",
+        "Ein ärztlicher Check-up kann stressbedingte körperliche Auswirkungen erkennen",
+        "Achtsamkeitsbasierte Stressreduktion (MBSR) hat in Studien hohe Wirksamkeit gezeigt"
+      ],
+      "color": "orange"
+    },
+    {
+      "minScore": 25,
+      "maxScore": 33,
+      "tier": "Stark überlastet",
+      "title": "Stark überlastet — Professionelle Hilfe dringend empfohlen",
+      "description": "Ihr Stresslevel ist kritisch hoch. Sie fühlen sich den Anforderungen kaum gewachsen und erleben starke körperliche und emotionale Symptome. In diesem Zustand ist professionelle Hilfe besonders wichtig.",
+      "recommendations": [
+        "Suchen Sie zeitnah einen Psychologen oder Therapeuten auf",
+        "Sprechen Sie mit Ihrem Hausarzt über Ihre Belastung",
+        "Reduzieren Sie wo möglich Verpflichtungen — Ihre Gesundheit hat Priorität",
+        "Krisentelefon: 0800 111 0 111 (kostenlos, 24/7) bei akuter Überlastung"
+      ],
+      "color": "red"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Was ist die Perceived Stress Scale (PSS)?",
+      "answer": "Die PSS ist das weltweit meistverwendete psychologische Instrument zur Messung von wahrgenommenem Stress. Sie wurde 1983 von Sheldon Cohen entwickelt und misst, inwieweit Situationen im Leben als stressig empfunden werden. Sie ist in über 40 Sprachen validiert."
+    },
+    {
+      "question": "Ist Stress immer schlecht?",
+      "answer": "Nein. Kurzfristiger Stress (Eustress) kann leistungssteigernd wirken und uns motivieren. Problematisch wird Stress erst, wenn er chronisch wird, wir keine ausreichenden Bewältigungsstrategien haben oder die Erholungsphasen fehlen. Das Yerkes-Dodson-Gesetz beschreibt den optimalen Stresspegel für beste Leistung."
+    },
+    {
+      "question": "Was sind die besten wissenschaftlich belegten Methoden gegen Stress?",
+      "answer": "Die Forschung zeigt hohe Wirksamkeit für: Achtsamkeitsbasierte Stressreduktion (MBSR), kognitive Verhaltenstherapie, regelmäßige körperliche Aktivität, Progressive Muskelrelaxation nach Jacobson, ausreichend Schlaf und soziale Unterstützung. Die beste Methode ist individuell verschieden."
+    },
+    {
+      "question": "Wann sollte ich professionelle Hilfe suchen?",
+      "answer": "Wenn Stress Ihren Alltag, Ihre Beziehungen oder Ihre Gesundheit dauerhaft beeinträchtigt. Auch wenn Sie körperliche Symptome wie chronische Schmerzen, Schlafstörungen oder Verdauungsprobleme ohne klare medizinische Ursache haben, kann chronischer Stress die Ursache sein."
+    }
+  ],
+  "relatedSlugs": [
+    "burnout-risiko",
+    "resilienz-test",
+    "achtsamkeits-test"
+  ],
+  "sources": [
+    "Cohen, S., Kamarck, T. & Mermelstein, R. (1983). A Global Measure of Perceived Stress. Journal of Health and Social Behavior, 24(4), 385-396.",
+    "Lazarus, R.S. & Folkman, S. (1984). Stress, Appraisal, and Coping. Springer Publishing Company.",
+    "McEwen, B.S. (2008). Central effects of stress hormones in health and disease. European Journal of Pharmacology, 583(2-3), 174-185."
+  ]
+}

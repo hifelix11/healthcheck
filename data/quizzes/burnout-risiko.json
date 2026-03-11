@@ -1,0 +1,207 @@
+{
+  "slug": "burnout-risiko",
+  "title": "Wie hoch ist mein Burnout-Risiko? — Burnout-Test",
+  "shortTitle": "Burnout-Risiko",
+  "description": "Bewerten Sie Ihr Burnout-Risiko mit unserem wissenschaftlich fundierten Selbsttest. Basierend auf dem Maslach Burnout Inventory (MBI) erkennen Sie frühzeitig Warnsignale für emotionale Erschöpfung, Depersonalisation und reduzierte Leistungsfähigkeit.",
+  "category": "self-discovery",
+  "scientificBasis": "Basierend auf dem Maslach Burnout Inventory (MBI) von Christina Maslach und Susan Jackson (1981), dem Goldstandard der Burnout-Diagnostik. Das MBI misst die drei Kerndimensionen: emotionale Erschöpfung, Depersonalisation und persönliche Leistungsfähigkeit.",
+  "seoIntro": "Burnout ist ein Zustand chronischer Erschöpfung, der durch langanhaltenden Stress am Arbeitsplatz oder im Privatleben entsteht. Die Weltgesundheitsorganisation (WHO) hat Burnout 2019 offiziell als Syndrom in die ICD-11 aufgenommen und definiert es als Resultat von chronischem, nicht erfolgreich bewältigtem Stress am Arbeitsplatz.\n\nBurnout entwickelt sich schleichend. Die drei Hauptdimensionen sind: emotionale Erschöpfung (das Gefühl, ausgelaugt und überfordert zu sein), Depersonalisation (zunehmende Distanzierung und Zynismus) und reduzierte persönliche Leistungsfähigkeit (das Gefühl, nichts mehr zu schaffen).\n\nStudien zeigen, dass bis zu 28% der Arbeitnehmer in Europa von Burnout-Symptomen betroffen sind. Besonders gefährdet sind Berufe mit hoher emotionaler Belastung, wenig Kontrolle und unzureichender Anerkennung.\n\nDieser Selbsttest kann erste Hinweise geben, ersetzt aber keine professionelle Diagnose. Bei Verdacht auf Burnout wenden Sie sich bitte an Ihren Hausarzt oder einen Psychotherapeuten.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Wie oft fühlen Sie sich am Ende eines Arbeitstages emotional ausgelaugt?",
+      "options": [
+        { "label": "Selten oder nie", "value": 0 },
+        { "label": "Manchmal — nach besonders anstrengenden Tagen", "value": 1 },
+        { "label": "Oft — an den meisten Arbeitstagen", "value": 2 },
+        { "label": "Täglich — ich fühle mich ständig erschöpft", "value": 3 }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Fühlen Sie sich morgens schon müde, wenn Sie an den bevorstehenden Arbeitstag denken?",
+      "options": [
+        { "label": "Nein — ich freue mich meist auf den Tag", "value": 0 },
+        { "label": "Gelegentlich — besonders am Montagmorgen", "value": 1 },
+        { "label": "Häufig — der Gedanke an die Arbeit belastet mich", "value": 2 },
+        { "label": "Fast jeden Morgen — ich fühle mich schon vor Arbeitsbeginn erschöpft", "value": 3 }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Haben Sie das Gefühl, dass Ihre Arbeit Sie emotional abstumpfen lässt?",
+      "options": [
+        { "label": "Nein — ich fühle mich emotional engagiert", "value": 0 },
+        { "label": "Leicht — manchmal distanziere ich mich etwas", "value": 1 },
+        { "label": "Merklich — ich werde zunehmend gleichgültig", "value": 2 },
+        { "label": "Stark — ich fühle mich zynisch und emotional taub", "value": 3 }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Wie oft haben Sie das Gefühl, bei der Arbeit wirklich etwas Sinnvolles zu bewirken?",
+      "options": [
+        { "label": "Häufig — meine Arbeit fühlt sich sinnvoll an", "value": 0 },
+        { "label": "Manchmal — es kommt auf den Tag an", "value": 1 },
+        { "label": "Selten — ich frage mich oft, wozu das alles gut ist", "value": 2 },
+        { "label": "Nie — meine Arbeit fühlt sich komplett sinnlos an", "value": 3 }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Können Sie nach der Arbeit gut abschalten und sich erholen?",
+      "options": [
+        { "label": "Ja — ich kann Arbeit und Freizeit gut trennen", "value": 0 },
+        { "label": "Meistens — manchmal nehme ich Arbeit gedanklich mit", "value": 1 },
+        { "label": "Schwierig — ich grüble oft über Arbeitsthemen nach", "value": 2 },
+        { "label": "Kaum — die Arbeit verfolgt mich ständig, auch im Urlaub", "value": 3 }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Wie hat sich Ihre Einstellung gegenüber Kollegen, Kunden oder Klienten verändert?",
+      "options": [
+        { "label": "Unverändert positiv — ich begegne Menschen offen", "value": 0 },
+        { "label": "Leicht verändert — ich bin manchmal weniger geduldig", "value": 1 },
+        { "label": "Deutlich verändert — ich werde zynisch oder gereizt", "value": 2 },
+        { "label": "Stark verändert — ich behandle Menschen wie Objekte, nicht wie Personen", "value": 3 }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Wie oft haben Sie körperliche Beschwerden, die Sie mit Ihrer Arbeit in Verbindung bringen?",
+      "options": [
+        { "label": "Selten oder nie", "value": 0 },
+        { "label": "Gelegentlich — Kopfschmerzen oder Verspannungen", "value": 1 },
+        { "label": "Regelmäßig — Schlafprobleme, Verdauungsbeschwerden, häufige Erkältungen", "value": 2 },
+        { "label": "Chronisch — mein Körper signalisiert deutlich Überlastung", "value": 3 }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Haben Sie den Eindruck, dass Ihre Leistungsfähigkeit im Vergleich zu früher abgenommen hat?",
+      "options": [
+        { "label": "Nein — ich bin genauso leistungsfähig wie immer", "value": 0 },
+        { "label": "Leicht — ich brauche manchmal etwas länger", "value": 1 },
+        { "label": "Deutlich — Konzentration und Produktivität haben spürbar nachgelassen", "value": 2 },
+        { "label": "Stark — ich schaffe nur noch einen Bruchteil dessen, was früher möglich war", "value": 3 }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Wie oft denken Sie darüber nach, Ihren Job zu wechseln oder ganz aufzuhören?",
+      "options": [
+        { "label": "Selten oder nie", "value": 0 },
+        { "label": "Gelegentlich — wenn es mal besonders stressig ist", "value": 1 },
+        { "label": "Regelmäßig — der Gedanke beschäftigt mich oft", "value": 2 },
+        { "label": "Ständig — ich sehe keinen anderen Ausweg mehr", "value": 3 }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Haben sich Ihre Hobbys und sozialen Aktivitäten verändert?",
+      "options": [
+        { "label": "Nein — ich pflege meine Hobbys und Freundschaften aktiv", "value": 0 },
+        { "label": "Leicht — ich habe etwas weniger Energie dafür", "value": 1 },
+        { "label": "Deutlich — ich habe viele Aktivitäten aufgegeben", "value": 2 },
+        { "label": "Stark — ich ziehe mich immer mehr zurück und habe kein Interesse mehr", "value": 3 }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Wie empfinden Sie die Balance zwischen Anforderungen und Wertschätzung in Ihrem Job?",
+      "options": [
+        { "label": "Ausgeglichen — ich fühle mich angemessen wertgeschätzt", "value": 0 },
+        { "label": "Leicht unausgeglichen — manchmal fehlt Anerkennung", "value": 1 },
+        { "label": "Deutlich unausgeglichen — viel Leistung, wenig Wertschätzung", "value": 2 },
+        { "label": "Stark unausgeglichen — ich fühle mich ausgebeutet und nicht gesehen", "value": 3 }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "minScore": 0,
+      "maxScore": 8,
+      "tier": "Niedriges Risiko",
+      "title": "Niedriges Burnout-Risiko — Gesundes Arbeitserleben",
+      "description": "Sie zeigen kaum Anzeichen für Burnout. Sie können Arbeit und Erholung gut ausbalancieren, fühlen sich emotional engagiert und erleben Ihre Arbeit als sinnvoll. Behalten Sie Ihre gesunden Muster bei.",
+      "recommendations": [
+        "Behalten Sie Ihre guten Bewältigungsstrategien bei",
+        "Pflegen Sie weiterhin Hobbys und soziale Kontakte als Ausgleich",
+        "Bleiben Sie achtsam für frühe Warnsignale in stressreichen Phasen",
+        "Regelmäßige Selbstreflexion hilft, Veränderungen frühzeitig zu erkennen"
+      ],
+      "color": "green"
+    },
+    {
+      "minScore": 9,
+      "maxScore": 16,
+      "tier": "Leichtes Risiko",
+      "title": "Leicht erhöhtes Risiko — Erste Warnsignale",
+      "description": "Einige Burnout-Warnsignale sind erkennbar. Sie erleben gelegentlich Erschöpfung und Frustration, können aber noch gut funktionieren. Jetzt ist der ideale Zeitpunkt für präventive Maßnahmen.",
+      "recommendations": [
+        "Achten Sie bewusst auf Ihre Work-Life-Balance",
+        "Etablieren Sie feste Erholungsrituale nach der Arbeit",
+        "Sprechen Sie mit Vorgesetzten über Arbeitsbelastung, wenn nötig",
+        "Lernen Sie, Aufgaben zu delegieren und Grenzen zu setzen"
+      ],
+      "color": "yellow"
+    },
+    {
+      "minScore": 17,
+      "maxScore": 24,
+      "tier": "Mittleres Risiko",
+      "title": "Erhöhtes Burnout-Risiko — Handlungsbedarf",
+      "description": "Sie zeigen deutliche Burnout-Symptome in mehreren Dimensionen. Emotionale Erschöpfung und Distanzierung beeinträchtigen bereits Ihren Alltag. Professionelle Unterstützung wird dringend empfohlen.",
+      "recommendations": [
+        "Suchen Sie zeitnah professionelle Beratung auf (Hausarzt, Psychotherapeut, betrieblicher Gesundheitsdienst)",
+        "Prüfen Sie, ob strukturelle Veränderungen am Arbeitsplatz möglich sind",
+        "Reduzieren Sie Verpflichtungen und schaffen Sie Freiräume für Erholung",
+        "Kognitive Verhaltenstherapie zeigt in Studien hohe Wirksamkeit bei Burnout"
+      ],
+      "color": "orange"
+    },
+    {
+      "minScore": 25,
+      "maxScore": 33,
+      "tier": "Hohes Risiko",
+      "title": "Hohes Burnout-Risiko — Sofortiges Handeln erforderlich",
+      "description": "Ihre Antworten zeigen ein starkes Burnout-Muster mit ausgeprägter Erschöpfung, Distanzierung und reduzierter Leistungsfähigkeit. Bitte nehmen Sie umgehend professionelle Hilfe in Anspruch. Burnout ist behandelbar.",
+      "recommendations": [
+        "Suchen Sie umgehend Ihren Hausarzt oder einen Psychotherapeuten auf",
+        "Erwägen Sie eine Krankschreibung — Erholung ist jetzt wichtiger als Durchhalten",
+        "Die Telefonseelsorge (0800 111 0 111) ist rund um die Uhr erreichbar",
+        "Langfristig: Prüfen Sie grundlegende berufliche Veränderungen"
+      ],
+      "color": "red"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Was ist Burnout genau?",
+      "answer": "Burnout ist ein Zustand chronischer Erschöpfung, der durch langanhaltenden beruflichen Stress entsteht. Die WHO definiert drei Hauptmerkmale: emotionale Erschöpfung, zunehmende mentale Distanz zur Arbeit (Zynismus) und verringerte berufliche Wirksamkeit. Seit 2019 ist Burnout in der ICD-11 als Syndrom anerkannt."
+    },
+    {
+      "question": "Ist Burnout das Gleiche wie Depression?",
+      "answer": "Nein, obwohl Symptome sich überschneiden können. Burnout ist spezifisch arbeitsbezogen und umfasst besonders Zynismus und reduzierte Leistungsfähigkeit. Depression betrifft alle Lebensbereiche und umfasst oft Hoffnungslosigkeit und Suizidgedanken. Burnout kann aber in eine Depression übergehen, weshalb professionelle Abklärung wichtig ist."
+    },
+    {
+      "question": "Wer ist besonders Burnout-gefährdet?",
+      "answer": "Besonders gefährdet sind Menschen in helfenden Berufen (Ärzte, Pflegekräfte, Lehrer, Sozialarbeiter), Führungskräfte mit hoher Verantwortung, Personen mit hohem Perfektionismus, Menschen mit wenig Kontrolle über ihre Arbeit und Personen, die sich stark über ihre Arbeit definieren."
+    },
+    {
+      "question": "Wie wird Burnout behandelt?",
+      "answer": "Die Behandlung umfasst in der Regel Psychotherapie (besonders kognitive Verhaltenstherapie), Stressmanagement-Training, Anpassungen der Arbeitsbedingungen und manchmal medikamentöse Unterstützung. Wichtig sind auch Lebensstiländerungen: regelmäßige Bewegung, ausreichend Schlaf, Grenzen setzen und soziale Unterstützung."
+    }
+  ],
+  "relatedSlugs": [
+    "stresstyp",
+    "resilienz-test",
+    "prokrastinations-typ"
+  ],
+  "sources": [
+    "Maslach, C. & Jackson, S.E. (1981). The measurement of experienced burnout. Journal of Organizational Behavior, 2(2), 99-113.",
+    "World Health Organization (2019). Burn-out an 'occupational phenomenon': International Classification of Diseases (ICD-11).",
+    "Schaufeli, W.B. et al. (2009). Burnout: 35 years of research and practice. Career Development International, 14(3), 204-220."
+  ]
+}

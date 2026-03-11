@@ -1,0 +1,207 @@
+{
+  "slug": "chronotyp-schlaftyp",
+  "title": "Welcher Schlaftyp bin ich? — Chronotyp-Test",
+  "shortTitle": "Schlaftyp / Chronotyp",
+  "description": "Finden Sie heraus, ob Sie eine Lerche, Eule oder Normaltyp sind. Unser wissenschaftlich fundierter Chronotyp-Test basiert auf dem Morningness-Eveningness Questionnaire (MEQ) und hilft Ihnen, Ihren natürlichen Schlaf-Wach-Rhythmus zu verstehen.",
+  "category": "self-discovery",
+  "scientificBasis": "Basierend auf dem Morningness-Eveningness Questionnaire (MEQ) von Horne & Östberg (1976), dem weltweit am häufigsten verwendeten Instrument zur Bestimmung des Chronotyps. Validiert in über 500 Studien und publiziert im International Journal of Chronobiology.",
+  "seoIntro": "Jeder Mensch hat eine innere Uhr — den sogenannten zirkadianen Rhythmus. Dieser biologische Taktgeber bestimmt, wann Sie natürlicherweise wach, leistungsfähig und müde sind. Die Wissenschaft unterscheidet verschiedene Chronotypen: Frühtypen (Lerchen), die morgens am produktivsten sind, Spättypen (Eulen), die abends aufblühen, und Normaltypen, die dazwischen liegen.\n\nDer Chronotyp ist zu einem großen Teil genetisch bestimmt und wird durch sogenannte Clock-Gene wie PER2 und CRY1 beeinflusst. Studien zeigen, dass etwa 25% der Bevölkerung ausgeprägte Frühtypen sind, 25% Spättypen und 50% zum Normaltyp gehören.\n\nDas Wissen um Ihren Chronotyp kann Ihnen helfen, Ihren Tagesablauf zu optimieren — von der besten Zeit für Sport und konzentriertes Arbeiten bis hin zum idealen Zeitpunkt für wichtige Entscheidungen. Gegen die eigene innere Uhr zu leben (soziale Jetlag) kann zu Schlafmangel, verminderter Leistungsfähigkeit und gesundheitlichen Problemen führen.\n\nDieser Test ist ein Screening-Instrument und keine medizinische Diagnose. Bei anhaltenden Schlafproblemen konsultieren Sie bitte einen Schlafmediziner.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Wann würden Sie am liebsten aufstehen, wenn Sie den Tag völlig frei gestalten könnten?",
+      "options": [
+        { "label": "Vor 6:30 Uhr", "value": 0 },
+        { "label": "6:30–7:30 Uhr", "value": 1 },
+        { "label": "7:30–9:00 Uhr", "value": 2 },
+        { "label": "Nach 9:00 Uhr", "value": 3 }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Wie fühlen Sie sich in der ersten halben Stunde nach dem Aufwachen?",
+      "options": [
+        { "label": "Sofort hellwach und voller Energie", "value": 0 },
+        { "label": "Recht wach, aber nicht auf dem Höhepunkt", "value": 1 },
+        { "label": "Etwas benommen, brauche Zeit zum Wachwerden", "value": 2 },
+        { "label": "Sehr müde und schwer aus dem Bett zu kommen", "value": 3 }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Wann fühlen Sie sich am leistungsfähigsten für geistig anspruchsvolle Arbeit?",
+      "options": [
+        { "label": "Am frühen Morgen (6–9 Uhr)", "value": 0 },
+        { "label": "Am Vormittag (9–12 Uhr)", "value": 1 },
+        { "label": "Am Nachmittag (13–17 Uhr)", "value": 2 },
+        { "label": "Am Abend oder nachts (nach 18 Uhr)", "value": 3 }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Wann würden Sie am liebsten ins Bett gehen, wenn keine Verpflichtungen bestünden?",
+      "options": [
+        { "label": "Vor 21:00 Uhr", "value": 0 },
+        { "label": "21:00–22:30 Uhr", "value": 1 },
+        { "label": "22:30–00:00 Uhr", "value": 2 },
+        { "label": "Nach Mitternacht", "value": 3 }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Wie leicht fällt es Ihnen, an einem Wochentag um 6:00 Uhr aufzustehen?",
+      "options": [
+        { "label": "Sehr leicht — ich bin oft schon vorher wach", "value": 0 },
+        { "label": "Einigermaßen leicht", "value": 1 },
+        { "label": "Ziemlich schwierig", "value": 2 },
+        { "label": "Extrem schwierig — fast unmöglich", "value": 3 }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Wie ist Ihr Appetit in der ersten Stunde nach dem Aufwachen?",
+      "options": [
+        { "label": "Starker Hunger — ich brauche sofort ein großes Frühstück", "value": 0 },
+        { "label": "Etwas Appetit — ein leichtes Frühstück reicht", "value": 1 },
+        { "label": "Kaum Appetit — Kaffee genügt erstmal", "value": 2 },
+        { "label": "Gar kein Appetit — mir wird bei dem Gedanken ans Essen unwohl", "value": 3 }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Wenn Sie am nächsten Tag nichts vorhaben: Wann werden Sie abends müde?",
+      "options": [
+        { "label": "Vor 21:00 Uhr", "value": 0 },
+        { "label": "Zwischen 21:00 und 22:30 Uhr", "value": 1 },
+        { "label": "Zwischen 22:30 und 00:00 Uhr", "value": 2 },
+        { "label": "Nach Mitternacht — ich bin abends am wachsten", "value": 3 }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Wie sehr unterscheidet sich Ihr Schlafrhythmus am Wochenende von Werktagen?",
+      "options": [
+        { "label": "Kaum — ich stehe immer ungefähr gleich auf", "value": 0 },
+        { "label": "Bis zu 1 Stunde später am Wochenende", "value": 1 },
+        { "label": "1–2 Stunden später am Wochenende", "value": 2 },
+        { "label": "Mehr als 2 Stunden später — ich schlafe am Wochenende deutlich aus", "value": 3 }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Stellen Sie sich vor, Sie müssten einen wichtigen Test ablegen: Wann wäre Ihre beste Leistung?",
+      "options": [
+        { "label": "8:00–10:00 Uhr morgens", "value": 0 },
+        { "label": "10:00–13:00 Uhr", "value": 1 },
+        { "label": "13:00–17:00 Uhr", "value": 2 },
+        { "label": "Nach 17:00 Uhr", "value": 3 }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Wenn Sie Sport treiben könnten, wann hätten Sie am meisten Energie dafür?",
+      "options": [
+        { "label": "Frühmorgens (6–8 Uhr)", "value": 0 },
+        { "label": "Vormittags (8–11 Uhr)", "value": 1 },
+        { "label": "Nachmittags (14–17 Uhr)", "value": 2 },
+        { "label": "Abends (nach 18 Uhr)", "value": 3 }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Wie würden Sie sich selbst beschreiben?",
+      "options": [
+        { "label": "Definitiv ein Morgenmensch", "value": 0 },
+        { "label": "Eher ein Morgenmensch", "value": 1 },
+        { "label": "Eher ein Abendmensch", "value": 2 },
+        { "label": "Definitiv ein Abendmensch / Nachtmensch", "value": 3 }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "minScore": 0,
+      "maxScore": 8,
+      "tier": "Lerche",
+      "title": "Ausgeprägter Frühtyp — Die Lerche",
+      "description": "Sie sind ein klassischer Frühtyp (Lerche). Ihre innere Uhr ist auf frühe Aktivität eingestellt. Sie sind morgens sofort leistungsfähig, haben einen natürlichen Rhythmus, der früh beginnt und früh endet. Ihr Körper produziert Melatonin bereits am frühen Abend.",
+      "recommendations": [
+        "Nutzen Sie die Morgenstunden für Ihre anspruchsvollsten Aufgaben",
+        "Planen Sie kreative Arbeit und wichtige Entscheidungen vor Mittag",
+        "Vermeiden Sie späte Abendtermine, die Ihren Rhythmus stören",
+        "Achten Sie auf ausreichend Schlaf — auch am Wochenende früh aufstehen ist für Sie natürlich"
+      ],
+      "color": "blue"
+    },
+    {
+      "minScore": 9,
+      "maxScore": 16,
+      "tier": "Leichter Frühtyp",
+      "title": "Leichter Frühtyp — Tendenz zur Lerche",
+      "description": "Sie tendieren zum Frühtyp, sind aber flexibler als eine ausgeprägte Lerche. Ihre beste Leistungszeit liegt am Vormittag. Sie können sich an unterschiedliche Zeitpläne anpassen, fühlen sich aber morgens wohler.",
+      "recommendations": [
+        "Legen Sie wichtige Termine möglichst auf den Vormittag",
+        "Halten Sie einen regelmäßigen Schlafrhythmus ein — Ihr Körper dankt es Ihnen",
+        "Nutzen Sie das natürliche Nachmittagstief für Routineaufgaben",
+        "Moderate Flexibilität ist möglich, aber übertreiben Sie es nicht mit späten Nächten"
+      ],
+      "color": "green"
+    },
+    {
+      "minScore": 17,
+      "maxScore": 24,
+      "tier": "Normaltyp",
+      "title": "Normaltyp — Flexibler Mitteltyp",
+      "description": "Sie gehören zum häufigsten Chronotyp — dem Normaltyp. Sie sind weder ausgeprägte Lerche noch Eule und können sich gut an verschiedene Zeitpläne anpassen. Ihre Leistungsspitze liegt typischerweise am späten Vormittag.",
+      "recommendations": [
+        "Nutzen Sie Ihre natürliche Flexibilität, aber halten Sie trotzdem regelmäßige Schlafzeiten ein",
+        "Planen Sie anspruchsvolle Aufgaben für den späten Vormittag",
+        "Achten Sie auf 7–8 Stunden Schlaf pro Nacht",
+        "Vermeiden Sie stark wechselnde Schlafzeiten (sozialer Jetlag)"
+      ],
+      "color": "yellow"
+    },
+    {
+      "minScore": 25,
+      "maxScore": 33,
+      "tier": "Eule",
+      "title": "Ausgeprägter Spättyp — Die Eule",
+      "description": "Sie sind ein klassischer Spättyp (Eule). Ihre innere Uhr läuft später als bei den meisten Menschen. Abends und nachts sind Sie am produktivsten, morgens brauchen Sie Zeit zum Hochfahren. Ihr Melatonin wird erst spät ausgeschüttet.",
+      "recommendations": [
+        "Wenn möglich, verschieben Sie wichtige Aufgaben auf den Nachmittag oder Abend",
+        "Vermeiden Sie wichtige Entscheidungen in den frühen Morgenstunden",
+        "Achten Sie auf ausreichend Schlaf — Schlafmangel durch frühe Verpflichtungen ist ein häufiges Problem",
+        "Sprechen Sie mit Ihrem Arbeitgeber über flexible Arbeitszeiten, wenn möglich"
+      ],
+      "color": "purple"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Was ist ein Chronotyp?",
+      "answer": "Der Chronotyp beschreibt die individuelle Ausprägung der inneren Uhr (zirkadianer Rhythmus). Er bestimmt, wann Sie natürlicherweise wach, leistungsfähig und müde sind. Der Chronotyp ist zu einem großen Teil genetisch festgelegt und ändert sich nur langsam über die Lebensspanne."
+    },
+    {
+      "question": "Kann ich meinen Chronotyp ändern?",
+      "answer": "Der Chronotyp ist weitgehend genetisch festgelegt und kann nicht grundlegend geändert werden. Sie können ihn aber durch Lichtexposition, regelmäßige Schlafzeiten und Verhaltensanpassungen in gewissem Maße beeinflussen. Der Chronotyp verändert sich auch natürlich über die Lebensspanne — Jugendliche neigen zu Spättypen, ältere Menschen zu Frühtypen."
+    },
+    {
+      "question": "Was ist sozialer Jetlag?",
+      "answer": "Sozialer Jetlag entsteht, wenn Ihr Schlafrhythmus am Wochenende stark von Ihren Werktagen abweicht. Besonders Eulen, die werktags früh aufstehen müssen, sind betroffen. Studien zeigen, dass sozialer Jetlag mit Übergewicht, Depressionen und einem erhöhten kardiovaskulären Risiko verbunden ist."
+    },
+    {
+      "question": "Wie zuverlässig ist dieser Test?",
+      "answer": "Dieser Test basiert auf dem wissenschaftlich validierten Morningness-Eveningness Questionnaire (MEQ), der seit 1976 in der Schlafforschung eingesetzt wird. Er liefert eine gute Einschätzung, kann aber keine individuelle schlafmedizinische Diagnostik ersetzen."
+    }
+  ],
+  "relatedSlugs": [
+    "stresstyp",
+    "burnout-risiko",
+    "prokrastinations-typ"
+  ],
+  "sources": [
+    "Horne, J.A. & Östberg, O. (1976). A self-assessment questionnaire to determine morningness-eveningness in human circadian rhythms. International Journal of Chronobiology, 4(2), 97-110.",
+    "Roenneberg, T. et al. (2003). Life between Clocks: Daily Temporal Patterns of Human Chronotypes. Journal of Biological Rhythms, 18(1), 80-90.",
+    "Wittmann, M. et al. (2006). Social Jetlag: Misalignment of Biological and Social Time. Chronobiology International, 23(1-2), 497-509."
+  ]
+}

@@ -10,7 +10,8 @@ export type QuizCategory =
   | "skin-hair"
   | "immune-system"
   | "body-signals"
-  | "lifestyle-longevity";
+  | "lifestyle-longevity"
+  | "self-discovery";
 
 export interface Option {
   label: string;

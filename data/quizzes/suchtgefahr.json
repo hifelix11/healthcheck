@@ -1,0 +1,206 @@
+{
+  "slug": "suchtgefahr",
+  "title": "Wie hoch ist meine Suchtgefahr? — Suchtrisiko-Test",
+  "shortTitle": "Suchtgefahr",
+  "description": "Bewerten Sie Ihr persönliches Suchtrisiko mit unserem evidenzbasierten Selbsttest. Basierend auf dem AUDIT-Fragebogen und allgemeinen Suchtrisikofaktoren hilft dieser Test, Ihr Risikoprofil für Suchtverhalten einzuschätzen.",
+  "category": "self-discovery",
+  "scientificBasis": "Basierend auf dem Alcohol Use Disorders Identification Test (AUDIT) der WHO, dem CAGE-Fragebogen und der allgemeinen Suchtrisikofaktor-Forschung. Der AUDIT wurde in 6-Länder-Studien validiert und von der WHO als Standard-Screening-Instrument empfohlen.",
+  "seoIntro": "Sucht ist eine komplexe Erkrankung, die jeden treffen kann — unabhängig von Alter, Geschlecht oder sozialem Status. Die moderne Suchtforschung zeigt, dass Suchtanfälligkeit durch eine Kombination aus genetischen, psychologischen und umweltbedingten Faktoren bestimmt wird.\n\nEtwa 10–15% der Bevölkerung tragen ein erhöhtes genetisches Risiko für Suchterkrankungen. Faktoren wie frühe Traumata, Stress, psychische Vorerkrankungen und das soziale Umfeld spielen ebenfalls eine wichtige Rolle. Suchtverhalten beschränkt sich dabei nicht nur auf Substanzen wie Alkohol oder Drogen — auch Verhaltensweisen wie exzessives Glücksspiel, Internetnutzung oder Kaufen können süchtig machen.\n\nDieser Selbsttest evaluiert verschiedene bekannte Risikofaktoren und aktuelle Verhaltensmuster, um Ihnen eine erste Einschätzung Ihres persönlichen Suchtrisikos zu geben. Er ersetzt keine professionelle Diagnose, kann aber ein wichtiger erster Schritt zur Selbstreflexion sein.\n\nWenn Ihre Ergebnisse auf ein erhöhtes Risiko hindeuten, empfehlen wir Ihnen, mit einem Arzt oder einer Suchtberatungsstelle zu sprechen. Frühzeitige Erkennung und Prävention können entscheidend sein.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Wie oft konsumieren Sie Alkohol?",
+      "options": [
+        { "label": "Nie oder nur zu besonderen Anlässen", "value": 0 },
+        { "label": "1–2 Mal pro Woche", "value": 1 },
+        { "label": "3–4 Mal pro Woche", "value": 2 },
+        { "label": "Täglich oder fast täglich", "value": 3 }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Haben Sie schon einmal das Gefühl gehabt, dass Sie Ihren Konsum (Alkohol, Substanzen, Verhaltensmuster) reduzieren sollten?",
+      "options": [
+        { "label": "Nein, nie", "value": 0 },
+        { "label": "Gelegentlich, aber es war nicht dringend", "value": 1 },
+        { "label": "Ja, mehrfach, aber ich habe es nicht geschafft", "value": 2 },
+        { "label": "Ja, regelmäßig — es beschäftigt mich stark", "value": 3 }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Gibt es in Ihrer Familie (Eltern, Großeltern, Geschwister) Probleme mit Suchterkrankungen?",
+      "options": [
+        { "label": "Nein, keine bekannten Fälle", "value": 0 },
+        { "label": "Ein entferntes Familienmitglied", "value": 1 },
+        { "label": "Ein Elternteil oder Geschwister", "value": 2 },
+        { "label": "Mehrere enge Familienmitglieder", "value": 3 }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Wie gehen Sie typischerweise mit Stress oder negativen Emotionen um?",
+      "options": [
+        { "label": "Gesunde Strategien wie Sport, Gespräche, Entspannung", "value": 0 },
+        { "label": "Gemischte Strategien — manchmal greife ich zu Genussmitteln", "value": 1 },
+        { "label": "Ich greife oft zu Alkohol, Essen oder Ablenkung als Bewältigungsmittel", "value": 2 },
+        { "label": "Ich brauche Substanzen oder bestimmte Verhaltensweisen, um klarzukommen", "value": 3 }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Haben Sie jemals gelogen oder Dinge verheimlicht bezüglich Ihres Konsums oder Verhaltens?",
+      "options": [
+        { "label": "Nein, nie", "value": 0 },
+        { "label": "Selten und nur in Kleinigkeiten", "value": 1 },
+        { "label": "Gelegentlich — ich spiele Dinge herunter", "value": 2 },
+        { "label": "Regelmäßig — ich verheimliche bewusst, wie viel ich konsumiere", "value": 3 }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Haben Sie das Gefühl, dass Sie immer mehr brauchen, um die gleiche Wirkung zu erzielen (Toleranzentwicklung)?",
+      "options": [
+        { "label": "Nein, überhaupt nicht", "value": 0 },
+        { "label": "Leicht — etwas mehr als früher", "value": 1 },
+        { "label": "Merklich — die gleiche Menge reicht nicht mehr", "value": 2 },
+        { "label": "Deutlich — ich brauche wesentlich mehr als früher", "value": 3 }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Wie impulsiv würden Sie sich selbst beschreiben?",
+      "options": [
+        { "label": "Eher besonnen — ich überlege vor dem Handeln", "value": 0 },
+        { "label": "Manchmal impulsiv, aber meist kontrolliert", "value": 1 },
+        { "label": "Oft impulsiv — ich handle häufig spontan ohne nachzudenken", "value": 2 },
+        { "label": "Sehr impulsiv — Impulskontrolle fällt mir schwer", "value": 3 }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Haben Sie in der Vergangenheit belastende oder traumatische Erfahrungen gemacht?",
+      "options": [
+        { "label": "Nein, keine nennenswerten", "value": 0 },
+        { "label": "Leichte belastende Erfahrungen, die ich verarbeitet habe", "value": 1 },
+        { "label": "Einige belastende Erfahrungen, die mich noch beschäftigen", "value": 2 },
+        { "label": "Schwere Traumata, die mein Leben stark beeinflusst haben", "value": 3 }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Wurden Sie schon einmal von Nahestehenden auf Ihren Konsum oder ein bestimmtes Verhaltensmuster angesprochen?",
+      "options": [
+        { "label": "Nein, nie", "value": 0 },
+        { "label": "Einmal, eher beiläufig", "value": 1 },
+        { "label": "Mehrmals — Freunde oder Familie haben Bedenken geäußert", "value": 2 },
+        { "label": "Häufig — es ist ein wiederkehrendes Thema", "value": 3 }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Fällt es Ihnen schwer, bestimmte Gewohnheiten (Social Media, Spielen, Einkaufen, Essen) unter Kontrolle zu halten?",
+      "options": [
+        { "label": "Nein — ich habe gute Kontrolle über meine Gewohnheiten", "value": 0 },
+        { "label": "Gelegentlich übertreibe ich, kann aber stoppen", "value": 1 },
+        { "label": "Regelmäßig — ich mache mehr als ich vorhatte", "value": 2 },
+        { "label": "Ich habe das Gefühl, die Kontrolle verloren zu haben", "value": 3 }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Wie oft haben Sie Schuldgefühle oder Reue nach einem bestimmten Konsum oder Verhalten?",
+      "options": [
+        { "label": "Nie oder fast nie", "value": 0 },
+        { "label": "Selten", "value": 1 },
+        { "label": "Regelmäßig", "value": 2 },
+        { "label": "Fast immer — der Kreislauf von Konsum und Reue ist typisch für mich", "value": 3 }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "minScore": 0,
+      "maxScore": 7,
+      "tier": "Niedriges Risiko",
+      "title": "Niedriges Suchtrisiko — Gesundes Verhaltensmuster",
+      "description": "Ihre Antworten deuten auf ein niedriges Suchtrisiko hin. Sie haben gute Bewältigungsstrategien und wenig belastende Risikofaktoren. Behalten Sie Ihre gesunden Gewohnheiten bei.",
+      "recommendations": [
+        "Behalten Sie Ihre gesunden Bewältigungsstrategien bei",
+        "Bleiben Sie achtsam gegenüber Veränderungen in Ihrem Konsumverhalten",
+        "Pflegen Sie Ihre sozialen Kontakte und Unterstützungsnetzwerke"
+      ],
+      "color": "green"
+    },
+    {
+      "minScore": 8,
+      "maxScore": 15,
+      "tier": "Leichtes Risiko",
+      "title": "Leicht erhöhtes Risiko — Aufmerksamkeit empfohlen",
+      "description": "Einige Risikofaktoren sind vorhanden. Dies bedeutet nicht, dass Sie suchtgefährdet sind, aber Achtsamkeit gegenüber Ihrem Konsumverhalten ist sinnvoll. Präventive Maßnahmen können hilfreich sein.",
+      "recommendations": [
+        "Reflektieren Sie regelmäßig Ihr Konsumverhalten und Ihre Motive",
+        "Bauen Sie gesunde Stressbewältigungsstrategien aus (Sport, Meditation, soziale Kontakte)",
+        "Achten Sie auf Toleranzentwicklung — brauchen Sie immer mehr?",
+        "Sprechen Sie offen mit Vertrauenspersonen über Ihre Gewohnheiten"
+      ],
+      "color": "yellow"
+    },
+    {
+      "minScore": 16,
+      "maxScore": 23,
+      "tier": "Mittleres Risiko",
+      "title": "Erhöhtes Suchtrisiko — Professionelle Beratung empfohlen",
+      "description": "Mehrere Risikofaktoren und Verhaltensmuster deuten auf ein erhöhtes Suchtrisiko hin. Eine professionelle Beratung kann helfen, Risiken zu reduzieren und gesunde Alternativen zu entwickeln.",
+      "recommendations": [
+        "Suchen Sie eine Suchtberatungsstelle auf — Beratung ist vertraulich und kostenlos",
+        "Besprechen Sie Ihre familiäre Belastung mit einem Fachmann",
+        "Erlernen Sie alternative Stressbewältigungsmethoden",
+        "Führen Sie ein Konsumtagebuch, um Muster zu erkennen"
+      ],
+      "color": "orange"
+    },
+    {
+      "minScore": 24,
+      "maxScore": 33,
+      "tier": "Hohes Risiko",
+      "title": "Hohes Suchtrisiko — Dringend professionelle Hilfe empfohlen",
+      "description": "Ihr Risikoprofil zeigt deutliche Warnzeichen. Bitte nehmen Sie professionelle Hilfe in Anspruch. Suchterkrankungen sind gut behandelbar, und je früher sie erkannt werden, desto besser sind die Aussichten.",
+      "recommendations": [
+        "Nehmen Sie zeitnah Kontakt zu einer Suchtberatungsstelle oder Ihrem Hausarzt auf",
+        "Die Telefonseelsorge (0800 111 0 111) ist rund um die Uhr erreichbar",
+        "Erwägen Sie eine spezialisierte Therapie — kognitive Verhaltenstherapie ist besonders wirksam",
+        "Informieren Sie Vertrauenspersonen über Ihre Situation — Unterstützung ist entscheidend"
+      ],
+      "color": "red"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Bin ich süchtig, wenn mein Ergebnis hoch ist?",
+      "answer": "Nein, dieser Test misst Risikofaktoren und Verhaltensmuster, stellt aber keine Diagnose. Ein hohes Ergebnis bedeutet, dass professionelle Beratung sinnvoll wäre, um eine genaue Einschätzung zu erhalten und präventiv zu handeln."
+    },
+    {
+      "question": "Ist Suchtanfälligkeit genetisch bedingt?",
+      "answer": "Teilweise. Studien zeigen, dass 40–60% des Suchtrisikos genetisch bedingt sind. Gene beeinflussen unter anderem den Dopamin-Stoffwechsel und die Impulskontrolle. Aber Gene sind kein Schicksal — Umweltfaktoren und bewusste Entscheidungen spielen eine ebenso wichtige Rolle."
+    },
+    {
+      "question": "Was ist Verhaltenssucht?",
+      "answer": "Verhaltenssucht (auch nicht-substanzgebundene Sucht) umfasst süchtiges Verhalten ohne Substanzkonsum — z.B. Glücksspiel, exzessive Internetnutzung, Kaufsucht oder Esssucht. Die zugrundeliegenden neurologischen Mechanismen (Dopamin-Belohnungssystem) sind ähnlich wie bei Substanzabhängigkeit."
+    },
+    {
+      "question": "Wo finde ich Hilfe?",
+      "answer": "Die Deutsche Hauptstelle für Suchtfragen (DHS) bietet eine Übersicht an Beratungsstellen. Die Telefonseelsorge (0800 111 0 111 / 0800 111 0 222) ist kostenlos und rund um die Uhr erreichbar. Ihr Hausarzt kann ebenfalls eine erste Anlaufstelle sein."
+    }
+  ],
+  "relatedSlugs": [
+    "stresstyp",
+    "burnout-risiko",
+    "resilienz-test"
+  ],
+  "sources": [
+    "Saunders, J.B. et al. (1993). Development of the Alcohol Use Disorders Identification Test (AUDIT). Addiction, 88(6), 791-804.",
+    "Ewing, J.A. (1984). Detecting Alcoholism: The CAGE Questionnaire. JAMA, 252(14), 1905-1907.",
+    "Volkow, N.D. et al. (2016). Neurobiologic Advances from the Brain Disease Model of Addiction. New England Journal of Medicine, 374(4), 363-371."
+  ]
+}
