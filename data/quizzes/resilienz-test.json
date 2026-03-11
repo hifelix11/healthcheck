@@ -1,0 +1,207 @@
+{
+  "slug": "resilienz-test",
+  "title": "Wie resilient bin ich? — Resilienz-Test",
+  "shortTitle": "Resilienz",
+  "description": "Messen Sie Ihre psychische Widerstandskraft mit unserem wissenschaftlich fundierten Resilienz-Test. Basierend auf der Connor-Davidson Resilience Scale (CD-RISC) erfahren Sie, wie gut Sie mit Widrigkeiten, Stress und Veränderungen umgehen können.",
+  "category": "self-discovery",
+  "scientificBasis": "Basierend auf der Connor-Davidson Resilience Scale (CD-RISC), entwickelt von Kathryn Connor und Jonathan Davidson (2003). Das Instrument wurde in über 700 Studien weltweit validiert und misst die Fähigkeit, Stress zu bewältigen und sich von Widrigkeiten zu erholen.",
+  "seoIntro": "Resilienz — die psychische Widerstandskraft — beschreibt die Fähigkeit, Krisen, Rückschläge und Stress zu bewältigen und gestärkt daraus hervorzugehen. Resiliente Menschen brechen nicht unter Druck zusammen, sondern passen sich an, lernen und wachsen an Herausforderungen.\n\nDie Resilienzforschung zeigt, dass Widerstandskraft kein festes Persönlichkeitsmerkmal ist, sondern ein dynamischer Prozess, der durch verschiedene Faktoren beeinflusst wird: soziale Unterstützung, Selbstwirksamkeit, Flexibilität, Optimismus und die Fähigkeit, Emotionen zu regulieren.\n\nBesonders wichtig: Resilienz ist trainierbar. Studien zeigen, dass gezielte Interventionen wie kognitive Umstrukturierung, Achtsamkeitsübungen, Aufbau sozialer Netzwerke und körperliche Aktivität die Resilienz signifikant steigern können.\n\nDieser Test gibt Ihnen eine Einschätzung Ihrer aktuellen Resilienz und konkrete Ansatzpunkte zur Stärkung. Er ersetzt keine professionelle psychologische Diagnostik.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Wie gut können Sie sich an Veränderungen in Ihrem Leben anpassen?",
+      "options": [
+        { "label": "Sehr gut — ich bin flexibel und offen für Neues", "value": 0 },
+        { "label": "Gut — ich brauche etwas Zeit, komme aber zurecht", "value": 1 },
+        { "label": "Schwierig — Veränderungen belasten mich stark", "value": 2 },
+        { "label": "Sehr schwierig — ich habe große Angst vor Veränderungen", "value": 3 }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Wenn Sie einen Rückschlag erleben, wie schnell erholen Sie sich?",
+      "options": [
+        { "label": "Schnell — ich stehe wieder auf und mache weiter", "value": 0 },
+        { "label": "In angemessener Zeit — ich verarbeite und gehe weiter", "value": 1 },
+        { "label": "Langsam — Rückschläge werfen mich längere Zeit aus der Bahn", "value": 2 },
+        { "label": "Sehr langsam — ich komme nur schwer über Rückschläge hinweg", "value": 3 }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Wie stark glauben Sie daran, schwierige Probleme lösen zu können?",
+      "options": [
+        { "label": "Stark — ich vertraue auf meine Fähigkeit, Lösungen zu finden", "value": 0 },
+        { "label": "Überwiegend — bei den meisten Problemen bin ich zuversichtlich", "value": 1 },
+        { "label": "Wenig — ich zweifle oft an meinen Fähigkeiten", "value": 2 },
+        { "label": "Kaum — ich glaube nicht, dass ich schwierige Probleme lösen kann", "value": 3 }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Können Sie unter Druck klar denken und handeln?",
+      "options": [
+        { "label": "Ja — Druck steigert sogar meine Leistung", "value": 0 },
+        { "label": "Meistens — ich bleibe meist handlungsfähig", "value": 1 },
+        { "label": "Schwierig — unter Druck mache ich mehr Fehler", "value": 2 },
+        { "label": "Kaum — Druck lähmt mich", "value": 3 }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Haben Sie Menschen in Ihrem Leben, an die Sie sich in schwierigen Zeiten wenden können?",
+      "options": [
+        { "label": "Ja — ein stabiles Netzwerk aus Familie und Freunden", "value": 0 },
+        { "label": "Einige wenige Vertrauenspersonen", "value": 1 },
+        { "label": "Kaum — ich fühle mich oft allein mit meinen Problemen", "value": 2 },
+        { "label": "Nein — ich habe niemanden, an den ich mich wenden kann", "value": 3 }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Wie gehen Sie mit Misserfolgen um?",
+      "options": [
+        { "label": "Ich sehe sie als Lernchance und mache weiter", "value": 0 },
+        { "label": "Ich bin enttäuscht, aber versuche daraus zu lernen", "value": 1 },
+        { "label": "Misserfolge belasten mich stark und lange", "value": 2 },
+        { "label": "Misserfolge bestätigen mir, dass ich nicht gut genug bin", "value": 3 }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Können Sie in einer Krise auch positive Aspekte oder Chancen erkennen?",
+      "options": [
+        { "label": "Ja — ich sehe auch in schwierigen Zeiten Möglichkeiten", "value": 0 },
+        { "label": "Manchmal — wenn die erste Schockphase vorbei ist", "value": 1 },
+        { "label": "Selten — in Krisen sehe ich hauptsächlich Bedrohung", "value": 2 },
+        { "label": "Nie — Krisen sind für mich rein negativ", "value": 3 }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Wie gut können Sie Ihre Emotionen in stressigen Situationen regulieren?",
+      "options": [
+        { "label": "Gut — ich kann mich beruhigen und reflektieren", "value": 0 },
+        { "label": "Meistens — manchmal werde ich überwältigt", "value": 1 },
+        { "label": "Schwierig — meine Emotionen übermannen mich oft", "value": 2 },
+        { "label": "Kaum — ich verliere leicht die Kontrolle über meine Gefühle", "value": 3 }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Setzen Sie sich Ziele und verfolgen diese trotz Hindernissen?",
+      "options": [
+        { "label": "Ja — ich bin zielstrebig und lasse mich nicht leicht entmutigen", "value": 0 },
+        { "label": "Meistens — bei größeren Hindernissen passe ich Ziele an", "value": 1 },
+        { "label": "Manchmal — ich gebe bei Widerstand schnell auf", "value": 2 },
+        { "label": "Selten — Hindernisse entmutigen mich so stark, dass ich aufgebe", "value": 3 }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Wie empfinden Sie vergangene schwierige Erfahrungen rückblickend?",
+      "options": [
+        { "label": "Sie haben mich stärker gemacht", "value": 0 },
+        { "label": "Ich habe einiges daraus gelernt", "value": 1 },
+        { "label": "Sie belasten mich teilweise noch", "value": 2 },
+        { "label": "Sie haben mich geschwächt und belasten mich stark", "value": 3 }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Wie gehen Sie mit Unsicherheit und Ungewissheit um?",
+      "options": [
+        { "label": "Gut — ich akzeptiere, dass nicht alles planbar ist", "value": 0 },
+        { "label": "Einigermaßen — Unsicherheit ist unangenehm, aber auszuhalten", "value": 1 },
+        { "label": "Schwer — Ungewissheit löst starke Ängste aus", "value": 2 },
+        { "label": "Sehr schwer — ich brauche Kontrolle und Planbarkeit", "value": 3 }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "minScore": 0,
+      "maxScore": 8,
+      "tier": "Hoch resilient",
+      "title": "Hoch resilient — Starke psychische Widerstandskraft",
+      "description": "Sie verfügen über eine hohe Resilienz. Sie können sich gut an Veränderungen anpassen, erholen sich schnell von Rückschlägen und verfügen über effektive Bewältigungsstrategien. Ihre Fähigkeit, in Krisen auch Chancen zu sehen, ist eine wertvolle Ressource.",
+      "recommendations": [
+        "Nutzen Sie Ihre Resilienz als Vorbild und unterstützen Sie andere",
+        "Pflegen Sie weiterhin Ihr soziales Netzwerk als Schutzfaktor",
+        "Auch hoch resiliente Menschen sollten auf Erholung achten",
+        "Bleiben Sie offen für neue Herausforderungen — sie stärken Ihre Resilienz weiter"
+      ],
+      "color": "green"
+    },
+    {
+      "minScore": 9,
+      "maxScore": 16,
+      "tier": "Moderat resilient",
+      "title": "Moderat resilient — Gute Grundlage mit Ausbaupotential",
+      "description": "Sie verfügen über eine solide Grundresilienz. In vielen Situationen kommen Sie gut zurecht, in besonders herausfordernden Zeiten könnten Ihre Bewältigungsstrategien aber verstärkt werden. Gezieltes Training kann Ihre Widerstandskraft weiter stärken.",
+      "recommendations": [
+        "Stärken Sie Ihre Selbstwirksamkeit durch kleine, erreichbare Ziele",
+        "Bauen Sie Ihr soziales Unterstützungsnetzwerk aus",
+        "Erlernen Sie Achtsamkeitstechniken zur besseren Emotionsregulation",
+        "Reflektieren Sie regelmäßig über vergangene Erfolge bei der Problembewältigung"
+      ],
+      "color": "yellow"
+    },
+    {
+      "minScore": 17,
+      "maxScore": 24,
+      "tier": "Niedrige Resilienz",
+      "title": "Niedrige Resilienz — Gezielte Stärkung empfohlen",
+      "description": "Ihre Resilienz zeigt deutliches Entwicklungspotential. Rückschläge und Veränderungen belasten Sie stärker als nötig. Die gute Nachricht: Resilienz ist trainierbar, und gezielte Maßnahmen können Ihre Widerstandskraft deutlich steigern.",
+      "recommendations": [
+        "Erwägen Sie ein professionelles Resilienz-Coaching oder eine Therapie",
+        "Beginnen Sie mit kleinen täglichen Achtsamkeitsübungen (5–10 Minuten)",
+        "Üben Sie kognitive Umstrukturierung: Hinterfragen Sie negative Gedankenmuster",
+        "Regelmäßige Bewegung stärkt nachweislich die psychische Widerstandskraft"
+      ],
+      "color": "orange"
+    },
+    {
+      "minScore": 25,
+      "maxScore": 33,
+      "tier": "Sehr niedrige Resilienz",
+      "title": "Sehr niedrige Resilienz — Professionelle Unterstützung empfohlen",
+      "description": "Ihre aktuelle Resilienz ist deutlich eingeschränkt. Stress, Rückschläge und Veränderungen belasten Sie stark. Professionelle Unterstützung kann Ihnen helfen, Ihre Widerstandskraft systematisch aufzubauen. Resilienz ist eine erlernbare Fähigkeit.",
+      "recommendations": [
+        "Suchen Sie einen Psychotherapeuten oder Psychologen auf",
+        "Kognitive Verhaltenstherapie ist besonders wirksam bei der Resilienzförderung",
+        "Bauen Sie auch kleine Erfolge bewusst wahr — sie stärken Ihre Selbstwirksamkeit",
+        "Suchen Sie soziale Unterstützung — Sie müssen das nicht alleine bewältigen"
+      ],
+      "color": "red"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Was genau ist Resilienz?",
+      "answer": "Resilienz ist die psychische Widerstandskraft — die Fähigkeit, Krisen, Stress und Widrigkeiten zu bewältigen und sich davon zu erholen. Sie umfasst Anpassungsfähigkeit, emotionale Regulation, Selbstwirksamkeit und die Fähigkeit, auch in schwierigen Zeiten einen Sinn zu finden. Resilienz ist kein festes Merkmal, sondern ein dynamischer Prozess."
+    },
+    {
+      "question": "Kann man Resilienz lernen?",
+      "answer": "Ja, definitiv. Die Forschung zeigt, dass Resilienz trainierbar ist. Wirksame Methoden umfassen: kognitive Verhaltenstherapie, Achtsamkeitstraining, Sport, Aufbau sozialer Netzwerke, Stärkung der Selbstwirksamkeit und Dankbarkeitsübungen. Bereits kleine tägliche Übungen können über Wochen messbare Verbesserungen erzielen."
+    },
+    {
+      "question": "Was sind die wichtigsten Schutzfaktoren für Resilienz?",
+      "answer": "Die Forschung identifiziert folgende Hauptfaktoren: starke soziale Beziehungen, Selbstwirksamkeit (der Glaube an die eigene Kompetenz), Optimismus, Emotionsregulation, Problemlösefähigkeit, Sinnerleben und die Fähigkeit, Hilfe anzunehmen. Auch körperliche Gesundheit und finanzielle Sicherheit spielen eine Rolle."
+    },
+    {
+      "question": "Wie unterscheidet sich Resilienz von Stressresistenz?",
+      "answer": "Stressresistenz bedeutet, Stress gut auszuhalten. Resilienz geht darüber hinaus — sie umfasst die Fähigkeit, sich nach Widrigkeiten zu erholen und sogar daran zu wachsen (posttraumatisches Wachstum). Ein resilienter Mensch wird durch Krisen nicht nur nicht gebrochen, sondern kann gestärkt daraus hervorgehen."
+    }
+  ],
+  "relatedSlugs": [
+    "stresstyp",
+    "burnout-risiko",
+    "achtsamkeits-test"
+  ],
+  "sources": [
+    "Connor, K.M. & Davidson, J.R. (2003). Development of a new resilience scale: The Connor-Davidson Resilience Scale (CD-RISC). Depression and Anxiety, 18(2), 76-82.",
+    "Southwick, S.M. & Charney, D.S. (2012). The Science of Resilience: Implications for the Prevention and Treatment of Depression. Science, 338(6103), 79-82.",
+    "Masten, A.S. (2001). Ordinary Magic: Resilience Processes in Development. American Psychologist, 56(3), 227-238."
+  ]
+}

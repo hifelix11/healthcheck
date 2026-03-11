@@ -1,0 +1,207 @@
+{
+  "slug": "achtsamkeits-test",
+  "title": "Wie achtsam bin ich? — Achtsamkeits-Test",
+  "shortTitle": "Achtsamkeit",
+  "description": "Messen Sie Ihre Achtsamkeit im Alltag mit unserem wissenschaftlich fundierten Test. Basierend auf der Mindful Attention Awareness Scale (MAAS) erfahren Sie, wie präsent und aufmerksam Sie im gegenwärtigen Moment sind.",
+  "category": "self-discovery",
+  "scientificBasis": "Basierend auf der Mindful Attention Awareness Scale (MAAS) von Brown & Ryan (2003), publiziert im Journal of Personality and Social Psychology. Die MAAS misst die Kernkomponente der Achtsamkeit — die offene, aufmerksame Wahrnehmung des gegenwärtigen Moments — und wurde in über 300 Studien weltweit validiert.",
+  "seoIntro": "Achtsamkeit (Mindfulness) ist die Fähigkeit, den gegenwärtigen Moment bewusst und ohne Bewertung wahrzunehmen. In unserer schnelllebigen Welt, in der wir ständig abgelenkt und im Autopilot-Modus unterwegs sind, ist Achtsamkeit zu einer entscheidenden Kompetenz für psychisches Wohlbefinden geworden.\n\nDie Achtsamkeitsforschung hat in den letzten zwei Jahrzehnten explosionsartig zugenommen. Studien zeigen, dass Achtsamkeit messbare Vorteile hat: Stressreduktion, verbesserte emotionale Regulation, bessere Konzentrationsfähigkeit, höhere Lebenszufriedenheit und sogar messbare Veränderungen in der Gehirnstruktur.\n\nAchtsamkeitsbasierte Programme wie MBSR (Mindfulness-Based Stress Reduction) und MBCT (Mindfulness-Based Cognitive Therapy) sind mittlerweile als evidenzbasierte Therapien anerkannt und werden bei Stress, Angst, Depression und chronischen Schmerzen eingesetzt.\n\nDieser Test misst Ihre aktuelle Achtsamkeit im Alltag. Achtsamkeit ist eine trainierbare Fähigkeit — unabhängig von Ihrem Ausgangswert können Sie sie durch regelmäßige Praxis steigern.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Wie oft erledigen Sie Dinge im Autopilot-Modus, ohne bewusst wahrzunehmen, was Sie tun?",
+      "options": [
+        { "label": "Selten — ich bin meistens bewusst bei dem, was ich tue", "value": 0 },
+        { "label": "Manchmal — bei Routinetätigkeiten", "value": 1 },
+        { "label": "Oft — ich ertappe mich häufig dabei", "value": 2 },
+        { "label": "Sehr oft — ich bin meistens im Autopilot", "value": 3 }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Wie präsent sind Sie beim Essen?",
+      "options": [
+        { "label": "Sehr präsent — ich nehme Geschmack und Textur bewusst wahr", "value": 0 },
+        { "label": "Meistens aufmerksam, manchmal nebenbei", "value": 1 },
+        { "label": "Oft nebenbei — beim Handy, TV oder Arbeiten", "value": 2 },
+        { "label": "Fast nie bewusst — Essen ist eine Nebentätigkeit", "value": 3 }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Wie oft sind Ihre Gedanken in der Vergangenheit oder Zukunft statt im Hier und Jetzt?",
+      "options": [
+        { "label": "Selten — ich lebe überwiegend im Moment", "value": 0 },
+        { "label": "Gelegentlich — aber ich komme schnell zurück", "value": 1 },
+        { "label": "Häufig — meine Gedanken schweifen oft ab", "value": 2 },
+        { "label": "Fast ständig — ich bin selten wirklich im Moment", "value": 3 }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Nehmen Sie körperliche Empfindungen wie Verspannungen oder Hunger bewusst wahr, bevor sie stark werden?",
+      "options": [
+        { "label": "Ja — ich bin sehr körperbewusst und spüre feine Signale", "value": 0 },
+        { "label": "Meistens — offensichtliche Signale nehme ich wahr", "value": 1 },
+        { "label": "Oft nicht — ich merke es erst, wenn es deutlich wird", "value": 2 },
+        { "label": "Selten — ich ignoriere Körpersignale häufig", "value": 3 }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Wenn Sie zu Fuß gehen oder Treppen steigen: Wie bewusst nehmen Sie die Bewegung wahr?",
+      "options": [
+        { "label": "Sehr bewusst — ich spüre jeden Schritt", "value": 0 },
+        { "label": "Manchmal — wenn ich darauf achte", "value": 1 },
+        { "label": "Selten — es passiert automatisch", "value": 2 },
+        { "label": "Nie — ich bin gedanklich ganz woanders", "value": 3 }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Wie gut können Sie zuhören, ohne innerlich schon Ihre Antwort zu planen?",
+      "options": [
+        { "label": "Gut — ich höre aufmerksam zu und bin ganz beim Gegenüber", "value": 0 },
+        { "label": "Meistens — manchmal plane ich schon meine Antwort", "value": 1 },
+        { "label": "Schwierig — ich bin oft gedanklich bei meiner Antwort", "value": 2 },
+        { "label": "Kaum — ich warte vor allem, bis ich dran bin mit Reden", "value": 3 }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Wie oft nehmen Sie sich bewusst Zeit innezuhalten und den Moment wahrzunehmen?",
+      "options": [
+        { "label": "Täglich — Achtsamkeitsmomente sind Teil meines Alltags", "value": 0 },
+        { "label": "Mehrmals pro Woche", "value": 1 },
+        { "label": "Selten — nur in besonderen Momenten", "value": 2 },
+        { "label": "Nie — dafür habe ich keine Zeit", "value": 3 }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Wie reagieren Sie auf unangenehme Gefühle wie Ärger, Angst oder Traurigkeit?",
+      "options": [
+        { "label": "Ich nehme sie wahr, akzeptiere sie und lasse sie vorbeiziehen", "value": 0 },
+        { "label": "Ich versuche sie zu verstehen und damit umzugehen", "value": 1 },
+        { "label": "Ich versuche sie zu unterdrücken oder abzulenken", "value": 2 },
+        { "label": "Ich werde von ihnen überwältigt oder verdränge sie komplett", "value": 3 }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Wie oft bemerken Sie Details in Ihrer Umgebung — Geräusche, Gerüche, Farben?",
+      "options": [
+        { "label": "Häufig — ich nehme meine Umgebung intensiv wahr", "value": 0 },
+        { "label": "Manchmal — wenn etwas Besonderes auffällt", "value": 1 },
+        { "label": "Selten — ich bin meistens in Gedanken versunken", "value": 2 },
+        { "label": "Fast nie — meine Umgebung nehme ich kaum bewusst wahr", "value": 3 }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Wie oft ertappen Sie sich dabei, mehrere Dinge gleichzeitig zu tun (Multitasking)?",
+      "options": [
+        { "label": "Selten — ich fokussiere mich auf eine Sache", "value": 0 },
+        { "label": "Gelegentlich — wenn es nötig erscheint", "value": 1 },
+        { "label": "Häufig — Multitasking ist mein Normalzustand", "value": 2 },
+        { "label": "Ständig — ich mache fast immer mehrere Dinge gleichzeitig", "value": 3 }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Wie bewusst nehmen Sie Ihren Atem im Alltag wahr?",
+      "options": [
+        { "label": "Regelmäßig — ich nutze den Atem als Anker für Achtsamkeit", "value": 0 },
+        { "label": "Manchmal — in bewussten Momenten", "value": 1 },
+        { "label": "Selten — nur wenn mich jemand darauf hinweist", "value": 2 },
+        { "label": "Nie — ich denke nie über meinen Atem nach", "value": 3 }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "minScore": 0,
+      "maxScore": 8,
+      "tier": "Hoch achtsam",
+      "title": "Hoch achtsam — Starke Präsenz im Hier und Jetzt",
+      "description": "Sie leben mit einem hohen Maß an Achtsamkeit. Sie sind regelmäßig im gegenwärtigen Moment präsent, nehmen Ihre Umgebung und Ihre Gefühle bewusst wahr und handeln überwiegend absichtsvoll statt im Autopilot.",
+      "recommendations": [
+        "Vertiefen Sie Ihre Praxis mit fortgeschrittenen Techniken wie Vipassana oder Zen-Meditation",
+        "Teilen Sie Ihre Erfahrungen — Sie können anderen Menschen als Vorbild dienen",
+        "Achtsamkeitsretreats können Ihre Praxis weiter vertiefen",
+        "Bleiben Sie offen und neugierig — Achtsamkeit ist eine lebenslange Reise"
+      ],
+      "color": "green"
+    },
+    {
+      "minScore": 9,
+      "maxScore": 16,
+      "tier": "Moderat achtsam",
+      "title": "Moderat achtsam — Gute Grundlage vorhanden",
+      "description": "Sie haben eine solide Grundlage für Achtsamkeit, leben aber nicht durchgängig im Hier und Jetzt. In manchen Situationen sind Sie sehr präsent, in anderen driftet Ihre Aufmerksamkeit ab. Regelmäßige Übung kann Ihre Achtsamkeit deutlich steigern.",
+      "recommendations": [
+        "Beginnen Sie mit 10 Minuten täglicher Achtsamkeitsmeditation",
+        "Nutzen Sie Alltagsaktivitäten als Achtsamkeitsübung (achtsames Essen, Gehen, Duschen)",
+        "Installieren Sie eine Meditations-App als tägliche Erinnerung",
+        "Ein 8-wöchiger MBSR-Kurs kann Ihre Achtsamkeit messbar steigern"
+      ],
+      "color": "yellow"
+    },
+    {
+      "minScore": 17,
+      "maxScore": 24,
+      "tier": "Wenig achtsam",
+      "title": "Wenig achtsam — Viel Entwicklungspotential",
+      "description": "Ihre Achtsamkeit im Alltag ist unterdurchschnittlich. Sie verbringen viel Zeit im Autopilot-Modus, sind gedanklich häufig in Vergangenheit oder Zukunft und nehmen Ihren Körper und Ihre Umgebung wenig bewusst wahr. Die gute Nachricht: Achtsamkeit ist erlernbar.",
+      "recommendations": [
+        "Starten Sie mit Mini-Übungen: 3 bewusste Atemzüge mehrmals am Tag",
+        "Versuchen Sie, eine Alltagshandlung pro Tag bewusst achtsam zu tun",
+        "Reduzieren Sie Multitasking — tun Sie eine Sache nach der anderen",
+        "Ein MBSR-Kurs bietet einen strukturierten Einstieg in die Achtsamkeitspraxis"
+      ],
+      "color": "orange"
+    },
+    {
+      "minScore": 25,
+      "maxScore": 33,
+      "tier": "Kaum achtsam",
+      "title": "Sehr geringe Achtsamkeit — Einstieg in die Praxis empfohlen",
+      "description": "Sie leben überwiegend im Autopilot-Modus und sind selten bewusst im gegenwärtigen Moment. Dies kann mit erhöhtem Stress, Grübeln und geringerer Lebenszufriedenheit zusammenhängen. Achtsamkeit ist eine erlernbare Fähigkeit, und schon kleine Schritte können große Veränderungen bewirken.",
+      "recommendations": [
+        "Beginnen Sie mit nur 3 Minuten pro Tag — Regelmäßigkeit ist wichtiger als Dauer",
+        "Legen Sie Ihr Handy bewusst weg und nehmen Sie Ihre Umgebung wahr",
+        "Achtsames Essen ist ein einfacher Einstieg: eine Mahlzeit pro Tag ohne Ablenkung",
+        "Bei hohem Stresslevel: Ein professionell angeleiteter MBSR-Kurs wird empfohlen"
+      ],
+      "color": "red"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Was ist Achtsamkeit genau?",
+      "answer": "Achtsamkeit (Mindfulness) ist die bewusste, nicht-wertende Wahrnehmung des gegenwärtigen Moments. Es geht darum, das Hier und Jetzt zu erleben — Gedanken, Gefühle, Körperempfindungen und die Umgebung — ohne sie zu bewerten oder verändern zu wollen. Jon Kabat-Zinn, der Begründer der MBSR, definiert es als 'paying attention in a particular way: on purpose, in the present moment, and non-judgmentally'."
+    },
+    {
+      "question": "Welche wissenschaftlichen Vorteile hat Achtsamkeit?",
+      "answer": "Studien zeigen: Stressreduktion (messbar niedrigeres Cortisol), verbesserte emotionale Regulation, geringere Angst- und Depressionssymptome, bessere Konzentrationsfähigkeit, höhere Lebenszufriedenheit, verbesserte Immunfunktion und sogar strukturelle Gehirnveränderungen (verdichtete graue Substanz in Bereichen für Lernen, Gedächtnis und Emotionsregulation)."
+    },
+    {
+      "question": "Muss ich meditieren, um achtsam zu sein?",
+      "answer": "Nein, Meditation ist eine Möglichkeit, Achtsamkeit zu trainieren, aber nicht die einzige. Achtsamkeit kann in jede Alltagshandlung integriert werden: achtsames Essen, Gehen, Zuhören, Duschen. Formale Meditation beschleunigt den Lernprozess, aber informelle Achtsamkeit im Alltag ist genauso wertvoll."
+    },
+    {
+      "question": "Wie schnell zeigt Achtsamkeitstraining Wirkung?",
+      "answer": "Studien zeigen messbare Verbesserungen bereits nach 8 Wochen regelmäßiger Praxis (MBSR-Kurs). Einzelne Effekte wie reduziertes Stresserleben können schon nach wenigen Tagen auftreten. Langfristige Veränderungen in der Gehirnstruktur werden nach mehreren Monaten regelmäßiger Praxis beobachtet."
+    }
+  ],
+  "relatedSlugs": [
+    "stresstyp",
+    "resilienz-test",
+    "emotionale-intelligenz"
+  ],
+  "sources": [
+    "Brown, K.W. & Ryan, R.M. (2003). The benefits of being present: Mindfulness and its role in psychological well-being. Journal of Personality and Social Psychology, 84(4), 822-848.",
+    "Kabat-Zinn, J. (2003). Mindfulness-Based Interventions in Context: Past, Present, and Future. Clinical Psychology: Science and Practice, 10(2), 144-156.",
+    "Hölzel, B.K. et al. (2011). Mindfulness practice leads to increases in regional brain gray matter density. Psychiatry Research: Neuroimaging, 191(1), 36-43."
+  ]
+}

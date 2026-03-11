@@ -28,6 +28,7 @@ export const CATEGORY_LABELS: Record<string, string> = {
   "immune-system": "Immunsystem",
   "body-signals": "Körpersignale",
   "lifestyle-longevity": "Lebensstil & Langlebigkeit",
+  "self-discovery": "Selbsterkenntnis & Typen",
 };
 
 export const CATEGORY_DESCRIPTIONS: Record<string, string> = {
@@ -55,4 +56,6 @@ export const CATEGORY_DESCRIPTIONS: Record<string, string> = {
     "Lernen Sie, die Signale Ihres Körpers zu deuten.",
   "lifestyle-longevity":
     "Bewerten Sie Lebensstilfaktoren, die sich auf die langfristige Gesundheit und Langlebigkeit auswirken.",
+  "self-discovery":
+    "Entdecken Sie Ihren persönlichen Typ mit wissenschaftlich fundierten Selbsttests — von Schlaftyp über Stresstyp bis hin zu Empathie und Resilienz.",
 };

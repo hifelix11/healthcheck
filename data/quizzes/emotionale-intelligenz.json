@@ -1,0 +1,207 @@
+{
+  "slug": "emotionale-intelligenz",
+  "title": "Wie hoch ist meine emotionale Intelligenz? — EQ-Test",
+  "shortTitle": "Emotionale Intelligenz",
+  "description": "Messen Sie Ihre emotionale Intelligenz mit unserem wissenschaftlich fundierten EQ-Test. Basierend auf dem Trait Emotional Intelligence Questionnaire (TEIQue) erfahren Sie, wie gut Sie Emotionen wahrnehmen, verstehen und regulieren können.",
+  "category": "self-discovery",
+  "scientificBasis": "Basierend auf dem Trait Emotional Intelligence Questionnaire (TEIQue) von K.V. Petrides (2009) und dem EI-Modell von Salovey & Mayer (1990). Das TEIQue wurde in über 200 Studien validiert und misst emotionale Intelligenz als Persönlichkeitseigenschaft mit den Dimensionen Wohlbefinden, Selbstkontrolle, Emotionalität und Soziabilität.",
+  "seoIntro": "Emotionale Intelligenz (EQ) — die Fähigkeit, eigene und fremde Emotionen wahrzunehmen, zu verstehen und zu regulieren — gilt heute als einer der wichtigsten Prädiktoren für beruflichen und persönlichen Erfolg. Studien zeigen, dass der EQ in vielen Bereichen sogar einflussreicher ist als der klassische IQ.\n\nDas Konzept der emotionalen Intelligenz umfasst vier Kernbereiche: die Wahrnehmung von Emotionen (eigene und fremde), das Verständnis von Emotionen (Ursachen und Zusammenhänge), die Nutzung von Emotionen (als Informationsquelle für Entscheidungen) und die Regulation von Emotionen (konstruktiver Umgang).\n\nPersonen mit hoher emotionaler Intelligenz haben in der Regel bessere Beziehungen, höhere Lebenszufriedenheit, mehr beruflichen Erfolg, bessere psychische Gesundheit und effektivere Führungsqualitäten. Die gute Nachricht: Im Gegensatz zum IQ ist der EQ über die gesamte Lebensspanne trainierbar.\n\nDieser Test gibt Ihnen eine erste Einschätzung Ihrer emotionalen Intelligenz. Er ersetzt keine professionelle psychologische Diagnostik.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Wie gut können Sie Ihre eigenen Emotionen benennen und unterscheiden?",
+      "options": [
+        { "label": "Sehr gut — ich kann differenziert beschreiben, was ich fühle", "value": 0 },
+        { "label": "Gut — grundlegende Emotionen erkenne ich klar", "value": 1 },
+        { "label": "Mäßig — manchmal bin ich unsicher, was ich fühle", "value": 2 },
+        { "label": "Schlecht — ich weiß oft nicht, was ich fühle", "value": 3 }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Wie gut können Sie Ihre Emotionen in stressigen Situationen regulieren?",
+      "options": [
+        { "label": "Sehr gut — ich bleibe ruhig und besonnen", "value": 0 },
+        { "label": "Gut — meistens behalte ich die Kontrolle", "value": 1 },
+        { "label": "Schwierig — ich reagiere oft impulsiv", "value": 2 },
+        { "label": "Schlecht — ich verliere leicht die Beherrschung", "value": 3 }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Können Sie erkennen, wie Ihre Stimmung Ihre Entscheidungen beeinflusst?",
+      "options": [
+        { "label": "Ja — ich bin mir des Einflusses meiner Emotionen bewusst", "value": 0 },
+        { "label": "Meistens — bei wichtigen Entscheidungen achte ich darauf", "value": 1 },
+        { "label": "Selten — ich merke es oft erst hinterher", "value": 2 },
+        { "label": "Nein — ich bemerke diesen Zusammenhang kaum", "value": 3 }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Wie gut können Sie sich nach einem Rückschlag oder einer Enttäuschung wieder motivieren?",
+      "options": [
+        { "label": "Gut — ich finde schnell neuen Antrieb", "value": 0 },
+        { "label": "Einigermaßen — es braucht etwas Zeit, aber ich komme wieder hoch", "value": 1 },
+        { "label": "Schwierig — Rückschläge demotivieren mich längere Zeit", "value": 2 },
+        { "label": "Sehr schwierig — ich verliere oft komplett die Motivation", "value": 3 }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Wie geschickt gehen Sie mit Konflikten in Beziehungen um?",
+      "options": [
+        { "label": "Gut — ich spreche Probleme konstruktiv an und suche Lösungen", "value": 0 },
+        { "label": "Ordentlich — ich versuche sachlich zu bleiben", "value": 1 },
+        { "label": "Mäßig — Konflikte eskalieren bei mir schnell oder ich vermeide sie", "value": 2 },
+        { "label": "Schlecht — Konflikte enden bei mir regelmäßig in Streit oder Rückzug", "value": 3 }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Wie gut können Sie die Emotionen anderer Menschen wahrnehmen und darauf eingehen?",
+      "options": [
+        { "label": "Sehr gut — ich spüre subtile emotionale Veränderungen", "value": 0 },
+        { "label": "Gut — offensichtliche Emotionen erkenne ich", "value": 1 },
+        { "label": "Mäßig — mir entgehen oft emotionale Signale", "value": 2 },
+        { "label": "Schlecht — ich verstehe die Emotionen anderer häufig nicht", "value": 3 }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Wie gut können Sie negative Gedankenspiralen stoppen?",
+      "options": [
+        { "label": "Gut — ich erkenne sie und kann sie umlenken", "value": 0 },
+        { "label": "Meistens — manchmal dauert es, aber ich schaffe es", "value": 1 },
+        { "label": "Schwierig — Grübeln ist ein häufiges Problem", "value": 2 },
+        { "label": "Kaum — negative Gedanken kreisen unkontrolliert", "value": 3 }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Wie authentisch drücken Sie Ihre Gefühle gegenüber anderen aus?",
+      "options": [
+        { "label": "Sehr authentisch — ich zeige meine Emotionen angemessen", "value": 0 },
+        { "label": "Meistens — bei Vertrauenspersonen bin ich offen", "value": 1 },
+        { "label": "Wenig — ich verberge meine wahren Gefühle oft", "value": 2 },
+        { "label": "Kaum — ich zeige selten, wie ich wirklich fühle", "value": 3 }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Können Sie Kritik annehmen, ohne sich sofort angegriffen zu fühlen?",
+      "options": [
+        { "label": "Ja — ich sehe Kritik als Lernchance", "value": 0 },
+        { "label": "Meistens — es kommt auf die Art der Kritik an", "value": 1 },
+        { "label": "Schwierig — Kritik verletzt mich oft persönlich", "value": 2 },
+        { "label": "Nein — jede Kritik fühlt sich wie ein Angriff an", "value": 3 }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Wie gut können Sie die Perspektive wechseln und verstehen, warum jemand anders handelt als Sie?",
+      "options": [
+        { "label": "Sehr gut — ich versuche aktiv, andere Sichtweisen einzunehmen", "value": 0 },
+        { "label": "Gut — bei Bemühung gelingt es mir", "value": 1 },
+        { "label": "Mäßig — ich bleibe oft bei meiner Perspektive", "value": 2 },
+        { "label": "Schlecht — ich verstehe oft nicht, warum andere so handeln", "value": 3 }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Wie optimistisch blicken Sie in die Zukunft, auch wenn die Gegenwart schwierig ist?",
+      "options": [
+        { "label": "Überwiegend optimistisch — ich vertraue darauf, dass es besser wird", "value": 0 },
+        { "label": "Gemäßigt optimistisch — bei den meisten Dingen", "value": 1 },
+        { "label": "Eher pessimistisch — ich erwarte oft das Schlimmste", "value": 2 },
+        { "label": "Stark pessimistisch — ich sehe wenig Hoffnung", "value": 3 }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "minScore": 0,
+      "maxScore": 8,
+      "tier": "Hoher EQ",
+      "title": "Hohe emotionale Intelligenz — Starke emotionale Kompetenz",
+      "description": "Sie verfügen über eine hohe emotionale Intelligenz. Sie können Ihre eigenen Emotionen gut wahrnehmen und regulieren, verstehen die Gefühle anderer und nutzen emotionale Informationen konstruktiv. Diese Fähigkeit ist ein wichtiger Erfolgsfaktor in Beziehungen und im Beruf.",
+      "recommendations": [
+        "Nutzen Sie Ihren hohen EQ in Führungspositionen oder beratenden Rollen",
+        "Unterstützen Sie andere bei der Entwicklung ihrer emotionalen Kompetenz",
+        "Vertiefen Sie Ihre Fähigkeiten durch Coaching oder Mentoring anderer",
+        "Achten Sie auf emotionale Selbstfürsorge — hohe Sensibilität braucht Ausgleich"
+      ],
+      "color": "green"
+    },
+    {
+      "minScore": 9,
+      "maxScore": 16,
+      "tier": "Mittlerer EQ",
+      "title": "Durchschnittliche emotionale Intelligenz — Gute Basis",
+      "description": "Ihre emotionale Intelligenz liegt im Durchschnittsbereich. Sie verfügen über grundlegende emotionale Kompetenzen, haben aber in einigen Bereichen Entwicklungspotential. Gezieltes Training kann Ihren EQ weiter steigern.",
+      "recommendations": [
+        "Führen Sie ein Emotions-Tagebuch, um Ihre Selbstwahrnehmung zu schärfen",
+        "Üben Sie aktives Zuhören und empathisches Reagieren",
+        "Lernen Sie Techniken zur Emotionsregulation (z.B. kognitive Umstrukturierung)",
+        "Holen Sie sich Feedback von Vertrauenspersonen zu Ihrem emotionalen Verhalten"
+      ],
+      "color": "yellow"
+    },
+    {
+      "minScore": 17,
+      "maxScore": 24,
+      "tier": "Niedriger EQ",
+      "title": "Unterdurchschnittliche emotionale Intelligenz — Potential zur Entwicklung",
+      "description": "Ihre emotionale Intelligenz zeigt deutliches Entwicklungspotential. Schwierigkeiten bei der Emotionswahrnehmung, -regulation oder im zwischenmenschlichen Bereich können Beziehungen und beruflichen Erfolg beeinträchtigen. Die gute Nachricht: EQ ist trainierbar.",
+      "recommendations": [
+        "Erwägen Sie ein EQ-Coaching oder ein Training sozialer Kompetenzen",
+        "Beginnen Sie damit, Ihre Emotionen täglich bewusst wahrzunehmen und zu benennen",
+        "Üben Sie, vor impulsiven Reaktionen innezuhalten und nachzudenken",
+        "Achtsamkeitstraining kann die emotionale Wahrnehmung deutlich verbessern"
+      ],
+      "color": "orange"
+    },
+    {
+      "minScore": 25,
+      "maxScore": 33,
+      "tier": "Sehr niedriger EQ",
+      "title": "Niedrige emotionale Intelligenz — Professionelle Unterstützung empfohlen",
+      "description": "Ihre emotionale Intelligenz ist deutlich unter dem Durchschnitt. Wenn dies Ihre Beziehungen, Ihr Berufsleben oder Ihr Wohlbefinden beeinträchtigt, ist professionelle Unterstützung empfehlenswert. Emotionale Intelligenz kann in jedem Alter signifikant verbessert werden.",
+      "recommendations": [
+        "Suchen Sie einen Psychologen oder Coach für emotionale Kompetenzentwicklung auf",
+        "Kognitive Verhaltenstherapie kann bei der Emotionsregulation sehr hilfreich sein",
+        "Beginnen Sie mit kleinen Schritten: eine Emotion pro Tag bewusst wahrnehmen und benennen",
+        "Alexithymie (Schwierigkeit, Gefühle zu erkennen) kann professionell behandelt werden"
+      ],
+      "color": "red"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Was ist emotionale Intelligenz?",
+      "answer": "Emotionale Intelligenz (EI oder EQ) umfasst die Fähigkeit, eigene und fremde Emotionen wahrzunehmen, zu verstehen, zu nutzen und zu regulieren. Das Konzept wurde 1990 von Salovey und Mayer eingeführt und durch Daniel Golemans Buch 'Emotional Intelligence' (1995) populär gemacht."
+    },
+    {
+      "question": "Ist emotionale Intelligenz wichtiger als IQ?",
+      "answer": "Es kommt auf den Kontext an. Für beruflichen Erfolg, Führungskompetenz und Beziehungsqualität zeigt die Forschung, dass EQ oft einflussreicher ist als IQ. Der IQ ist stärker für akademische Leistungen und technische Fähigkeiten relevant. Am besten wirken beide zusammen."
+    },
+    {
+      "question": "Kann man emotionale Intelligenz trainieren?",
+      "answer": "Ja, im Gegensatz zum IQ, der relativ stabil ist, kann der EQ über die gesamte Lebensspanne trainiert und verbessert werden. Wirksame Methoden sind: Emotionstagebücher, Achtsamkeitstraining, Feedback von anderen, Coaching, Therapie und gezielte soziale Kompetenztrainings."
+    },
+    {
+      "question": "Gibt es Unterschiede im EQ zwischen Geschlechtern?",
+      "answer": "Meta-Analysen zeigen kleine durchschnittliche Unterschiede: Frauen tendieren zu höherer emotionaler Empathie und sozialer Kompetenz, Männer zu höherer Stressresistenz und Selbstkontrolle. Diese Unterschiede sind aber deutlich kleiner als die Variation innerhalb der Geschlechter und stark kulturell beeinflusst."
+    }
+  ],
+  "relatedSlugs": [
+    "empathie-typ",
+    "achtsamkeits-test",
+    "resilienz-test"
+  ],
+  "sources": [
+    "Petrides, K.V. (2009). Psychometric properties of the Trait Emotional Intelligence Questionnaire (TEIQue). In C. Stough, D.H. Saklofske & J.D. Parker (Eds.), Assessing Emotional Intelligence, pp. 85-101. Springer.",
+    "Salovey, P. & Mayer, J.D. (1990). Emotional Intelligence. Imagination, Cognition and Personality, 9(3), 185-211.",
+    "Goleman, D. (1995). Emotional Intelligence: Why It Can Matter More Than IQ. Bantam Books."
+  ]
+}

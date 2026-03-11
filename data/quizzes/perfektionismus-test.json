@@ -1,0 +1,207 @@
+{
+  "slug": "perfektionismus-test",
+  "title": "Wie perfektionistisch bin ich? — Perfektionismus-Test",
+  "shortTitle": "Perfektionismus",
+  "description": "Messen Sie Ihren Perfektionismus mit unserem wissenschaftlich fundierten Selbsttest. Basierend auf der Frost Multidimensional Perfectionism Scale (FMPS) erfahren Sie, ob Ihr Perfektionismus gesund oder schädlich ist.",
+  "category": "self-discovery",
+  "scientificBasis": "Basierend auf der Frost Multidimensional Perfectionism Scale (FMPS) von Frost et al. (1990) und der Hewitt & Flett Multidimensional Perfectionism Scale. Die Forschung unterscheidet zwischen adaptivem (gesundem) und maladaptivem (schädlichem) Perfektionismus. Beide Skalen sind in der klinischen Psychologie weit verbreitet und validiert.",
+  "seoIntro": "Perfektionismus ist ein zweischneidiges Schwert. Auf der einen Seite kann das Streben nach Exzellenz zu hohen Leistungen führen. Auf der anderen Seite kann übertriebener Perfektionismus zu Lähmung, Prokrastination, Angst und Burnout führen.\n\nDie moderne Perfektionismus-Forschung unterscheidet zwei Hauptformen: Adaptiver (gesunder) Perfektionismus zeichnet sich durch hohe persönliche Standards, Ordnung und Zielstrebigkeit aus — ohne übermäßige Selbstkritik. Maladaptiver (schädlicher) Perfektionismus dagegen ist geprägt von Versagensangst, überhöhter Selbstkritik, Zweifeln am eigenen Handeln und dem Gefühl, elterlichen Erwartungen nicht gerecht zu werden.\n\nStudien zeigen, dass maladaptiver Perfektionismus stark mit Depressionen, Angststörungen, Essstörungen und Burnout korreliert. Besonders die Dimension 'Concern over Mistakes' (Angst vor Fehlern) ist ein Risikofaktor für psychische Erkrankungen.\n\nDieser Test hilft Ihnen einzuschätzen, ob Ihr Perfektionismus eine Stärke oder eine Belastung darstellt. Bei starkem Leidensdruck empfehlen wir eine professionelle Beratung.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Wie reagieren Sie, wenn Sie einen Fehler machen?",
+      "options": [
+        { "label": "Ich lerne daraus und mache weiter — Fehler gehören dazu", "value": 0 },
+        { "label": "Ich ärgere mich kurz, vergesse es aber schnell", "value": 1 },
+        { "label": "Ich grüble länger darüber nach und bin selbstkritisch", "value": 2 },
+        { "label": "Fehler sind für mich katastrophal — ich kann sie kaum ertragen", "value": 3 }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Wie hoch sind Ihre eigenen Ansprüche an sich selbst?",
+      "options": [
+        { "label": "Realistisch hoch — ich strebe nach guten Ergebnissen, akzeptiere aber Grenzen", "value": 0 },
+        { "label": "Hoch — ich erwarte viel von mir, bin aber flexibel", "value": 1 },
+        { "label": "Sehr hoch — nur Bestleistungen sind akzeptabel", "value": 2 },
+        { "label": "Unrealistisch hoch — nichts ist je gut genug", "value": 3 }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Wie oft schieben Sie Aufgaben auf, weil Sie Angst haben, sie nicht perfekt zu machen?",
+      "options": [
+        { "label": "Nie — ich beginne einfach und verbessere unterwegs", "value": 0 },
+        { "label": "Selten — manchmal zögere ich etwas", "value": 1 },
+        { "label": "Oft — die Angst vor Unvollkommenheit bremst mich", "value": 2 },
+        { "label": "Häufig — ich beginne viele Dinge nicht, aus Angst zu versagen", "value": 3 }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Wie stark beeinflusst die Meinung anderer Ihr Selbstwertgefühl?",
+      "options": [
+        { "label": "Wenig — mein Selbstwert kommt von innen", "value": 0 },
+        { "label": "Mäßig — Feedback ist mir wichtig, bestimmt aber nicht meinen Wert", "value": 1 },
+        { "label": "Stark — Anerkennung von außen ist mir sehr wichtig", "value": 2 },
+        { "label": "Sehr stark — ohne Bestätigung fühle ich mich wertlos", "value": 3 }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Wie oft zweifeln Sie an der Qualität Ihrer erledigten Arbeit?",
+      "options": [
+        { "label": "Selten — wenn ich fertig bin, bin ich zufrieden", "value": 0 },
+        { "label": "Manchmal — bei besonders wichtigen Aufgaben", "value": 1 },
+        { "label": "Oft — ich überprüfe ständig und bin selten zufrieden", "value": 2 },
+        { "label": "Fast immer — ich habe das Gefühl, es hätte besser sein können", "value": 3 }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Wie gehen Sie mit Kritik an Ihrer Arbeit um?",
+      "options": [
+        { "label": "Konstruktiv — ich nehme nützliches Feedback an", "value": 0 },
+        { "label": "Etwas unangenehm, aber ich kann es verarbeiten", "value": 1 },
+        { "label": "Schmerzhaft — Kritik trifft mich persönlich", "value": 2 },
+        { "label": "Verheerend — jede Kritik bestätigt mir, dass ich nicht gut genug bin", "value": 3 }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Können Sie Aufgaben delegieren, auch wenn andere sie anders machen als Sie?",
+      "options": [
+        { "label": "Ja — solange das Ergebnis stimmt, ist der Weg egal", "value": 0 },
+        { "label": "Meistens — manchmal kontrolliere ich nach", "value": 1 },
+        { "label": "Schwierig — ich mache es lieber selbst, um sicher zu sein", "value": 2 },
+        { "label": "Kaum — niemand macht es so gut wie ich", "value": 3 }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Wie lange brauchen Sie, um eine Entscheidung zu treffen?",
+      "options": [
+        { "label": "Angemessen — ich entscheide zügig mit den verfügbaren Informationen", "value": 0 },
+        { "label": "Etwas länger — ich wäge gründlich ab", "value": 1 },
+        { "label": "Lange — ich grüble über jede Option und befürchte die falsche Wahl", "value": 2 },
+        { "label": "Sehr lange — die Angst, die falsche Entscheidung zu treffen, lähmt mich", "value": 3 }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Wie ordentlich und organisiert müssen Dinge in Ihrem Leben sein?",
+      "options": [
+        { "label": "Vernünftig ordentlich — Struktur hilft, aber ich bin flexibel", "value": 0 },
+        { "label": "Recht ordentlich — Unordnung stört mich etwas", "value": 1 },
+        { "label": "Sehr ordentlich — Unordnung macht mich nervös", "value": 2 },
+        { "label": "Extrem ordentlich — alles muss an seinem Platz sein, sonst kann ich mich nicht konzentrieren", "value": 3 }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Vergleichen Sie sich häufig mit anderen und fühlen sich dann unzureichend?",
+      "options": [
+        { "label": "Selten — ich konzentriere mich auf meinen eigenen Weg", "value": 0 },
+        { "label": "Manchmal — aber es motiviert mich eher", "value": 1 },
+        { "label": "Oft — der Vergleich macht mich oft unzufrieden", "value": 2 },
+        { "label": "Ständig — ich fühle mich fast immer unterlegen", "value": 3 }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Haben Sie das Gefühl, dass Ihre Eltern oder andere wichtige Bezugspersonen sehr hohe Erwartungen an Sie hatten?",
+      "options": [
+        { "label": "Nein — die Erwartungen waren angemessen und unterstützend", "value": 0 },
+        { "label": "Etwas — sie hatten hohe, aber erreichbare Erwartungen", "value": 1 },
+        { "label": "Ja — die Erwartungen waren sehr hoch und ich versuchte, ihnen gerecht zu werden", "value": 2 },
+        { "label": "Stark — ich hatte immer das Gefühl, nicht gut genug zu sein", "value": 3 }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "minScore": 0,
+      "maxScore": 8,
+      "tier": "Gesunder Perfektionismus",
+      "title": "Gesunder Perfektionismus — Streben nach Exzellenz ohne Leidensdruck",
+      "description": "Sie haben hohe Standards, können aber mit Fehlern und Unvollkommenheit umgehen. Ihr Perfektionismus ist adaptiv — er treibt Sie an, ohne Sie zu lähmen. Sie akzeptieren Grenzen und definieren Ihren Wert nicht allein über Leistung.",
+      "recommendations": [
+        "Behalten Sie Ihre gesunde Balance zwischen Anspruch und Gelassenheit bei",
+        "Ihr adaptiver Perfektionismus ist eine Stärke — nutzen Sie ihn bewusst",
+        "Achten Sie darauf, auch in stressigen Phasen Ihre Flexibilität zu bewahren",
+        "Genießen Sie Ihre Erfolge bewusst, statt sofort zum nächsten Ziel zu eilen"
+      ],
+      "color": "green"
+    },
+    {
+      "minScore": 9,
+      "maxScore": 16,
+      "tier": "Moderater Perfektionismus",
+      "title": "Moderater Perfektionismus — Aufmerksamkeit empfohlen",
+      "description": "Ihr Perfektionismus liegt im moderaten Bereich. In vielen Situationen treibt er Sie konstruktiv an, in anderen kann er bremsen. Achten Sie auf die Grenze zwischen gesundem Streben und selbstschädigendem Perfektionismus.",
+      "recommendations": [
+        "Achten Sie auf die 80/20-Regel: 80% Ergebnis mit 20% Aufwand ist oft gut genug",
+        "Üben Sie bewusst, Aufgaben als 'erledigt' statt als 'perfekt' abzuschließen",
+        "Reflektieren Sie: Wem möchte ich genügen — mir selbst oder anderen?",
+        "Setzen Sie sich realistische Deadlines und halten Sie sich daran"
+      ],
+      "color": "yellow"
+    },
+    {
+      "minScore": 17,
+      "maxScore": 24,
+      "tier": "Problematischer Perfektionismus",
+      "title": "Problematischer Perfektionismus — Belastung erkennbar",
+      "description": "Ihr Perfektionismus ist maladaptiv und verursacht Leidensdruck. Versagensangst, überhöhte Selbstkritik und Zweifel am eigenen Handeln beeinträchtigen Ihre Lebensqualität und möglicherweise Ihre Leistungsfähigkeit. Professionelle Unterstützung kann sehr hilfreich sein.",
+      "recommendations": [
+        "Erwägen Sie eine kognitive Verhaltenstherapie — sie ist die Methode der Wahl bei Perfektionismus",
+        "Üben Sie bewusst 'gut genug' statt 'perfekt' — starten Sie mit unwichtigen Aufgaben",
+        "Führen Sie ein Selbstkritik-Tagebuch: Wie würden Sie mit einem Freund sprechen, der Ihren Fehler macht?",
+        "Selbstmitgefühl (Self-Compassion) nach Kristin Neff ist ein wirksames Gegenmittel"
+      ],
+      "color": "orange"
+    },
+    {
+      "minScore": 25,
+      "maxScore": 33,
+      "tier": "Extremer Perfektionismus",
+      "title": "Extremer Perfektionismus — Professionelle Hilfe dringend empfohlen",
+      "description": "Ihr Perfektionismus ist stark ausgeprägt und wahrscheinlich eine erhebliche Belastung. Extreme Selbstkritik, Versagensangst und das Gefühl, nie gut genug zu sein, können zu Depressionen, Angststörungen und Burnout führen. Professionelle Hilfe ist dringend empfohlen.",
+      "recommendations": [
+        "Suchen Sie einen Psychotherapeuten auf — maladaptiver Perfektionismus ist gut behandelbar",
+        "Lassen Sie abklären, ob begleitende Störungen vorliegen (Depression, Angststörung, OCD)",
+        "Kognitive Verhaltenstherapie kann perfektionistische Denkmuster gezielt verändern",
+        "Erinnern Sie sich: Sie sind nicht Ihre Leistung — Ihr Wert als Mensch steht nicht zur Debatte"
+      ],
+      "color": "red"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Was ist der Unterschied zwischen gesundem und ungesundem Perfektionismus?",
+      "answer": "Gesunder (adaptiver) Perfektionismus zeichnet sich durch hohe persönliche Standards aus, verbunden mit Flexibilität, Fehlertoleranz und intrinsischer Motivation. Ungesunder (maladaptiver) Perfektionismus ist geprägt von Versagensangst, übermäßiger Selbstkritik, Zweifeln am eigenen Handeln und dem Definieren des Selbstwerts ausschließlich über Leistung."
+    },
+    {
+      "question": "Woher kommt Perfektionismus?",
+      "answer": "Perfektionismus hat mehrere Quellen: genetische Veranlagung (Studien zeigen eine Erblichkeit von 25–40%), elterliche Erziehung (besonders konditionelle Wertschätzung: 'Ich liebe dich, wenn du Leistung bringst'), kulturelle Einflüsse und persönliche Erfahrungen. Oft ist Perfektionismus eine Schutzstrategie gegen das Gefühl, nicht gut genug zu sein."
+    },
+    {
+      "question": "Kann Perfektionismus krank machen?",
+      "answer": "Ja. Maladaptiver Perfektionismus ist ein nachgewiesener Risikofaktor für Depressionen, Angststörungen, Essstörungen (besonders Anorexie), Burnout, Zwangsstörungen und sogar Suizidalität. Eine Meta-Analyse von Smith et al. (2018) fand, dass Perfektionismus in den letzten 30 Jahren deutlich zugenommen hat."
+    },
+    {
+      "question": "Wie kann ich meinen Perfektionismus reduzieren?",
+      "answer": "Wirksame Strategien umfassen: kognitive Verhaltenstherapie (Hinterfragen perfektionistischer Gedanken), Selbstmitgefühl üben, sich bewusst Fehler erlauben, 'gut genug' als Standard akzeptieren, Exposure-Übungen (bewusst imperfekte Ergebnisse abliefern) und die 80/20-Regel anwenden."
+    }
+  ],
+  "relatedSlugs": [
+    "prokrastinations-typ",
+    "burnout-risiko",
+    "stresstyp"
+  ],
+  "sources": [
+    "Frost, R.O. et al. (1990). The dimensions of perfectionism. Cognitive Therapy and Research, 14(5), 449-468.",
+    "Hewitt, P.L. & Flett, G.L. (1991). Perfectionism in the self and social contexts: Conceptualization, assessment, and association with psychopathology. Journal of Personality and Social Psychology, 60(3), 456-470.",
+    "Curran, T. & Hill, A.P. (2019). Perfectionism Is Increasing Over Time: A Meta-Analysis of Birth Cohort Differences from 1989 to 2016. Psychological Bulletin, 145(4), 410-429."
+  ]
+}

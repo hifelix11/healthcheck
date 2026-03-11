@@ -1,0 +1,206 @@
+{
+  "slug": "prokrastinations-typ",
+  "title": "Wie stark prokrastiniere ich? — Prokrastinations-Test",
+  "shortTitle": "Prokrastination",
+  "description": "Erfahren Sie mit unserem wissenschaftlich fundierten Test, wie stark Ihr Aufschiebeverhalten ausgeprägt ist und welcher Prokrastinationstyp Sie sind. Basierend auf der Pure Procrastination Scale (PPS) von Dr. Piers Steel.",
+  "category": "self-discovery",
+  "scientificBasis": "Basierend auf der Pure Procrastination Scale (PPS) von Piers Steel (2010) und der Temporal Motivation Theory. Die PPS ist ein validiertes Instrument zur Messung von irrationalem Aufschiebeverhalten und wurde in groß angelegten internationalen Studien mit über 16.000 Teilnehmern eingesetzt.",
+  "seoIntro": "Prokrastination — das irrationale Aufschieben von Aufgaben trotz besseren Wissens — betrifft schätzungsweise 15–20% der Erwachsenen chronisch und bis zu 80% gelegentlich. Es handelt sich nicht um Faulheit, sondern um ein komplexes Verhaltensmuster, das mit Emotionsregulation, Impulskontrolle und Selbstwirksamkeit zusammenhängt.\n\nDie Temporal Motivation Theory erklärt, dass Prokrastination entsteht, wenn die Motivation für eine Aufgabe zu gering ist — beeinflusst durch vier Faktoren: Erwartung des Erfolgs, Wert der Aufgabe, Zeitdruck (Impulsivität) und die zeitliche Entfernung der Deadline.\n\nChronische Prokrastination hat messbare negative Folgen: höheres Stressniveau, schlechtere akademische und berufliche Leistungen, mehr Gesundheitsprobleme und geringere Lebenszufriedenheit. Studien zeigen auch eine Verbindung zu erhöhtem Cortisol und mehr kardiovaskulären Erkrankungen.\n\nDie gute Nachricht: Prokrastination ist veränderbar. Kognitive Verhaltenstherapie, Implementierungsintentionen und Selbstregulationsstrategien zeigen in Studien hohe Wirksamkeit. Dieser Test hilft Ihnen, Ihr Aufschiebeverhalten einzuschätzen.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Wie oft schieben Sie wichtige Aufgaben vor sich her, obwohl Sie wissen, dass Sie sie erledigen sollten?",
+      "options": [
+        { "label": "Selten — ich erledige Dinge meist zeitnah", "value": 0 },
+        { "label": "Gelegentlich — bei bestimmten Aufgaben", "value": 1 },
+        { "label": "Häufig — Aufschieben ist ein wiederkehrendes Muster", "value": 2 },
+        { "label": "Fast immer — ich schiebe fast alles auf", "value": 3 }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Wenn eine wichtige Deadline naht: Wann beginnen Sie typischerweise mit der Arbeit?",
+      "options": [
+        { "label": "Frühzeitig — ich plane voraus und beginne rechtzeitig", "value": 0 },
+        { "label": "Mit angemessenem Vorlauf", "value": 1 },
+        { "label": "Relativ spät — ich brauche den Zeitdruck als Motivation", "value": 2 },
+        { "label": "In letzter Minute — oder ich verpasse die Deadline", "value": 3 }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Wie sehr stört Ihr Aufschiebeverhalten Ihre Leistung oder Ihr Wohlbefinden?",
+      "options": [
+        { "label": "Gar nicht — es beeinträchtigt mich kaum", "value": 0 },
+        { "label": "Etwas — gelegentlich ärgere ich mich darüber", "value": 1 },
+        { "label": "Deutlich — es verursacht Stress und beeinträchtigt meine Ergebnisse", "value": 2 },
+        { "label": "Stark — es schadet meiner Karriere, Gesundheit oder Beziehungen", "value": 3 }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Wie oft erledigen Sie stattdessen unwichtige Aufgaben, wenn Sie eigentlich etwas Wichtiges tun sollten?",
+      "options": [
+        { "label": "Selten — ich priorisiere gut", "value": 0 },
+        { "label": "Manchmal — ich lasse mich gelegentlich ablenken", "value": 1 },
+        { "label": "Oft — Ablenkung ist meine Vermeidungsstrategie", "value": 2 },
+        { "label": "Fast immer — ich finde immer etwas anderes zu tun", "value": 3 }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Wie oft haben Sie Schuldgefühle oder Reue wegen aufgeschobener Aufgaben?",
+      "options": [
+        { "label": "Selten oder nie", "value": 0 },
+        { "label": "Gelegentlich", "value": 1 },
+        { "label": "Regelmäßig — das schlechte Gewissen begleitet mich", "value": 2 },
+        { "label": "Ständig — ein Kreislauf aus Aufschieben und Selbstvorwürfen", "value": 3 }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Wie gut können Sie sich selbst motivieren, mit einer unangenehmen Aufgabe zu beginnen?",
+      "options": [
+        { "label": "Gut — ich überwinde den inneren Widerstand schnell", "value": 0 },
+        { "label": "Meistens — es kostet etwas Überwindung, aber ich schaffe es", "value": 1 },
+        { "label": "Schwierig — der Anfang ist oft das Größte Problem", "value": 2 },
+        { "label": "Sehr schwierig — ohne externen Druck schaffe ich es kaum", "value": 3 }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Wie häufig nehmen Sie sich vor, eine Aufgabe an einem bestimmten Tag zu erledigen, und verschieben sie dann doch?",
+      "options": [
+        { "label": "Selten — ich halte mich an meine Pläne", "value": 0 },
+        { "label": "Manchmal — aber ich hole es am nächsten Tag nach", "value": 1 },
+        { "label": "Oft — meine To-do-Liste schiebt sich ständig weiter", "value": 2 },
+        { "label": "Fast täglich — Verschieben ist mein Normalzustand", "value": 3 }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Werden Sie leicht durch Social Media, Videos oder andere digitale Ablenkungen von Ihren Aufgaben abgelenkt?",
+      "options": [
+        { "label": "Selten — ich kann mich gut fokussieren", "value": 0 },
+        { "label": "Manchmal — ich schaue kurz rein und komme zurück", "value": 1 },
+        { "label": "Oft — digitale Ablenkungen kosten mich viel Zeit", "value": 2 },
+        { "label": "Ständig — ich verliere regelmäßig Stunden an mein Handy", "value": 3 }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Wie reagieren Sie, wenn eine Aufgabe besonders groß oder komplex erscheint?",
+      "options": [
+        { "label": "Ich breche sie in kleinere Schritte auf und beginne", "value": 0 },
+        { "label": "Ich plane etwas und fange dann an", "value": 1 },
+        { "label": "Ich fühle mich überwältigt und schiebe sie auf", "value": 2 },
+        { "label": "Ich vermeide sie komplett und hoffe, dass sie sich erledigt", "value": 3 }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Haben andere Menschen (Partner, Freunde, Vorgesetzte) Sie schon auf Ihr Aufschiebeverhalten angesprochen?",
+      "options": [
+        { "label": "Nein, nie", "value": 0 },
+        { "label": "Selten und eher beiläufig", "value": 1 },
+        { "label": "Mehrmals — es ist ein bekanntes Thema", "value": 2 },
+        { "label": "Häufig — es belastet meine Beziehungen", "value": 3 }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Wie empfinden Sie den Zusammenhang zwischen Perfektionismus und Ihrem Aufschieben?",
+      "options": [
+        { "label": "Kein Zusammenhang — ich schiebe nicht aus Perfektionismus auf", "value": 0 },
+        { "label": "Manchmal — die Angst, es nicht perfekt zu machen, bremst mich", "value": 1 },
+        { "label": "Oft — wenn ich es nicht perfekt machen kann, fange ich nicht an", "value": 2 },
+        { "label": "Stark — mein Perfektionismus lähmt mich regelmäßig", "value": 3 }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "minScore": 0,
+      "maxScore": 8,
+      "tier": "Kaum Prokrastination",
+      "title": "Kaum Prokrastination — Gute Selbstregulation",
+      "description": "Sie haben Ihr Aufschiebeverhalten gut im Griff. Sie erledigen Aufgaben zeitnah, können sich gut selbst motivieren und lassen sich nicht leicht ablenken. Ihre Selbstregulation ist eine wertvolle Stärke.",
+      "recommendations": [
+        "Behalten Sie Ihre effektiven Arbeitsgewohnheiten bei",
+        "Achten Sie darauf, sich nicht zu übernehmen — auch Pausen sind wichtig",
+        "Teilen Sie Ihre Strategien mit anderen, die unter Prokrastination leiden"
+      ],
+      "color": "green"
+    },
+    {
+      "minScore": 9,
+      "maxScore": 16,
+      "tier": "Leichte Prokrastination",
+      "title": "Leichte Prokrastination — Gelegentliches Aufschieben",
+      "description": "Sie prokrastinieren gelegentlich, besonders bei unangenehmen oder komplexen Aufgaben. Das ist normal und menschlich. Mit einigen gezielten Strategien können Sie Ihr Aufschiebeverhalten weiter reduzieren.",
+      "recommendations": [
+        "Nutzen Sie die 2-Minuten-Regel: Wenn eine Aufgabe weniger als 2 Minuten dauert, erledigen Sie sie sofort",
+        "Teilen Sie große Aufgaben in kleine, konkrete Schritte auf",
+        "Planen Sie feste Arbeitsblöcke mit der Pomodoro-Technik (25 Minuten Arbeit, 5 Minuten Pause)",
+        "Reduzieren Sie digitale Ablenkungen bewusst während Arbeitsphasen"
+      ],
+      "color": "yellow"
+    },
+    {
+      "minScore": 17,
+      "maxScore": 24,
+      "tier": "Moderate Prokrastination",
+      "title": "Moderate Prokrastination — Handlungsbedarf vorhanden",
+      "description": "Prokrastination ist ein wiederkehrendes Muster in Ihrem Alltag und beeinträchtigt Ihre Leistung und Ihr Wohlbefinden. Die Ursachen können vielfältig sein: Perfektionismus, Angst vor Versagen, mangelnde Selbstregulation oder fehlende Motivation.",
+      "recommendations": [
+        "Erwägen Sie ein professionelles Coaching zur Verbesserung Ihrer Selbstregulation",
+        "Implementierungsintentionen: Formulieren Sie konkrete Wenn-Dann-Pläne",
+        "Identifizieren Sie Ihre emotionalen Auslöser — was genau vermeiden Sie?",
+        "Kognitive Verhaltenstherapie zeigt in Studien hohe Wirksamkeit gegen Prokrastination"
+      ],
+      "color": "orange"
+    },
+    {
+      "minScore": 25,
+      "maxScore": 33,
+      "tier": "Starke Prokrastination",
+      "title": "Starke Prokrastination — Professionelle Hilfe empfohlen",
+      "description": "Chronische Prokrastination beeinträchtigt Ihr Leben erheblich. Aufschieben ist für Sie nicht nur lästig, sondern verursacht deutlichen Leidensdruck, Stress und hat Auswirkungen auf Karriere, Beziehungen oder Gesundheit. Professionelle Unterstützung kann sehr hilfreich sein.",
+      "recommendations": [
+        "Suchen Sie einen Psychotherapeuten auf — chronische Prokrastination ist gut behandelbar",
+        "Lassen Sie abklären, ob ADHS oder eine Angststörung vorliegt (häufige Komorbiditäten)",
+        "Strukturieren Sie Ihren Tag mit externen Verpflichtungen und Accountability-Partnern",
+        "Seien Sie mitfühlend mit sich selbst — Selbstkritik verschlimmert Prokrastination"
+      ],
+      "color": "red"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Ist Prokrastination dasselbe wie Faulheit?",
+      "answer": "Nein. Prokrastination ist irrationales Aufschieben trotz besseren Wissens — ein Problem der Emotionsregulation, nicht des Willens. Prokrastinierende Menschen sind oft sehr beschäftigt (mit den falschen Aufgaben). Faulheit dagegen ist ein Mangel an Motivation, aktiv zu sein. Die Unterscheidung ist wichtig für die richtige Behandlung."
+    },
+    {
+      "question": "Warum prokrastiniere ich?",
+      "answer": "Die häufigsten Ursachen sind: Angst vor Versagen oder Bewertung, Perfektionismus, fehlende Selbstregulation, mangelnde emotionale Bewältigung, Aufgaben als langweilig oder überwältigend empfinden, ADHS (häufig unerkannt bei Erwachsenen), und die Tendenz, kurzfristiges Wohlbefinden über langfristige Ziele zu stellen."
+    },
+    {
+      "question": "Was ist die Temporal Motivation Theory?",
+      "answer": "Die von Piers Steel entwickelte Theorie erklärt Prokrastination durch vier Faktoren: Motivation = (Erwartung × Wert) / (Impulsivität × Verzögerung). Je niedriger die Erfolgserwartung und der wahrgenommene Wert einer Aufgabe, und je höher die Impulsivität und die zeitliche Distanz zur Deadline, desto wahrscheinlicher ist Prokrastination."
+    },
+    {
+      "question": "Kann Prokrastination mit ADHS zusammenhängen?",
+      "answer": "Ja, Prokrastination ist eines der häufigsten Symptome bei erwachsener ADHS. Die exekutive Dysfunktion bei ADHS (Schwierigkeiten mit Planung, Priorisierung, Impulskontrolle) führt direkt zu Aufschiebeverhalten. Wenn Sie chronisch prokrastinieren und auch andere ADHS-Symptome erkennen, sollten Sie eine fachärztliche Abklärung in Betracht ziehen."
+    }
+  ],
+  "relatedSlugs": [
+    "stresstyp",
+    "burnout-risiko",
+    "perfektionismus-test"
+  ],
+  "sources": [
+    "Steel, P. (2007). The Nature of Procrastination: A Meta-Analytic and Theoretical Review of Quintessential Self-Regulatory Failure. Psychological Bulletin, 133(1), 65-94.",
+    "Steel, P. (2010). Arousal, avoidant and decisional procrastinators: Do they exist? Personality and Individual Differences, 48(8), 926-934.",
+    "Sirois, F.M. & Pychyl, T.A. (2013). Procrastination and the Priority of Short-Term Mood Regulation: Consequences for Future Self. Social and Personality Psychology Compass, 7(2), 115-127."
+  ]
+}

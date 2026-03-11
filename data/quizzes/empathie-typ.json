@@ -1,0 +1,207 @@
+{
+  "slug": "empathie-typ",
+  "title": "Wie empathisch bin ich? — Empathie-Test",
+  "shortTitle": "Empathie-Typ",
+  "description": "Messen Sie Ihre Empathiefähigkeit mit unserem wissenschaftlich fundierten Test. Basierend auf dem Empathy Quotient (EQ) von Simon Baron-Cohen erfahren Sie, wie ausgeprägt Ihre kognitive und emotionale Empathie ist.",
+  "category": "self-discovery",
+  "scientificBasis": "Basierend auf dem Empathy Quotient (EQ) von Simon Baron-Cohen und Sally Wheelwright (2004), entwickelt an der University of Cambridge. Der EQ unterscheidet zwischen kognitiver Empathie (Perspektivübernahme) und emotionaler Empathie (Mitfühlen) und wurde in zahlreichen klinischen und populationsbasierten Studien validiert.",
+  "seoIntro": "Empathie — die Fähigkeit, die Gefühle und Perspektiven anderer Menschen zu verstehen und zu teilen — ist eine der wichtigsten sozialen Kompetenzen des Menschen. Die Neurowissenschaft unterscheidet zwei Hauptformen: kognitive Empathie (die Fähigkeit, sich in andere hineinzuversetzen) und emotionale Empathie (die Fähigkeit, die Emotionen anderer mitzufühlen).\n\nStudien zeigen, dass Empathie teilweise genetisch bedingt ist, aber auch durch Erfahrungen und Training beeinflusst werden kann. Hochempathische Menschen haben oft stärkere soziale Bindungen und bessere Beziehungen, können aber auch anfälliger für emotionale Erschöpfung sein.\n\nBesonders interessant: Empathie aktiviert spezielle Gehirnregionen, darunter die Spiegelneuronen und die Insula. Zu viel Empathie ohne ausreichende Selbstfürsorge kann zu Empathiemüdigkeit führen, besonders in helfenden Berufen.\n\nDieser Test gibt Ihnen eine Einschätzung Ihrer empathischen Fähigkeiten. Er ist ein Screening-Instrument und keine klinische Diagnose.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Wie leicht fällt es Ihnen zu erkennen, wie sich jemand fühlt, auch wenn die Person es nicht sagt?",
+      "options": [
+        { "label": "Sehr leicht — ich spüre Emotionen anderer intuitiv", "value": 0 },
+        { "label": "Meist gut — bei mir nahestehenden Menschen", "value": 1 },
+        { "label": "Eher schwierig — ich brauche deutliche Signale", "value": 2 },
+        { "label": "Sehr schwierig — ich merke oft nicht, wie andere sich fühlen", "value": 3 }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Wenn ein Freund weint oder sehr traurig ist, wie reagieren Sie?",
+      "options": [
+        { "label": "Ich fühle den Schmerz fast körperlich mit und bin tief berührt", "value": 0 },
+        { "label": "Ich fühle Mitgefühl und versuche zu trösten", "value": 1 },
+        { "label": "Ich erkenne die Trauer, fühle aber wenig dabei", "value": 2 },
+        { "label": "Es berührt mich kaum — ich weiß nicht recht, wie ich reagieren soll", "value": 3 }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Können Sie sich leicht in die Lage einer anderen Person versetzen?",
+      "options": [
+        { "label": "Ja — ich nehme fast automatisch die Perspektive anderer ein", "value": 0 },
+        { "label": "Meistens — wenn ich mir bewusst Mühe gebe", "value": 1 },
+        { "label": "Manchmal — es fällt mir nicht immer leicht", "value": 2 },
+        { "label": "Selten — ich bleibe meistens bei meiner eigenen Sichtweise", "value": 3 }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Wie reagieren Sie, wenn Sie einen emotionalen Film oder eine traurige Geschichte sehen?",
+      "options": [
+        { "label": "Ich bin oft zu Tränen gerührt und tief bewegt", "value": 0 },
+        { "label": "Ich bin emotional berührt, aber kontrolliert", "value": 1 },
+        { "label": "Ich finde es interessant, aber es berührt mich kaum emotional", "value": 2 },
+        { "label": "Ich verstehe nicht, warum andere dabei emotional werden", "value": 3 }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Wie gut können Sie die Stimmung in einem Raum einschätzen, wenn Sie hineinkommen?",
+      "options": [
+        { "label": "Sofort — ich spüre die Atmosphäre intensiv", "value": 0 },
+        { "label": "Recht gut — ich nehme die Grundstimmung wahr", "value": 1 },
+        { "label": "Nicht besonders gut — ich achte selten darauf", "value": 2 },
+        { "label": "Gar nicht — mir fällt das nicht auf", "value": 3 }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Wenn jemand Ihnen von einem Problem erzählt, was ist Ihre erste Reaktion?",
+      "options": [
+        { "label": "Ich höre aufmerksam zu und versuche zu verstehen, wie die Person sich fühlt", "value": 0 },
+        { "label": "Ich höre zu und überlege, wie ich helfen kann", "value": 1 },
+        { "label": "Ich versuche schnell, eine Lösung anzubieten", "value": 2 },
+        { "label": "Ich finde es anstrengend und wechsle lieber das Thema", "value": 3 }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Werden Sie von den Emotionen anderer Menschen beeinflusst?",
+      "options": [
+        { "label": "Stark — ich übernehme die Stimmung anderer schnell", "value": 0 },
+        { "label": "Mäßig — es beeinflusst mich etwas, aber ich kann mich abgrenzen", "value": 1 },
+        { "label": "Wenig — ich bleibe bei meinen eigenen Gefühlen", "value": 2 },
+        { "label": "Kaum — die Gefühle anderer haben wenig Einfluss auf mich", "value": 3 }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Wie wichtig ist es Ihnen, dass andere Menschen sich wohlfühlen?",
+      "options": [
+        { "label": "Sehr wichtig — ich achte ständig auf das Wohlbefinden anderer", "value": 0 },
+        { "label": "Wichtig — ich bemühe mich, rücksichtsvoll zu sein", "value": 1 },
+        { "label": "Mäßig — ich denke gelegentlich daran", "value": 2 },
+        { "label": "Wenig wichtig — jeder ist für sein eigenes Wohlbefinden verantwortlich", "value": 3 }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Können Sie Konflikte gut aus verschiedenen Perspektiven betrachten?",
+      "options": [
+        { "label": "Ja — ich verstehe meist beide Seiten intuitiv", "value": 0 },
+        { "label": "Meistens — mit etwas Anstrengung", "value": 1 },
+        { "label": "Schwierig — ich neige dazu, eine Seite zu bevorzugen", "value": 2 },
+        { "label": "Kaum — ich sehe hauptsächlich meine eigene Perspektive", "value": 3 }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Wie gut können Sie die Körpersprache und nonverbalen Signale anderer Menschen lesen?",
+      "options": [
+        { "label": "Sehr gut — ich bemerke subtile Veränderungen sofort", "value": 0 },
+        { "label": "Gut — offensichtliche Signale erkenne ich", "value": 1 },
+        { "label": "Mäßig — mir entgehen oft nonverbale Hinweise", "value": 2 },
+        { "label": "Schlecht — ich achte kaum auf Körpersprache", "value": 3 }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Fällt es Ihnen schwer, anderen Menschen gegenüber emotional distanziert zu bleiben, wenn es nötig wäre?",
+      "options": [
+        { "label": "Ja, sehr — emotionale Distanz fällt mir extrem schwer", "value": 0 },
+        { "label": "Etwas — ich kann es, aber es kostet mich Energie", "value": 1 },
+        { "label": "Eher nicht — professionelle Distanz fällt mir leicht", "value": 2 },
+        { "label": "Gar nicht — emotionale Distanz ist mein Normalzustand", "value": 3 }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "minScore": 0,
+      "maxScore": 8,
+      "tier": "Hoch empathisch",
+      "title": "Hoch empathisch — Starke emotionale Resonanz",
+      "description": "Sie verfügen über eine ausgeprägte Empathiefähigkeit, sowohl kognitiv als auch emotional. Sie spüren die Gefühle anderer intuitiv, können sich leicht in andere hineinversetzen und sind ein empathischer Zuhörer. Achten Sie darauf, sich auch gut abzugrenzen.",
+      "recommendations": [
+        "Achten Sie auf Ihre eigenen emotionalen Grenzen — Empathiemüdigkeit ist real",
+        "Lernen Sie Techniken zur emotionalen Abgrenzung, besonders in belastenden Situationen",
+        "Nutzen Sie Ihre Empathie als Stärke in Beziehungen und im Beruf",
+        "Regelmäßige Selbstfürsorge ist für hochempathische Menschen besonders wichtig"
+      ],
+      "color": "green"
+    },
+    {
+      "minScore": 9,
+      "maxScore": 16,
+      "tier": "Durchschnittlich empathisch",
+      "title": "Durchschnittlich empathisch — Ausgewogene Empathie",
+      "description": "Ihre Empathiefähigkeit liegt im gesunden Durchschnittsbereich. Sie können sich in andere hineinversetzen und Mitgefühl zeigen, ohne dabei Ihre eigenen Grenzen zu verlieren. Eine gute Balance aus Einfühlungsvermögen und Selbstschutz.",
+      "recommendations": [
+        "Ihre Balance aus Empathie und Abgrenzung ist eine Stärke",
+        "Üben Sie aktives Zuhören, um Ihre empathischen Fähigkeiten weiter zu schärfen",
+        "Achten Sie in Konfliktsituationen bewusst auf die Perspektive der anderen Seite",
+        "Meditation und Achtsamkeit können die Empathiefähigkeit zusätzlich fördern"
+      ],
+      "color": "yellow"
+    },
+    {
+      "minScore": 17,
+      "maxScore": 24,
+      "tier": "Niedrige Empathie",
+      "title": "Niedrigere Empathie — Potential zur Entwicklung",
+      "description": "Ihre empathischen Fähigkeiten sind unterdurchschnittlich ausgeprägt. Das bedeutet nicht, dass Sie kein Mitgefühl haben, sondern dass Ihnen die intuitive emotionale Resonanz weniger leicht fällt. Empathie kann gezielt trainiert werden.",
+      "recommendations": [
+        "Üben Sie aktives Zuhören: wiederholen Sie, was Ihr Gegenüber gesagt hat, in eigenen Worten",
+        "Fragen Sie bewusst nach: 'Wie geht es dir dabei?' oder 'Wie fühlst du dich?'",
+        "Lesen Sie Romane — Studien zeigen, dass literarisches Lesen die Empathie fördert",
+        "Achtsamkeitsmeditation kann die empathische Wahrnehmung stärken"
+      ],
+      "color": "orange"
+    },
+    {
+      "minScore": 25,
+      "maxScore": 33,
+      "tier": "Sehr niedrige Empathie",
+      "title": "Sehr niedrige Empathie — Professionelle Abklärung empfohlen",
+      "description": "Ihre Empathiewerte sind deutlich unterdurchschnittlich. Wenn dies Ihre Beziehungen oder Ihr soziales Leben beeinträchtigt, kann eine professionelle Abklärung hilfreich sein. Niedrige Empathie kann verschiedene Ursachen haben und ist in vielen Fällen verbesserbar.",
+      "recommendations": [
+        "Erwägen Sie eine professionelle Abklärung — niedrige Empathie kann verschiedene Ursachen haben",
+        "Soziale Kompetenztrainings können empathische Fähigkeiten gezielt fördern",
+        "Bitten Sie Vertrauenspersonen um ehrliches Feedback zu Ihrem Sozialverhalten",
+        "Kognitive Empathie (Perspektivübernahme) kann durch gezieltes Training verbessert werden"
+      ],
+      "color": "red"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Was ist der Unterschied zwischen kognitiver und emotionaler Empathie?",
+      "answer": "Kognitive Empathie ist die Fähigkeit, die Perspektive eines anderen zu verstehen — sich vorzustellen, was jemand denkt oder fühlt. Emotionale Empathie ist das tatsächliche Mitfühlen — die Emotion des anderen in sich selbst zu spüren. Beide Formen können unterschiedlich stark ausgeprägt sein."
+    },
+    {
+      "question": "Kann man zu empathisch sein?",
+      "answer": "Ja, übermäßige Empathie ohne ausreichende Abgrenzung kann zu Empathiemüdigkeit, emotionaler Erschöpfung und sogar zu Burnout führen — besonders in helfenden Berufen. Es ist wichtig, mitfühlen zu können, ohne die Emotionen anderer dauerhaft auf sich zu nehmen."
+    },
+    {
+      "question": "Ist Empathie angeboren oder erlernt?",
+      "answer": "Beides. Studien zeigen, dass etwa 10% der Empathie-Varianz genetisch bedingt ist. Schon Neugeborene zeigen empathische Reaktionen (z.B. Weinen, wenn andere Babys weinen). Gleichzeitig wird Empathie stark durch Erziehung, Erfahrungen und soziales Lernen geprägt und kann im Erwachsenenalter noch trainiert werden."
+    },
+    {
+      "question": "Hängt niedrige Empathie mit Autismus oder Psychopathie zusammen?",
+      "answer": "Niedrige Empathie kann verschiedene Ursachen haben. Bei Autismus ist typischerweise die kognitive Empathie (Perspektivübernahme) beeinträchtigt, während emotionale Empathie oft intakt ist. Bei Psychopathie ist es umgekehrt — kognitive Empathie funktioniert, emotionale Empathie fehlt. Niedrige Empathie allein ist aber kein Hinweis auf eine dieser Diagnosen."
+    }
+  ],
+  "relatedSlugs": [
+    "emotionale-intelligenz",
+    "achtsamkeits-test",
+    "resilienz-test"
+  ],
+  "sources": [
+    "Baron-Cohen, S. & Wheelwright, S. (2004). The Empathy Quotient: An Investigation of Adults with Asperger Syndrome or High Functioning Autism, and Normal Sex Differences. Journal of Autism and Developmental Disorders, 34(2), 163-175.",
+    "Decety, J. & Jackson, P.L. (2004). The functional architecture of human empathy. Behavioral and Cognitive Neuroscience Reviews, 3(2), 71-100.",
+    "Singer, T. & Klimecki, O.M. (2014). Empathy and Compassion. Current Biology, 24(18), R875-R878."
+  ]
+}
